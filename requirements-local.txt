@@ -1,0 +1,3 @@
+# Extension CPU facultative ; pas nécessaire pour relire le notebook exécuté.
+rapidocr==3.10.0
+onnxruntime==1.32.0
