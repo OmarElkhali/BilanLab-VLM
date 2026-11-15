@@ -1,0 +1,26 @@
+# Environnements et dépendances réinstallables
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Secrets et réglages locaux
+.env*
+.dev.vars*
+*.pem
+*.key
+*.log
+*.lock.lock
+.DS_Store
+
+# Archives redondantes avec le dépôt, caches et construction web
+Projet_VLM_Groupe9_Complet.zip
+webapp/.next/
+webapp/.vinext/
+webapp/.wrangler/
+webapp/.sites-runtime/
+webapp/dist/
+webapp/outputs/bilanlab-site.tar.gz
+*.tsbuildinfo
+BilanLab_Presentation_21/slide_jobs.json.lock
+.codex-report-qa/

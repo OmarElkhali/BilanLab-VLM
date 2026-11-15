@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "properties": {
+    "nature": {
+      "enum": [
+        "actif",
+        "passif",
+        "autre"
+      ]
+    },
+    "exercice_N": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "unite": {
+      "enum": [
+        "MAD",
+        "milliers_MAD",
+        "inconnue"
+      ]
+    },
+    "preuve_unite": {
+      "type": "string"
+    },
+    "avertissements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lignes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "valeurs": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^-?[0-9]+[.][0-9]{2}$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                {
+                  "enum": [
+                    "?",
+                    "NA"
+                  ]
+                }
+              ]
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "required": [
+          "id",
+          "valeurs"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "nature",
+    "exercice_N",
+    "unite",
+    "preuve_unite",
+    "avertissements",
+    "lignes"
+  ],
+  "additionalProperties": false
+}

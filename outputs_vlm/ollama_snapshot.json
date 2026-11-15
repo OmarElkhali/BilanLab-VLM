@@ -1,0 +1,96 @@
+{
+  "version": {
+    "version": "0.30.6"
+  },
+  "models": [
+    {
+      "name": "qwen3-vl:4b-instruct",
+      "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+      "size": 3337225651,
+      "details": {
+        "parent_model": "dhiltgen/qwen3-vl:4b-instruct-q4_K_M-llamacpp",
+        "format": "gguf",
+        "family": "qwen3vl",
+        "families": [
+          "qwen3vl",
+          "clip"
+        ],
+        "parameter_size": "4.0B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "name": "qwen3:4b",
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "size": 2497293931,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "4.0B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2560
+      }
+    },
+    {
+      "name": "qwen3-vl:4b",
+      "digest": "1343d82ebee38e26a4dd6b0180b915eb91550184e67c505dea97509571c8f683",
+      "size": 3295636135,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3vl",
+        "families": [
+          "qwen3vl"
+        ],
+        "parameter_size": "4.4B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2560
+      }
+    },
+    {
+      "name": "qwen3-vl:235b-cloud",
+      "digest": "86b3322ec200a5d4c450b758fe56a3c172e3e712a87b3ef4917417ab7499042a",
+      "size": 393,
+      "details": {
+        "parent_model": "",
+        "format": "",
+        "family": "qwen3vl",
+        "families": [
+          "qwen3vl"
+        ],
+        "parameter_size": "235B",
+        "quantization_level": "FP8",
+        "context_length": 262144,
+        "embedding_length": 2048
+      }
+    }
+  ],
+  "processes_after_measurement": [
+    {
+      "name": "qwen3-vl:4b-instruct",
+      "model": "qwen3-vl:4b-instruct",
+      "size": 4279259626,
+      "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3vl",
+        "families": [
+          "qwen3vl",
+          "clip"
+        ],
+        "parameter_size": "4.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-11-14T22:23:13.1493251Z",
+      "size_vram": 0,
+      "context_length": 8192
+    }
+  ]
+}
