@@ -76,6 +76,7 @@ presentation_code = [c for c in presentation.cells if c.cell_type == 'code']
 assert len(presentation_code) == 19 and all(c.execution_count is not None for c in presentation_code)
 assert not any(o.output_type == 'error' for c in presentation_code for o in c.outputs)
 files = [root/'TP_Extraction_Bilans_VLM_Groupe9.ipynb', root/'Presentation_Projet_BilanLab.ipynb',
+         root/'Compte_Rendu_TP_VLM_Groupe9.md', root/'Compte_Rendu_TP_VLM_Groupe9.pdf',
          root/'Presentation_Projet_BilanLab.html', root/'bilan_group_9.pdf',
          root/'TP5_Extraction_Bilans_VLM.docx', root/'README.md', root/'requirements.txt',
          root/'requirements-lock.txt',root/'requirements-local.txt',root/'.gitignore',html_path,root/'demarrer_application.cmd',

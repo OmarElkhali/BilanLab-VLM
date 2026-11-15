@@ -23,3 +23,4 @@ webapp/dist/
 webapp/outputs/bilanlab-site.tar.gz
 *.tsbuildinfo
 BilanLab_Presentation_21/slide_jobs.json.lock
+.codex-report-qa/

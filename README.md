@@ -65,6 +65,8 @@ Les résultats, les tableaux complets et le graphe comparatif sont dans la derni
 
 ## Présentation et collaboration
 
+Le compte rendu rempli se trouve dans **`Compte_Rendu_TP_VLM_Groupe9.pdf`**, avec sa source modifiable `Compte_Rendu_TP_VLM_Groupe9.md`. Il répond aux huit questions de l'énoncé, indique Omar Elkhali, Jamila Ouzzane et Ayoub Moutik comme membres du Groupe 9, et contient le lien GitHub direct du notebook de présentation. Pour reconstruire le PDF sous Windows avec les polices Arial : installer `reportlab==5.1.0`, puis lancer `python scripts/exporter_compte_rendu.py`.
+
 La soutenance de **21 diapositives** est dans `BilanLab_Presentation_21/BilanLab_Presentation_21.pptx`, avec notes orales intégrées et sources dans `speech.md`. Les diapositives sont des images complètes, produites avec image_gen ; les textes et graphes ne sont pas des objets séparés modifiables.
 
 Le dépôt GitHub est privé. Collaborateurs demandés : **Jamila-Ouzzane** et **AyoubMoutik** ; une invitation doit être acceptée par son destinataire avant que l'accès soit effectif.

@@ -1,7 +1,7 @@
 {
   ".gitignore": {
-    "sha256": "9dc8153c4f2a59d1e63d111882009682645a9ab3118ce20fad0a9c31bfbf03b7",
-    "octets": 456
+    "sha256": "333ce4174b18d8bbb76da962b4cc9771255f0afc65836e301a2e3728e633aaed",
+    "octets": 474
   },
   "bilan_group_9.pdf": {
     "sha256": "794d9172b8ac0aa368241932231bcc6a85204a15843f46a85a923cdcaebcc0fa",
@@ -234,6 +234,14 @@
   "BilanLab_Presentation_21/verify_deck.py": {
     "sha256": "cf7a4e8df3b3d00b0a295f7756d3d2239171e542d5c4ca62d1557cfbb9f34b92",
     "octets": 2882
+  },
+  "Compte_Rendu_TP_VLM_Groupe9.md": {
+    "sha256": "9d3520715804fc3ce21b1f929913d7eeffaecf2fde2a4781ba104e41692ac773",
+    "octets": 16827
+  },
+  "Compte_Rendu_TP_VLM_Groupe9.pdf": {
+    "sha256": "5cd4ebe74e110a004a0047067501f4e703ee35de68d96270db851f1b12217f6b",
+    "octets": 94824
   },
   "demarrer_application.cmd": {
     "sha256": "fd2cc23dc5045d6693ad81656126c4f8a065938a99e3c47608cd433b434f2ac9",
@@ -2135,6 +2143,10 @@
     "sha256": "556aecafb016d84c384bae7278d14a4c2a4784f6d85fd514d434ce38d3eae962",
     "octets": 6496
   },
+  "outputs_vlm/verification_compte_rendu.json": {
+    "sha256": "666f8305a6e48c5bae09bf544d80db1906b4efebff2c0b6032de5b3ec9326ad0",
+    "octets": 403
+  },
   "outputs_vlm/verification_livrables.json": {
     "sha256": "fdc1b27356704c974921ec368298fc91a91eafd497bbab2c9b691a6d3b1cb5ff",
     "octets": 672
@@ -2152,8 +2164,8 @@
     "octets": 10814644
   },
   "README.md": {
-    "sha256": "5647fa311171ee8ae179feebc010534d39d7dcbfa4fbbb05facb0fee7e118438",
-    "octets": 8650
+    "sha256": "609dcd66052d6c9f39da0ad972dd68fb607313aedbfe4d3bd958b03daa60078e",
+    "octets": 9127
   },
   "requirements-local.txt": {
     "sha256": "a183f03419935243f82cd2ece0ebce343156d222e00ef8470edba4e1bd539d15",
@@ -2174,6 +2186,10 @@
   "scripts/executer_notebook.py": {
     "sha256": "6481e344eb9e4a00794d6cf9dd3272c0286144c7f16739001158d617d6c51f3e",
     "octets": 1168
+  },
+  "scripts/exporter_compte_rendu.py": {
+    "sha256": "50d06ce05557468988fe0a906454eb51d9ef9bcbd5f09388bcdca7bb59f062ad",
+    "octets": 5196
   },
   "scripts/exporter_notebook.py": {
     "sha256": "69e7e72cb088de013a396ad8984018d92373370b3fda0d9c5d28c43aed4f8f5b",
@@ -2200,8 +2216,8 @@
     "octets": 5250
   },
   "scripts/verifier_livrables.py": {
-    "sha256": "ea132ca67a544fccb9680a8d3aa98f6d8c0080fc9cba534e11392a454e5fe5be",
-    "octets": 7102
+    "sha256": "60e776d618471b38d817cc81b11ea8b74c9b456d6a2a23ea471e32f17be93efd",
+    "octets": 7190
   },
   "scripts/verifier_moteur.py": {
     "sha256": "c8e5ff00241b4bc7ff983312e7e09a36679b385b4bb632266e0ba6c3bc8d2ab8",
