@@ -1,0 +1,30 @@
+{
+  "slide_id": "slide_15",
+  "status": "approved_by_user",
+  "backend_used": "built-in image tool",
+  "tool_name": "image_gen__imagegen",
+  "mode": "edit",
+  "prompt_source": "sample_prompt.md",
+  "source_assets": [
+    "../outputs_vlm/figures/01_exactitude_et_validation.png"
+  ],
+  "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+  "transparent_background": false,
+  "observed_pixel_size": [
+    1672,
+    941
+  ],
+  "model": "not exposed by tool",
+  "quality": "not exposed by tool",
+  "generated_source_path": "C:/Users/SetupGame/.codex/generated_images/01a1dba1-6681-7693-94b2-cfd9304b602d/exec-7c05f428-aa3e-41ee-85c4-c6967fe98bfe.png",
+  "candidate_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+  "qa": {
+    "matrix_values": "checked: baseline 0/0/0, JSON mode 65/107/107, four other variants 107/107/107",
+    "both_panels_preserved": true,
+    "french_text_readable": true,
+    "no_page_number": true,
+    "no_truncation_observed": true,
+    "scope_caveat_visible": true
+  },
+  "user_approval": "Valider et g?n?rer les 20 autres diapositives"
+}

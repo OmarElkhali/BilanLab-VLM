@@ -1,0 +1,1828 @@
+{
+  "jobs": {
+    "run_status": "slides_recorded",
+    "deck_name": "BilanLab_Presentation_21",
+    "selected_backend": "built-in image tool",
+    "sample_generation_method": {
+      "backend_used": "built-in image tool",
+      "tool_name": "image_gen__imagegen",
+      "mode": "edit",
+      "prompt_source": "sample_prompt.md",
+      "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+      "approved_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+      "size": "16:9 requested, approved image observed 1672x941; no exposed size parameter",
+      "quality": "built-in default; not exposed",
+      "model": "not exposed",
+      "transparent_background": false,
+      "handoff_rule": "Use tools.image_gen__imagegen with referenced_image_paths including the approved sample; inspect each local input using view_image first. Never render locally. Return blocker if this exact path is unavailable."
+    },
+    "max_concurrent_slides": 3,
+    "slides": [
+      {
+        "slide_id": "slide_01",
+        "number": 1,
+        "title": "Extraction de bilans marocains avec un VLM",
+        "job": "prompts/slide_01.json",
+        "out": "origin_image/slide_01.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_01",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_01.json",
+          "prompt_sha256": "867b4ba19a43d4d561d59fd7ecb154b31a2749720844db26abb9219763f4069c",
+          "dispatched_at": "2026-11-15T09:54:16Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_01",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea0-eb6c-7142-963d-2be8a8bbce40\\exec-ef2a5538-3a27-4284-866a-fd2342a39637.png",
+          "selected_source_sha256": "e229e25846e9beacf7dbb0b3293ac034d3ef891f14188655a1d3ef6f56d16b0f",
+          "final_image": "origin_image/slide_01.png",
+          "final_image_sha256": "e229e25846e9beacf7dbb0b3293ac034d3ef891f14188655a1d3ef6f56d16b0f",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Revised cover has single title, restrained subtitle and preserved concept; no truncated text.",
+          "recorded_at": "2026-11-15T09:59:30Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_02",
+        "number": 2,
+        "title": "Objectif métier et exigences du TP",
+        "job": "prompts/slide_02.json",
+        "out": "origin_image/slide_02.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_02",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_02.json",
+          "prompt_sha256": "34e114db8a76098b22f9dedaae8e748655446ce6baf74e535388ad0becab1137",
+          "dispatched_at": "2026-11-15T09:54:33Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_02",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea1-297a-7e62-a550-94fbc5749742\\exec-10663f67-77a7-4edf-84d1-115d064be7f4.png",
+          "selected_source_sha256": "7e10d598375993045f37170634b7b390624a1e562bb69a66243b442d98379784",
+          "final_image": "origin_image/slide_02.png",
+          "final_image_sha256": "7e10d598375993045f37170634b7b390624a1e562bb69a66243b442d98379784",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "French readable; four TP parts and deliverables verified; style matches approved sample.",
+          "recorded_at": "2026-11-15T09:58:18Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_03",
+        "number": 3,
+        "title": "Le bilan étudié et ses colonnes",
+        "job": "prompts/slide_03.json",
+        "out": "origin_image/slide_03.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\images_group9\\page_01.png",
+            "role": "strict input asset: Page actif anonymisée",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\images_group9\\page_02.png",
+            "role": "strict input asset: Page passif anonymisée",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_03",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_03.json",
+          "prompt_sha256": "9d92ab18e78b81fadc77067db81ec1b52e63b518a8134cc9b4207264aad3273d",
+          "dispatched_at": "2026-11-15T09:55:00Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_03",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea1-750a-7822-aeac-7526fc4b93b1\\exec-70b1804a-1bb1-4f7e-b0d3-4a0c20ed9a1b.png",
+          "selected_source_sha256": "cd0255646356511566f8180ced513f34cb033aaf28f0a57594e3cb445378e13c",
+          "final_image": "origin_image/slide_03.png",
+          "final_image_sha256": "cd0255646356511566f8180ced513f34cb033aaf28f0a57594e3cb445378e13c",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Both masked pages present, French headings legible, totals retained; fine page text naturally small at full-page scale.",
+          "recorded_at": "2026-11-15T09:58:52Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_04",
+        "number": 4,
+        "title": "Les difficultés de lecture d'un bilan",
+        "job": "prompts/slide_04.json",
+        "out": "origin_image/slide_04.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_04",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_04.json",
+          "prompt_sha256": "ef26847c201643cc6bc734e74098616b7b8f7bcc69e1ffddd0c5672adee500a4",
+          "dispatched_at": "2026-11-15T09:58:38Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_04",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea4-d959-7c71-9537-5219fc217914\\exec-0cc2a3c3-22f5-4f94-bd3f-8b497296e209.png",
+          "selected_source_sha256": "88d06bf74ee81bfbc6545bd1eb975bb5be42efeb68cdf91f5c0d2d30593ff7cf",
+          "final_image": "origin_image/slide_04.png",
+          "final_image_sha256": "88d06bf74ee81bfbc6545bd1eb975bb5be42efeb68cdf91f5c0d2d30593ff7cf",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Teaching examples explicit, French readable, visual concepts checked, no sample data leakage.",
+          "recorded_at": "2026-11-15T10:00:04Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_05",
+        "number": 5,
+        "title": "Architecture du pipeline et responsabilités du code",
+        "job": "prompts/slide_05.json",
+        "out": "origin_image/slide_05.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\00_architecture.png",
+            "role": "strict input asset: Architecture du pipeline",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_05",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_05.json",
+          "prompt_sha256": "ffb9595d6755c9c25c2c36607944f1cc348998ead5b2639f19f4d979efda45b7",
+          "dispatched_at": "2026-11-15T09:59:16Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_05",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea5-7709-7700-bd4c-2ecd0d56d37f\\exec-f0e1ae8a-ed11-4b14-a786-1b83b821f66b.png",
+          "selected_source_sha256": "873c1a58f72a8ba422bf936f8389bd47b610bd2a22eb5206abf5b226ea847d0d",
+          "final_image": "origin_image/slide_05.png",
+          "final_image_sha256": "873c1a58f72a8ba422bf936f8389bd47b610bd2a22eb5206abf5b226ea847d0d",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Pipeline labels and reference branch retained, French readable, no unrelated sample content.",
+          "recorded_at": "2026-11-15T10:00:52Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_06",
+        "number": 6,
+        "title": "Prétraitement et anonymisation réelle",
+        "job": "prompts/slide_06.json",
+        "out": "origin_image/slide_06.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_06",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_06.json",
+          "prompt_sha256": "a49bdeed9a83ae82d392d52679e4b49796ff72ea88817fd9b282cf8dc09b557f",
+          "dispatched_at": "2026-11-15T09:59:52Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_06",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea5-fb0b-78b2-a7a0-6f8b1eb89023\\exec-139a6fa9-6f5c-4106-aeb2-7d26e4795951.png",
+          "selected_source_sha256": "6124acb7ec1b6cb96d1edad81dc3c564e712044747c26390c06b2304fcdd743d",
+          "final_image": "origin_image/slide_06.png",
+          "final_image_sha256": "6124acb7ec1b6cb96d1edad81dc3c564e712044747c26390c06b2304fcdd743d",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Preprocessing stages, pixel masking and source-text layer distinction checked; readable French.",
+          "recorded_at": "2026-11-15T10:01:17Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_07",
+        "number": 7,
+        "title": "Le schéma JSON minimal demandé par le TP",
+        "job": "prompts/slide_07.json",
+        "out": "origin_image/slide_07.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_07",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_07.json",
+          "prompt_sha256": "5e2a9eed65a8fbb3656d226da7450395ea00ea8c880826cfab0fd2ecd6dd8239",
+          "dispatched_at": "2026-11-15T10:00:26Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_07",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea6-8908-72d0-8d23-af88dcfa3a50\\exec-792b5a38-0d86-4c06-8e90-9d171d07ce63.png",
+          "selected_source_sha256": "c1680fc084044836d65805371a618bf53104ea6b8d9cfbad105b55fa362268b8",
+          "final_image": "origin_image/slide_07.png",
+          "final_image_sha256": "c1680fc084044836d65805371a618bf53104ea6b8d9cfbad105b55fa362268b8",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Four minimal JSON fields, exact example amounts, 49/41 row counts checked and text readable.",
+          "recorded_at": "2026-11-15T10:01:55Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_08",
+        "number": 8,
+        "title": "Le schéma enrichi et les 88 postes canoniques",
+        "job": "prompts/slide_08.json",
+        "out": "origin_image/slide_08.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\04_etats_et_couverture.png",
+            "role": "strict input asset: États des cellules et couverture",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_08",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_08.json",
+          "prompt_sha256": "17a146534517c671b96a8b854592598b6822cae74282f891765c53177a4bce2d",
+          "dispatched_at": "2026-11-15T10:01:17Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_08",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea7-3723-7d21-acfd-311d35741d73\\exec-61123b12-f8e1-49a1-bec7-7ff423d6c04c.png",
+          "selected_source_sha256": "1f4e8c6d48eb1d4ba5ffc3ee878653b1566cd94974d57e3d68f52a17dd0782d8",
+          "final_image": "origin_image/slide_08.png",
+          "final_image_sha256": "1f4e8c6d48eb1d4ba5ffc3ee878653b1566cd94974d57e3d68f52a17dd0782d8",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "State plot, 90/88 normalization and 107/352 definitions checked; labels readable.",
+          "recorded_at": "2026-11-15T10:03:08Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_09",
+        "number": 9,
+        "title": "Les six techniques de prompting",
+        "job": "prompts/slide_09.json",
+        "out": "origin_image/slide_09.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_09",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_09.json",
+          "prompt_sha256": "01037efd0307afe171af277dd2dd9cbe100b3847dea22a09bd0eb736bb806749",
+          "dispatched_at": "2026-11-15T10:01:55Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_09",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea7-cc86-7f12-876e-4ce25680817e\\exec-7f97bf6b-4e17-4dbe-b4ec-ab7f81472a0d.png",
+          "selected_source_sha256": "0fd923eb50d773781800f4665fb296028f3e6b7d66d8e213a21510a28a8d61f1",
+          "final_image": "origin_image/slide_09.png",
+          "final_image_sha256": "0fd923eb50d773781800f4665fb296028f3e6b7d66d8e213a21510a28a8d61f1",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Six cumulative methods and native JSON/schema distinction checked; French clear.",
+          "recorded_at": "2026-11-15T10:03:08Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_10",
+        "number": 10,
+        "title": "Les deux chemins d'inférence",
+        "job": "prompts/slide_10.json",
+        "out": "origin_image/slide_10.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_10",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_10.json",
+          "prompt_sha256": "9a08ffa07094683cf6afab5a0de626fa10da6063d3577c2451f4ec617eb22c83",
+          "dispatched_at": "2026-11-15T10:02:20Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_10",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea8-3a06-7e31-ae02-7cbe88d7f014\\exec-fd031bcc-e81c-4d63-b54f-8bca987a174c.png",
+          "selected_source_sha256": "fdc127602c64e385ffb0fc4096641bb9b36454243eed88a5c7f0b4621a89c7b8",
+          "final_image": "origin_image/slide_10.png",
+          "final_image_sha256": "fdc127602c64e385ffb0fc4096641bb9b36454243eed88a5c7f0b4621a89c7b8",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Remote Gemini and CPU Ollama configuration verified, no GPU/MoE execution implied.",
+          "recorded_at": "2026-11-15T10:04:25Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_11",
+        "number": 11,
+        "title": "Validation du JSON et contrôles comptables",
+        "job": "prompts/slide_11.json",
+        "out": "origin_image/slide_11.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\05_controles_comptables.png",
+            "role": "strict input asset: Contrôles comptables par famille",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_11",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_11.json",
+          "prompt_sha256": "791bdc807fd1052cf68ada52f74096e045b5ff51baa5488ec5b6a796ed9862ff",
+          "dispatched_at": "2026-11-15T10:03:58Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_11",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea9-c68a-7fa2-8b8b-856ee5cc82f1\\exec-f602fbcb-27b1-489b-b3c2-7a795b82b23f.png",
+          "selected_source_sha256": "ce18db36509f339c367624bb21ca6bfc605d9015f22d1781f62473f2bf6b1981",
+          "final_image": "origin_image/slide_11.png",
+          "final_image_sha256": "ce18db36509f339c367624bb21ca6bfc605d9015f22d1781f62473f2bf6b1981",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Original checks chart, Decimal and 0.01 tolerance caveat verified; readable equations and French.",
+          "recorded_at": "2026-11-15T10:05:40Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_12",
+        "number": 12,
+        "title": "Protocole de la nouvelle campagne",
+        "job": "prompts/slide_12.json",
+        "out": "origin_image/slide_12.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_12",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_12.json",
+          "prompt_sha256": "94a47f54547f401d102a7d935c1d531fe99ada6e05c8f10a08cd316bda3a3274",
+          "dispatched_at": "2026-11-15T10:04:24Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_12",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaa-127e-7903-aa1d-e7df8814ac44\\exec-9fd3c94a-bdf7-4d54-ade3-4393b0ff4ce7.png",
+          "selected_source_sha256": "188450cbddb184deb3759942b20c360864aa75ed439b2bcdd8756a094850ef52",
+          "final_image": "origin_image/slide_12.png",
+          "final_image_sha256": "188450cbddb184deb3759942b20c360864aa75ed439b2bcdd8756a094850ef52",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Exactly eighteen trial markers, seed42, single-document scope and no benchmark retries verified.",
+          "recorded_at": "2026-11-15T10:05:40Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_13",
+        "number": 13,
+        "title": "Résultat API de livraison",
+        "job": "prompts/slide_13.json",
+        "out": "origin_image/slide_13.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_13",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_13.json",
+          "prompt_sha256": "9039dab40bcb291a7034ed947a2475aad6548fe6548d9eaff3ec9ac8a7c3f011",
+          "dispatched_at": "2026-11-15T10:04:45Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_13",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaa-7f30-7540-b309-73521abfa91e\\exec-8046a81b-e6a9-4ea2-8209-2a19ff986ec3.png",
+          "selected_source_sha256": "e9e666be6a8911b8bc2f358472c9419c33a7b27d7975efe09e905f095f6eccd2",
+          "final_image": "origin_image/slide_13.png",
+          "final_image_sha256": "e9e666be6a8911b8bc2f358472c9419c33a7b27d7975efe09e905f095f6eccd2",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Delivery metrics 107/107,74/74,88/88,66,31.69s and separate principal_relecture provenance verified.",
+          "recorded_at": "2026-11-15T10:06:58Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_14",
+        "number": 14,
+        "title": "Le bilan extrait devient lisible et exploitable",
+        "job": "prompts/slide_14.json",
+        "out": "origin_image/slide_14.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\07_structure_bilan.png",
+            "role": "strict input asset: Structure financière extraite",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_14",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_14.json",
+          "prompt_sha256": "533474527ed0da20a5cc35b83e9254c1e2e485748cc9f9574d5cd4ee265c3f77",
+          "dispatched_at": "2026-11-15T10:06:00Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_14",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deab-a55b-7fe2-a70e-7b032c57700f\\exec-c1774033-6d89-4183-b668-f525fe0fd9ca.png",
+          "selected_source_sha256": "f2d57c003fe9cebe795c7d929ed8358600b73a7149c8d0f9e331c702e182df8d",
+          "final_image": "origin_image/slide_14.png",
+          "final_image_sha256": "f2d57c003fe9cebe795c7d929ed8358600b73a7149c8d0f9e331c702e182df8d",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Original financial figures preserve categories, periods, unit caveat and bar relationships; no invented MAD scale.",
+          "recorded_at": "2026-11-15T10:07:34Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_15",
+        "number": 15,
+        "title": "Fiabilité comparée des techniques de prompt",
+        "job": "prompts/slide_15.json",
+        "out": "origin_image/slide_15.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\01_exactitude_et_validation.png",
+            "role": "strict input asset: Exactitude et validation par stratégie",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "accepted",
+        "dispatch": null,
+        "result": {
+          "final_image": "origin_image/slide_15.png",
+          "accepted_sample": true
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_16",
+        "number": 16,
+        "title": "Vitesse, variabilité et coût estimable",
+        "job": "prompts/slide_16.json",
+        "out": "origin_image/slide_16.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\02_latence_et_stabilite.png",
+            "role": "strict input asset: Durées et stabilité observées",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_16",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_16.json",
+          "prompt_sha256": "a03fe2a5d7bd28b179a83512a8ac70fc555e8e53f5b52c480210828f35cec775",
+          "dispatched_at": "2026-11-15T10:06:19Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_16",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deab-e5d0-78d2-8500-8ba3ec5433b2\\exec-e9386a6e-2fb1-48ff-a606-05991d7ea692.png",
+          "selected_source_sha256": "9d1b26ee9777b75bc85187f9b04f06ac4a6293572cc9e474613ef829d0b9e231",
+          "final_image": "origin_image/slide_16.png",
+          "final_image_sha256": "9d1b26ee9777b75bc85187f9b04f06ac4a6293572cc9e474613ef829d0b9e231",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Latency points/medians and stability plot retained, scope and estimated/unmeasured costs clearly distinguished.",
+          "recorded_at": "2026-11-15T10:07:59Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_17",
+        "number": 17,
+        "title": "Qwen local lit partiellement mais échoue à la validation",
+        "job": "prompts/slide_17.json",
+        "out": "origin_image/slide_17.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\06_concordance_et_local.png",
+            "role": "strict input asset: Concordance et diagnostic local",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_17",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_17.json",
+          "prompt_sha256": "e93097d0d29963963c912554995289416aeabd3f8548d20fdf9280c80a16af96",
+          "dispatched_at": "2026-11-15T10:07:34Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_17",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deac-f9f6-7460-af2b-3f04d20b2b76\\exec-76dd850e-f7f9-45d0-b66d-7c9b1ae36197.png",
+          "selected_source_sha256": "74e34794510df10b6dcd5628c6b758e8563f756276c97787deab8cb94635028b",
+          "final_image": "origin_image/slide_17.png",
+          "final_image_sha256": "74e34794510df10b6dcd5628c6b758e8563f756276c97787deab8cb94635028b",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Original concordance and local diagnostic panels retained, 864.54s and 34raw/0strict distinction checked.",
+          "recorded_at": "2026-11-15T10:09:05Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_18",
+        "number": 18,
+        "title": "Robustesse, relecture et traitement par lot",
+        "job": "prompts/slide_18.json",
+        "out": "origin_image/slide_18.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\09_scan_original_et_degrade.png",
+            "role": "strict input asset: Original et scan synthétique dégradé",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_18",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_18.json",
+          "prompt_sha256": "229c7f62497a51c4e37d9371bb0d7382caeabb170467274b5977edaddd645257",
+          "dispatched_at": "2026-11-15T10:07:58Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_18",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dead-5d0c-7f02-87c0-38ec71d70082\\exec-3aa30ecc-2aaf-4cb8-b1a7-eb2514931572.png",
+          "selected_source_sha256": "c20519b18157121b7db56ad6673b9ac50fdacd217d09817a03fb9854b01f03d6",
+          "final_image": "origin_image/slide_18.png",
+          "final_image_sha256": "c20519b18157121b7db56ad6673b9ac50fdacd217d09817a03fb9854b01f03d6",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Original/degraded comparison,107/10765.88s, separate re-reading and one-company batch scope checked.",
+          "recorded_at": "2026-11-15T10:11:05Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_19",
+        "number": 19,
+        "title": "Confidentialité et choix de déploiement",
+        "job": "prompts/slide_19.json",
+        "out": "origin_image/slide_19.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_19",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_19.json",
+          "prompt_sha256": "379aabef7445698b179d8ae2d8c75c29c078fe0a4a57d4f7bc7c92151b48a887",
+          "dispatched_at": "2026-11-15T10:08:36Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_19",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deae-00d7-7840-a928-1cde2f1d53b3\\exec-b252ead2-3eb1-43d8-8edc-9773139dbcd5.png",
+          "selected_source_sha256": "9cad26fea1069b0551b14b72eec5f8894dab527ffa7d049b2538cf1f7503f83a",
+          "final_image": "origin_image/slide_19.png",
+          "final_image_sha256": "9cad26fea1069b0551b14b72eec5f8894dab527ffa7d049b2538cf1f7503f83a",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Conditional technical recommendation, CNDP verification and local confidentiality duties stated without invented certification.",
+          "recorded_at": "2026-11-15T10:10:14Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_20",
+        "number": 20,
+        "title": "BilanLab, l'application web du projet",
+        "job": "prompts/slide_20.json",
+        "out": "origin_image/slide_20.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\webapp\\outputs\\resultats-live.png",
+            "role": "strict input asset: Résultat réellement obtenu dans BilanLab",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_20",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_20.json",
+          "prompt_sha256": "41de6c32f7a1e056404424b3a1d9a8f13db199f1726e699ff1ec3ce15b240827",
+          "dispatched_at": "2026-11-15T10:10:00Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_20",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaf-01fb-77c0-86b6-9e7ba7de845e\\exec-515bb0a7-0d32-460f-b36f-7e692f6dd8ea.png",
+          "selected_source_sha256": "ce8d370c41b3325606969d59a3bcd0d1d7e15237a9a77e1d015da88ad4b23aa8",
+          "final_image": "origin_image/slide_20.png",
+          "final_image_sha256": "ce8d370c41b3325606969d59a3bcd0d1d7e15237a9a77e1d015da88ad4b23aa8",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Capture réelle et valeurs 88 postes, 107/107, 66 contrôles et 16,05 s vérifiées.",
+          "recorded_at": "2026-11-15T13:33:17Z"
+        },
+        "blocker": null
+      },
+      {
+        "slide_id": "slide_21",
+        "number": 21,
+        "title": "Conclusion, limites et suite du projet",
+        "job": "prompts/slide_21.json",
+        "out": "origin_image/slide_21.png",
+        "input_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+            "role": "approved sample slide 15 STYLE ONLY",
+            "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+          }
+        ],
+        "requires_context_images": true,
+        "status": "recorded",
+        "dispatch": {
+          "agent_id": "/root/slide_21",
+          "agent_nickname": null,
+          "prompt": "prompts/slide_21.json",
+          "prompt_sha256": "b827f97475b4f24be62cc433d06acc100b0cbfe65cf8cd029d15bf19adbfac00",
+          "dispatched_at": "2026-11-15T10:10:48Z"
+        },
+        "result": {
+          "agent_id": "/root/slide_21",
+          "backend_used": "built-in image tool",
+          "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaf-d77d-7bc3-9b3e-fe313a478674\\exec-32045b73-a56b-4b90-a702-4f78fffdce20.png",
+          "selected_source_sha256": "be77456748d9a31404359427652fc718a819ce551b6944c68a116397259e4e5f",
+          "final_image": "origin_image/slide_21.png",
+          "final_image_sha256": "be77456748d9a31404359427652fc718a819ce551b6944c68a116397259e4e5f",
+          "expected_backend": "built-in image tool",
+          "expected_backend_labels": [
+            "built-in image tool",
+            "image_gen__imagegen"
+          ],
+          "sample_generation_method_matched": true,
+          "qa_note": "Conclusion, limites et questions vérifiées, aucun résultat universel revendiqué.",
+          "recorded_at": "2026-11-15T13:33:17Z"
+        },
+        "blocker": null
+      }
+    ],
+    "updated_at": "2026-11-15T13:33:17Z"
+  },
+  "spec": {
+    "deck_name": "BilanLab_Presentation_21",
+    "language": "French",
+    "goal": "Defend the VLM financial document extraction TP in 21 slides, teaching every part and interpreting measured evidence honestly.",
+    "deck_context": {
+      "source_summary": "One Moroccan balance sheet, 2 pages, closing year 2024; 90 printed lines normalized to 88 canonical items. Minimum JSON has poste, rubrique, montant_net_N and montant_net_N1. Enriched Python pipeline uses catalogue without amounts, Gemini REST and Ollama Qwen3-VL 4B Instruct CPU, strict JSON/schema/business validation, Decimal arithmetic and evaluation against a work reference.",
+      "verified_results": "Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany.",
+      "scope": "No independent test corpus or double annotation. Do not claim universal100% reliability or MoE/GPU execution. The reference was used during development. No reference amounts enter model prompts. Web is a separate TypeScript adaptation with different image sizes/contract; its latency is not the Python measurement.",
+      "core_claim": "Usable extraction combines a visual model, an explicit output contract and independent validation. Explain decisions and preserve negative results."
+    },
+    "selected_image_backend": "built-in image tool",
+    "max_concurrent_slides": 3,
+    "sample_generation_method": {
+      "backend_used": "built-in image tool",
+      "tool_name": "image_gen__imagegen",
+      "mode": "edit",
+      "prompt_source": "sample_prompt.md",
+      "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+      "approved_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+      "size": "16:9 requested, approved image observed 1672x941; no exposed size parameter",
+      "quality": "built-in default; not exposed",
+      "model": "not exposed",
+      "transparent_background": false,
+      "handoff_rule": "Use tools.image_gen__imagegen with referenced_image_paths including the approved sample; inspect each local input using view_image first. Never render locally. Return blocker if this exact path is unavailable."
+    },
+    "approved_style_reference": {
+      "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+      "role": "approved sample slide 15 STYLE ONLY",
+      "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+    },
+    "style": {
+      "name": "Soutenance claire",
+      "visual_direction": "White evidence-led university defense; match approved slide 15 palette and typography mood, but vary composition with content. No dashboard-like card grids.",
+      "color_palette": "white #FFFFFF, navy #142838, teal #137D72, slate #5C6F80, restrained amber #B77216 for caveats; strict supplied plots retain their original colors",
+      "typography": "Large bold readable French sans-serif titles, short clear body labels, generous whitespace. All accents exact.",
+      "texture_and_finish": "Flat polished editorial, no 3D props, no invented logos, no slide numbers"
+    },
+    "slides": [
+      {
+        "number": 1,
+        "title": "Extraction de bilans marocains avec un VLM",
+        "role": "cover",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "BilanLab",
+          "Extraction de bilans marocains avec un VLM",
+          "Groupe 9, ENSAM Casablanca",
+          "Transformers et LLMs"
+        ],
+        "layout": {
+          "composition": "Minimal cover: very large title on left, one restrained original document-to-structured-data concept visual on right. No charts, no metric cards.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Message : transformer un bilan PDF en JSON vérifié.\n- Projet BilanLab, groupe 9, module Transformers et LLMs.\n- Annoncer les trois dimensions étudiées : lecture, fiabilité et comparaison des solutions.\n- Rôle : couverture sobre qui installe le sujet, sans tableau de résultats détaillé.\n- Visuel prévu : composition conceptuelle originale liée au document et à la donnée structurée.\n- Images sources requises : aucune.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "Minimal cover: very large title on left, one restrained original document-to-structured-data concept visual on right. No charts, no metric cards."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 2,
+        "title": "Objectif métier et exigences du TP",
+        "role": "context",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Objectif : un JSON exploitable sans ressaisie",
+          "A Comprendre le bilan",
+          "B Extraire via API et prompts",
+          "C Tester le local, D Valider et évaluer"
+        ],
+        "layout": {
+          "composition": "An open horizontal sequence of four clearly connected course parts, with short explanations and code/JSON endpoint. Not four boxed UI cards.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Extraire les postes et leurs montants sans ressaisie manuelle.\n- Partie A : comprendre et préparer le document. Partie B : API et techniques de prompt.\n- Partie C : inférence locale en bonus. Partie D : validation et évaluation.\n- Livrer le code, un JSON par bilan et un compte-rendu argumenté.\n- Rôle : cadrage. Expliquer le rôle de chaque partie plutôt qu'afficher une simple liste de sections.\n- Images sources requises : aucune.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "An open horizontal sequence of four clearly connected course parts, with short explanations and code/JSON endpoint. Not four boxed UI cards."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 3,
+        "title": "Le bilan étudié et ses colonnes",
+        "role": "document explanation",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Un bilan réel, deux pages, clôture 2024",
+          "Actif : brut, amortissements, net N et N−1",
+          "Passif : N et N−1",
+          "Unité non confirmée : aucune conversion inventée"
+        ],
+        "layout": {
+          "composition": "Two actual masked financial pages side by side, maximum size in central area, with concise external labels identifying columns and page nature. Preserve source digits. Body labels readable even if fine source print needs zoom.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Un seul bilan réel de deux pages, exercice clos le 31/12/2024.\n- Actif : brut, amortissements/provisions, net N et net N−1.\n- Passif : montants N et N−1. Les deux premières colonnes n'existent pas.\n- L'unité imprimée n'est pas confirmée : aucune conversion arbitraire en MAD.\n- Rôle : explication du document. Guider le regard sur les colonnes et les deux parties.\n- Images sources requises : les deux pages anonymisées sont des entrées strictes. Préserver les chiffres et les libellés. Ne jamais utiliser le PDF original avec sa couche texte résiduelle comme illustration à transmettre au moteur d'image.\n  - Actif, page préparée et masquée :\n\n    ![Page actif anonymisée](../outputs_vlm/images_group9/page_01.png)\n\n  - Passif, page préparée et masquée :\n\n    ![Page passif anonymisée](../outputs_vlm/images_group9/page_02.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\images_group9\\page_01.png",
+            "role": "strict input asset: Page actif anonymisée",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          },
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\images_group9\\page_02.png",
+            "role": "strict input asset: Page passif anonymisée",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Two actual masked financial pages side by side, maximum size in central area, with concise external labels identifying columns and page nature. Preserve source digits. Body labels readable even if fine source print needs zoom."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 4,
+        "title": "Les difficultés de lecture d'un bilan",
+        "role": "concept explanation",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Scans denses et colonnes proches",
+          "Vide, zéro, illisible et non applicable",
+          "Signes et exercices N / N−1",
+          "Sous-totaux : éviter le double comptage"
+        ],
+        "layout": {
+          "composition": "One central schematic accounting row with enlarged illustrative cells and concise annotations around it. Explicitly mark invented teaching examples as EXEMPLES. Avoid a repeated card grid.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Qualité du scan, petits caractères, tableaux denses et alignement des colonnes.\n- Différence entre une case vide, un zéro, une valeur illisible et une colonne inexistante.\n- Signes négatifs, confusion entre N et N−1 et risque de changement d'échelle.\n- Sous-totaux et totaux : éviter de compter plusieurs fois la même masse.\n- Rôle : explication par petits exemples visuels et conséquences concrètes sur l'extraction.\n- Images sources requises : aucune. Les exemples doivent être explicitement pédagogiques, sans faux résultats expérimentaux.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "One central schematic accounting row with enlarged illustrative cells and concise annotations around it. Explicitly mark invented teaching examples as EXEMPLES. Avoid a repeated card grid."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 5,
+        "title": "Architecture du pipeline et responsabilités du code",
+        "role": "architecture",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Préparer les images, appeler le VLM, valider",
+          "Le catalogue transmet les libellés sans montants",
+          "La référence sert uniquement à évaluer"
+        ],
+        "layout": {
+          "composition": "Use the strict architecture figure across full middle width. Short top title and bottom annotations; preserve arrows, labels and separated reference branch.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- `load_pdf` et `prepare_images` lisent et préparent le document.\n- Les clients REST appellent Gemini ou Ollama, puis `validate_page` filtre les objets.\n- `arithmetic_checks` vérifie les égalités et `evaluate` mesure la fidélité.\n- Le catalogue transmet des libellés et identifiants sans montants. La référence annotée reste dans l'évaluation.\n- Rôle : architecture commentée. Montrer où passent les données et où se placent les validations.\n- Image source requise : entrée stricte. Conserver le sens des flèches, les fonctions et la séparation de la référence.\n\n  ![Architecture du pipeline](../outputs_vlm/figures/00_architecture.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\00_architecture.png",
+            "role": "strict input asset: Architecture du pipeline",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Use the strict architecture figure across full middle width. Short top title and bottom annotations; preserve arrows, labels and separated reference branch."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 6,
+        "title": "Prétraitement et anonymisation réelle",
+        "role": "process",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Rendu PNG à 200 DPI",
+          "Masques appliqués aux pixels",
+          "Images neuves sans couche texte",
+          "Inspection avant transmission à Gemini"
+        ],
+        "layout": {
+          "composition": "A large elegant technical process with four connected stages and a clear distinction between a superficial PDF mask and an actually masked raster image. The drawing is conceptual, no fake source-page screenshot. Tiny code labels prepare_images and PyMuPDF allowed.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- PyMuPDF rend les pages en PNG à 200 DPI.\n- Des masques sont appliqués aux pixels des zones d'identité.\n- Les images sont sauvegardées sans couche texte résiduelle, puis inspectées.\n- Seuls les PNG préparés partent vers Gemini. Le contraste renforcé est une option du code, pas un traitement activé dans l'expérience principale.\n- Rôle : processus expliqué étape par étape, avec justification de chaque choix.\n- Images sources requises : aucune supplémentaire. Ne pas réutiliser simplement les deux pages de la slide 3 comme décor.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "A large elegant technical process with four connected stages and a clear distinction between a superficial PDF mask and an actually masked raster image. The drawing is conceptual, no fake source-page screenshot. Tiny code labels prepare_images and PyMuPDF allowed."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 7,
+        "title": "Le schéma JSON minimal demandé par le TP",
+        "role": "JSON example",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Quatre champs demandés par le TP",
+          "Extraction directe sans catalogue",
+          "49 lignes actif et 41 lignes passif"
+        ],
+        "layout": {
+          "composition": "A large readable four-field JSON example on left, with the field purpose explained to the right. Actual example: {\"poste\":\"Clients et comptes rattachés\",\"rubrique\":\"actif\",\"montant_net_N\":\"18300692.45\",\"montant_net_N1\":\"18556410.52\"}. Keep code exact. A short lower note: Le schéma minimal ne distingue pas vide et illisible.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Quatre champs par poste : `poste`, `rubrique`, `montant_net_N`, `montant_net_N1`.\n- Le VLM génère cette version directement, sans catalogue ni valeurs de référence.\n- La transcription libre produit 49 lignes actif et 41 lignes passif dans l'essai réalisé.\n- Présenter un court exemple réel et expliquer pourquoi ce schéma ne distingue pas à lui seul vide et illisible.\n- Rôle : explication de contrat et exemple de sortie, sans long listing de code.\n- Images sources requises : aucune. Exemple à reprendre exactement dans `bilan_group_9_TP_minimal.json`.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "A large readable four-field JSON example on left, with the field purpose explained to the right. Actual example: {\"poste\":\"Clients et comptes rattachés\",\"rubrique\":\"actif\",\"montant_net_N\":\"18300692.45\",\"montant_net_N1\":\"18556410.52\"}. Keep code exact. A short lower note: Le schéma minimal ne distingue pas vide et illisible."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 8,
+        "title": "Le schéma enrichi et les 88 postes canoniques",
+        "role": "schema explanation",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Identifiants, parents et états de lecture",
+          "Montants exacts en chaînes décimales",
+          "90 lignes imprimées, 88 postes canoniques",
+          "107 montants et 352 états/valeurs évalués"
+        ],
+        "layout": {
+          "composition": "Use the strict state figure large centrally. One concise callout explains that Trésorerie and Total III are merged once per page into A_III and P_III; not an extraction omission. Show lu / vide / illisible / non_applicable legibly without repeating all background text.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Ajouter identifiants, parents, type de ligne, brut, amortissements et états de lecture.\n- Distinguer `lu`, `vide`, `illisible` et `non_applicable`. Conserver les montants comme chaînes décimales.\n- Regrouper les paires imprimées Trésorerie / Total III en `A_III` et `P_III` : 90 lignes visibles correspondent à 88 postes canoniques.\n- La référence évalue 107 montants et 352 états/valeurs, dont 74 montants nets.\n- Rôle : explication d'une amélioration justifiée et de la convention d'évaluation.\n- Image source requise : entrée stricte. Préserver les effectifs, couleurs et catégories d'états.\n\n  ![États des cellules et couverture](../outputs_vlm/figures/04_etats_et_couverture.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\04_etats_et_couverture.png",
+            "role": "strict input asset: États des cellules et couverture",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Use the strict state figure large centrally. One concise callout explains that Trésorerie and Total III are merged once per page into A_III and P_III; not an extraction omission. Show lu / vide / illisible / non_applicable legibly without repeating all background text."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 9,
+        "title": "Les six techniques de prompting",
+        "role": "method comparison",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Consigne simple, rôle système",
+          "Contraintes, exemple fictif",
+          "Mode JSON, schéma contraint",
+          "Une comparaison cumulative de six variantes"
+        ],
+        "layout": {
+          "composition": "An ascending six-step ladder or clean progressive technical stack with short explanations of what each method adds. Explicit names of all six methods, clear distinction native JSON vs schema. Preserve whitespace, no six dense cards.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Baseline, rôle système, contraintes et exemple fictif.\n- Mode JSON natif, puis schéma JSON contraint pendant la génération.\n- Comparaison cumulative : chaque étape enrichit la précédente. Elle n'isole pas causalement chaque composant.\n- Les exemples fictifs ne contiennent pas les montants du bilan évalué.\n- Rôle : comparaison pédagogique. Expliquer ce qui change dans la requête et ce que le fournisseur contraint réellement.\n- Images sources requises : aucune. Contenu fondé sur `make_prompt`, `system_prompt` et `call_gemini`.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "An ascending six-step ladder or clean progressive technical stack with short explanations of what each method adds. Explicit names of all six methods, clear distinction native JSON vs schema. Preserve whitespace, no six dense cards."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 10,
+        "title": "Les deux chemins d'inférence",
+        "role": "comparison",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Gemini 3.1 Flash-Lite via REST",
+          "Qwen3-VL 4B Instruct via Ollama",
+          "Local : CPU, Q4_K_M, image ≤ 1400 px",
+          "Modèle dense, aucun MoE exécuté"
+        ],
+        "layout": {
+          "composition": "A spacious two-column comparison separated by one vertical rule, API remote on left, local PC on right. Small visual of remote request and CPU processing; no invented hardware photo or GPU symbol. Footnote: Le piège MoE : héberger tous les experts, pas seulement les paramètres activés.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- API : Gemini 3.1 Flash-Lite, images transmises par REST, compteurs de tokens et durée enregistrés.\n- Local : Ollama et Qwen3-VL 4B Instruct, modèle quantifié Q4_K_M.\n- Exécution locale sur CPU, avec `size_vram = 0` observé. Le côté maximal des images locales est 1400 pixels.\n- Le modèle local choisi est dense. Expliquer le piège mémoire des modèles MoE sans prétendre en avoir exécuté un.\n- Rôle : comparaison technique des configurations et des contraintes matérielles.\n- Images sources requises : aucune. Preuves : journaux et `ollama_snapshot_campagne.json`.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "A spacious two-column comparison separated by one vertical rule, API remote on left, local PC on right. Small visual of remote request and CPU processing; no invented hardware photo or GPU symbol. Footnote: Le piège MoE : héberger tous les experts, pas seulement les paramètres activés."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 11,
+        "title": "Validation du JSON et contrôles comptables",
+        "role": "validation evidence",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "JSON strict puis validation métier",
+          "Sommes des enfants directs",
+          "Brut − amortissements = net",
+          "Actif = passif pour N et N−1"
+        ],
+        "layout": {
+          "composition": "Strict control figure large, with three short equation labels above or beside. Bottom caveat: Des erreurs compensées peuvent préserver les égalités. Decimal pour les calculs, tolérance de 0,01 réservée aux sommes. No floating point arithmetic claim.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Rejeter Markdown, clés dupliquées, troncatures, valeurs mal formées et incohérences d'états.\n- Vérifier les sommes des enfants directs, brut moins amortissements et égalité actif/passif pour N et N−1.\n- Calculer les montants avec Decimal et réserver la tolérance d'un centime aux sommes.\n- Une égalité comptable peut rester vraie malgré des erreurs compensées : elle ne garantit pas une transcription exacte.\n- Rôle : méthode de validation et court contre-exemple technique explicitement séparé des expériences VLM.\n- Image source requise : entrée stricte, résultat réel des contrôles de l'extraction principale.\n\n  ![Contrôles comptables par famille](../outputs_vlm/figures/05_controles_comptables.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\05_controles_comptables.png",
+            "role": "strict input asset: Contrôles comptables par famille",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Strict control figure large, with three short equation labels above or beside. Bottom caveat: Des erreurs compensées peuvent préserver les égalités. Decimal pour les calculs, tolérance de 0,01 réservée aux sommes. No floating point arithmetic claim."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 12,
+        "title": "Protocole de la nouvelle campagne",
+        "role": "experimental protocol",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "6 variantes × 3 répétitions = 18 essais",
+          "Même bilan, modèle et température 0",
+          "Ordre mélangé, graine 42",
+          "Échecs et pages rejetées au dénominateur"
+        ],
+        "layout": {
+          "composition": "A large visual representation of the 6 by 3 experimental plan, not fake result data, with consistent 18 trial markers. Clear footer: Un seul document, utilisé aussi pendant le développement. Small note local CPU and API campaign overlapped; no causal isolation of deployment mode.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Six variantes API, trois répétitions chacune : 18 essais de prompting.\n- Même bilan, mêmes images, même modèle et température 0. Ordre mélangé avec graine 42.\n- Aucun réessai de validation dans le benchmark. Les pannes et pages rejetées restent au dénominateur.\n- Un seul document distinct, utilisé aussi pendant le développement. Le local CPU et la série API se sont chevauchés.\n- Rôle : protocole reproductible, avec les limites qui encadrent les conclusions.\n- Images sources requises : aucune. Les valeurs viennent de `campagne_courante.json`.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "A large visual representation of the 6 by 3 experimental plan, not fake result data, with consistent 18 trial markers. Clear footer: Un seul document, utilisé aussi pendant le développement. Small note local CPU and API campaign overlapped; no causal isolation of deployment mode."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 13,
+        "title": "Résultat API de livraison",
+        "role": "result evidence",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "107/107 montants exacts",
+          "74/74 nets et 88/88 postes",
+          "66 contrôles conformes",
+          "31,69 s pour les deux pages"
+        ],
+        "layout": {
+          "composition": "Bold flat numerical composition around 107/107 as primary result, not a dashboard grid. Display other metrics with ample spacing and a small real JSON-like line. Readable provenance caveat at bottom: Extraction de livraison principal_relecture, hors benchmark. Le premier incident de connexion reste archivé.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- 107/107 montants exacts, 74/74 nets et 88/88 postes canoniques.\n- 66 contrôles comptables conformes, sans écart ni indétermination dans cet essai.\n- Durée du document : 31,69 s pour l'extraction de livraison `principal_relecture`.\n- Le premier essai principal a subi un incident de connexion. Il reste archivé et la nouvelle extraction est explicitement hors benchmark.\n- Rôle : résultat principal, soutenu par un petit nombre d'indicateurs lisibles et leur provenance.\n- Images sources requises : aucune. Copier les valeurs de l'expérience `principal_relecture`, jamais celles de l'ancien essai de 14,21 s.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "Bold flat numerical composition around 107/107 as primary result, not a dashboard grid. Display other metrics with ample spacing and a small real JSON-like line. Readable provenance caveat at bottom: Extraction de livraison principal_relecture, hors benchmark. Le premier incident de connexion reste archivé."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 14,
+        "title": "Le bilan extrait devient lisible et exploitable",
+        "role": "data evidence",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Grandes masses de l’actif et du passif",
+          "Comparer N à N−1",
+          "Pas de double comptage des sous-totaux",
+          "Valeurs dans l’unité imprimée"
+        ],
+        "layout": {
+          "composition": "Strict financial figure dominates almost entire slide body, with one short explanatory caption. Preserve all units and axes; no MAD or thousands conversion introduced, no investment advice.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Lire les grandes masses de l'actif et du passif pour N et N−1.\n- Montrer l'égalité des totaux et la présence des colonnes dans les données produites.\n- Ne pas additionner détails et sous-totaux dans une même masse.\n- Les graphes illustrent l'exploitation de l'extraction, sans recommandation financière ni conversion d'unité inventée.\n- Rôle : démonstration concrète de l'utilité de la sortie JSON.\n- Image source requise : entrée stricte. Préserver les valeurs, unités, axes et libellés de la figure.\n\n  ![Structure financière extraite](../outputs_vlm/figures/07_structure_bilan.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\07_structure_bilan.png",
+            "role": "strict input asset: Structure financière extraite",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Strict financial figure dominates almost entire slide body, with one short explanatory caption. Preserve all units and axes; no MAD or thousands conversion introduced, no investment advice."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 15,
+        "title": "Fiabilité comparée des techniques de prompt",
+        "role": "data evidence",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Approved existing sample retained unchanged"
+        ],
+        "layout": {
+          "composition": "Approved existing sample, do not regenerate.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Matrice des montants exacts pour les trois répétitions de chacune des six variantes.\n- Baseline : 0/107 accepté dans les trois essais, notamment à cause du format rejeté. Ce score ne signifie pas qu'aucun chiffre n'a été lu.\n- Rôle, contraintes, few-shot et schéma : 107/107 dans les trois répétitions de cette campagne.\n- JSON mode : 65/107, puis 107/107 et 107/107. Le premier essai perd une page sur incident réseau, sans prouver un défaut de lecture du prompt.\n- Rôle : preuve expérimentale et interprétation prudente des écarts.\n- Image source requise : entrée stricte. Préserver intégralement la matrice et les taux de validation.\n\n  ![Exactitude et validation par stratégie](../outputs_vlm/figures/01_exactitude_et_validation.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\01_exactitude_et_validation.png",
+            "role": "strict input asset: Exactitude et validation par stratégie",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Approved existing sample, do not regenerate."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": true,
+        "use_approved_style_reference": false
+      },
+      {
+        "number": 16,
+        "title": "Vitesse, variabilité et coût estimable",
+        "role": "latency evidence",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Chaque point représente un essai réel",
+          "Médianes et dispersion des trois répétitions",
+          "Le réseau et les échecs influencent la durée",
+          "Coût API estimé, coût matériel local non mesuré"
+        ],
+        "layout": {
+          "composition": "Strict latency figure dominates body, source dot points and curves unchanged. Bottom concise explanation: Trois répétitions sur un seul bilan ne prouvent pas un classement universel. Small cost note: Compteurs connus uniquement, estimation et non facture.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Montrer les durées individuelles et les médianes des trois répétitions.\n- Une requête échouée consomme du temps. Une médiane sur trois essais ne constitue pas un classement universel.\n- Les durées dépendent du réseau, du service et de la configuration. API et local utilisent des modèles et résolutions différents.\n- Les coûts API sont estimés avec les compteurs connus et le tarif documenté. Un coût inconnu reste inconnu, et le coût matériel local n'a pas été mesuré.\n- Rôle : analyse du compromis et explication de la méthode de mesure. Le coût détaillé peut être expliqué dans les notes sans surcharger la figure.\n- Image source requise : entrée stricte. Préserver les points et médianes réels, sans lisser les échecs.\n\n  ![Durées et stabilité observées](../outputs_vlm/figures/02_latence_et_stabilite.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\02_latence_et_stabilite.png",
+            "role": "strict input asset: Durées et stabilité observées",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Strict latency figure dominates body, source dot points and curves unchanged. Bottom concise explanation: Trois répétitions sur un seul bilan ne prouvent pas un classement universel. Small cost note: Compteurs connus uniquement, estimation et non facture."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 17,
+        "title": "Qwen local lit partiellement mais échoue à la validation",
+        "role": "negative result evidence",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Local CPU : 864,54 s, environ 14 min 25 s",
+          "34/107 montants bruts corrects",
+          "0/107 accepté par le pipeline strict",
+          "210 NA incompatibles et une année 3112"
+        ],
+        "layout": {
+          "composition": "Large strict concordance/local figure and a very concise header finding. Distinguish raw partial reading from usable output. Bottom: Regex corrigée, lecture encore insuffisante. Modèle plus fort et recadrages : pistes non validées.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- 864,54 s pour les deux pages, soit environ 14 min 25 s sur CPU.\n- 34/107 montants corrects dans les réponses brutes. Le pipeline strict accepte 0/107 montant de référence.\n- 210 marqueurs NA incompatibles avec les colonnes et une année brute 3112 au lieu de la clôture attendue.\n- Les corrections syntaxiques ne suffisent pas à améliorer la lecture. Modèle plus performant, matériel adapté et recadrages restent des pistes non validées ici.\n- Rôle : analyse de l'échec et décision technique, sans masquer les résultats négatifs.\n- Image source requise : entrée stricte. Conserver la distinction entre concordance API et diagnostic local avant rejet.\n\n  ![Concordance et diagnostic local](../outputs_vlm/figures/06_concordance_et_local.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\06_concordance_et_local.png",
+            "role": "strict input asset: Concordance et diagnostic local",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Large strict concordance/local figure and a very concise header finding. Distinguish raw partial reading from usable output. Bottom: Regex corrigée, lecture encore insuffisante. Modèle plus fort et recadrages : pistes non validées."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 18,
+        "title": "Robustesse, relecture et traitement par lot",
+        "role": "robustness case study",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Scan dégradé : 107/107, en 65,88 s",
+          "Relecture des pages rejetées corrigée",
+          "Lot de deux fichiers traité",
+          "Un seul bilan distinct, pas deux entreprises"
+        ],
+        "layout": {
+          "composition": "Use original-versus-degraded strict crop comparison as the main image. Add small explanatory captions for synthetic degradation and separate re-reading/batch outcomes. Never imply a new independent business dataset.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Dégrader synthétiquement les images par réduction, flou et baisse de contraste.\n- Sur cet essai dégradé : 107/107 montants exacts avec l'API, en 65,88 s.\n- La relecture sait maintenant reprendre une page entièrement rejetée. Ses propositions restent séparées du benchmark initial.\n- Deux fichiers traités dans le lot, mais une seule entreprise distincte : l'original et son scan dérivé.\n- Rôle : bonus du TP, corrections réellement réalisées et limites de portée.\n- Image source requise : entrée stricte. Préserver la comparaison des deux versions du même recadrage.\n\n  ![Original et scan synthétique dégradé](../outputs_vlm/figures/09_scan_original_et_degrade.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\09_scan_original_et_degrade.png",
+            "role": "strict input asset: Original et scan synthétique dégradé",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Use original-versus-degraded strict crop comparison as the main image. Add small explanatory captions for synthetic degradation and separate re-reading/batch outcomes. Never imply a new independent business dataset."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 19,
+        "title": "Confidentialité et choix de déploiement",
+        "role": "recommendation",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "API : minimiser les données et examiner les conditions",
+          "CNDP : vérifier les formalités applicables",
+          "Local : accès, secrets et conservation maîtrisés",
+          "Pour ce cas : API validée si son usage est autorisé"
+        ],
+        "layout": {
+          "composition": "A balanced comparison organized around document flow and a confidentiality boundary, restrained line illustrations. No fake legal certification seal. Bottom caveat: Le local testé n’atteint pas la qualité requise. Une recommandation technique ne vaut pas conformité juridique.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- L'anonymisation doit supprimer l'information transmise et pas seulement la masquer dans une couche visuelle.\n- Pour une API distante : minimisation, conditions du fournisseur, conservation et examen des formalités CNDP applicables.\n- Le local garde le traitement sur la machine, mais exige aussi contrôle d'accès, gestion des secrets et règles de conservation.\n- Choix pour ce cas : extraction API validée lorsque son usage est autorisé. La solution locale testée n'atteint pas la qualité requise.\n- Rôle : point de vue argumenté. Distinguer recommandation technique et validation juridique.\n- Images sources requises : aucune. Les sources officielles de la loi 09-08 et de la CNDP devront figurer dans les futures notes de cette slide.\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "A balanced comparison organized around document flow and a confidentiality boundary, restrained line illustrations. No fake legal certification seal. Bottom caveat: Le local testé n’atteint pas la qualité requise. Une recommandation technique ne vaut pas conformité juridique."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 20,
+        "title": "BilanLab, l'application web du projet",
+        "role": "product demonstration",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Importer et masquer le bilan",
+          "Comparer les méthodes et leurs durées",
+          "Lire le JSON, les contrôles et exporter",
+          "BilanLab est une extension du TP"
+        ],
+        "layout": {
+          "composition": "Place the actual BilanLab screenshot as a very large product image, focus/crop the results and table area for readability while preserving actual visible values 88 postes, 107/107 and 66 contrôles. Never retype a fake interface instead. Side captions only if space. Bottom: Les chronos web et notebook ne sont pas interchangeables.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- Déposer un bilan, inspecter les pages et masquer les zones sensibles.\n- Choisir les méthodes, suivre les durées et consulter tableau, JSON, contrôles et réponses brutes.\n- Exporter les résultats et consulter les rubriques Architecture, Résultats du TP et Le projet.\n- L'application est une extension du TP. Son rendu et son contrat TypeScript diffèrent du notebook Python : les chronos web et notebook ne sont pas interchangeables.\n- Rôle : démonstration du produit, avec une capture réelle plutôt qu'une maquette présentée comme opérationnelle.\n- Image source requise : capture réelle, entrée stricte. Composer une vue centrée sur la comparaison et le résultat. Conserver les libellés et valeurs visibles, notamment 88 postes, 107/107, 66 contrôles et le chrono web. Un cadrage de la zone utile est prévu, sans modification des chiffres.\n\n  ![Résultat réellement obtenu dans BilanLab](../webapp/outputs/resultats-live.png)\n\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [
+          {
+            "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\webapp\\outputs\\resultats-live.png",
+            "role": "strict input asset: Résultat réellement obtenu dans BilanLab",
+            "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+          }
+        ],
+        "visual_elements": {
+          "main_visual": "Place the actual BilanLab screenshot as a very large product image, focus/crop the results and table area for readability while preserving actual visible values 88 postes, 107/107 and 66 contrôles. Never retype a fake interface instead. Side captions only if space. Bottom: Les chronos web et notebook ne sont pas interchangeables."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      },
+      {
+        "number": 21,
+        "title": "Conclusion, limites et suite du projet",
+        "role": "conclusion",
+        "intent": "Explain the approved outline section clearly with verified project data.",
+        "key_points": [
+          "Une extraction fiable exige modèle et contrôles",
+          "API validée sur le bilan fourni",
+          "Local testé, résultat négatif conservé",
+          "Suite : corpus indépendant et double annotation"
+        ],
+        "layout": {
+          "composition": "A spacious closing statement and a compact visual journey from document to verified JSON. Main conclusion prominent, lower limits: Un bilan unique, référence utilisée en développement, local CPU dense. Natural closing Questions. Do not invent future results.",
+          "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+        },
+        "local_context": {
+          "background_not_to_render_verbatim": "\n\n- L'extraction devient exploitable quand le contrat JSON, les contrôles et l'évaluation accompagnent le modèle.\n- Sur le bilan fourni : solution API validée et échec local documenté. Le notebook, les JSON et les journaux permettent de vérifier le travail.\n- Limites principales : un seul bilan, référence utilisée en développement, absence de double annotation et local CPU dense.\n- Suite proposée : corpus indépendant multi-entreprises, double annotation, matériel local adapté et mesure des coûts réels.\n- Rôle : conclusion personnelle fondée sur les preuves et ouverture aux questions. Aucun résultat futur annoncé comme acquis.\n- Images sources requises : aucune.\n",
+          "content_rule": "Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs."
+        },
+        "required_images": [],
+        "visual_elements": {
+          "main_visual": "A spacious closing statement and a compact visual journey from document to verified JSON. Main conclusion prominent, lower limits: Un bilan unique, référence utilisée en développement, local CPU dense. Natural closing Questions. Do not invent future results."
+        },
+        "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+        "constraints": [
+          "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+          "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+          "Do not use sample content as evidence for this slide. Match its visual identity only.",
+          "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+        ],
+        "sample_approved": false,
+        "use_approved_style_reference": true
+      }
+    ]
+  },
+  "prompts": {
+    "17": {
+      "slide": 17,
+      "title": "Qwen local lit partiellement mais échoue à la validation",
+      "prompt": "# Codex PPT Slide Image Prompt\n\n## Canvas\n{\n  \"type\": \"16:9 full-slide PowerPoint image\",\n  \"language\": \"French\",\n  \"slide_number\": 17,\n  \"render_slide_number\": false\n}\n\n## Deck Goal\nDefend the VLM financial document extraction TP in 21 slides, teaching every part and interpreting measured evidence honestly.\n\n## Required Background\n{\n  \"deck_context\": {\n    \"source_summary\": \"One Moroccan balance sheet, 2 pages, closing year 2024; 90 printed lines normalized to 88 canonical items. Minimum JSON has poste, rubrique, montant_net_N and montant_net_N1. Enriched Python pipeline uses catalogue without amounts, Gemini REST and Ollama Qwen3-VL 4B Instruct CPU, strict JSON/schema/business validation, Decimal arithmetic and evaluation against a work reference.\",\n    \"verified_results\": \"Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany.\",\n    \"scope\": \"No independent test corpus or double annotation. Do not claim universal100% reliability or MoE/GPU execution. The reference was used during development. No reference amounts enter model prompts. Web is a separate TypeScript adaptation with different image sizes/contract; its latency is not the Python measurement.\",\n    \"core_claim\": \"Usable extraction combines a visual model, an explicit output contract and independent validation. Explain decisions and preserve negative results.\"\n  },\n  \"slide_local_context\": {\n    \"background_not_to_render_verbatim\": \"\\n\\n- 864,54 s pour les deux pages, soit environ 14 min 25 s sur CPU.\\n- 34/107 montants corrects dans les réponses brutes. Le pipeline strict accepte 0/107 montant de référence.\\n- 210 marqueurs NA incompatibles avec les colonnes et une année brute 3112 au lieu de la clôture attendue.\\n- Les corrections syntaxiques ne suffisent pas à améliorer la lecture. Modèle plus performant, matériel adapté et recadrages restent des pistes non validées ici.\\n- Rôle : analyse de l'échec et décision technique, sans masquer les résultats négatifs.\\n- Image source requise : entrée stricte. Conserver la distinction entre concordance API et diagnostic local avant rejet.\\n\\n  ![Concordance et diagnostic local](../outputs_vlm/figures/06_concordance_et_local.png)\\n\\n\",\n    \"content_rule\": \"Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs.\"\n  }\n}\n\n## Global Style\n{\n  \"name\": \"Soutenance claire\",\n  \"visual_direction\": \"White evidence-led university defense; match approved slide 15 palette and typography mood, but vary composition with content. No dashboard-like card grids.\",\n  \"color_palette\": \"white #FFFFFF, navy #142838, teal #137D72, slate #5C6F80, restrained amber #B77216 for caveats; strict supplied plots retain their original colors\",\n  \"typography\": \"Large bold readable French sans-serif titles, short clear body labels, generous whitespace. All accents exact.\",\n  \"texture_and_finish\": \"Flat polished editorial, no 3D props, no invented logos, no slide numbers\"\n}\n\n## Input Images\n\n- Image 1: D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png — approved sample slide 15 STYLE ONLY; Match palette, typography mood and whitespace, not its chart content or exact layout.\n- Image 2: D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\06_concordance_et_local.png — strict input asset: Concordance et diagnostic local; Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved.\n\n\n## Slide\n{\n  \"number\": 17,\n  \"title\": \"Qwen local lit partiellement mais échoue à la validation\",\n  \"role\": \"negative result evidence\",\n  \"intent\": \"Explain the approved outline section clearly with verified project data.\"\n}\n\n## Text\n{\n  \"title\": \"Qwen local lit partiellement mais échoue à la validation\",\n  \"key_points\": [\n    \"Local CPU : 864,54 s, environ 14 min 25 s\",\n    \"34/107 montants bruts corrects\",\n    \"0/107 accepté par le pipeline strict\",\n    \"210 NA incompatibles et une année 3112\"\n  ],\n  \"speaker_focus\": null\n}\n\n## Layout\n{\n  \"composition\": \"Large strict concordance/local figure and a very concise header finding. Distinguish raw partial reading from usable output. Bottom: Regex corrigée, lecture encore insuffisante. Modèle plus fort et recadrages : pistes non validées.\",\n  \"spacing\": \"Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides.\"\n}\n\n## Visual Elements\n{\n  \"main_visual\": \"Large strict concordance/local figure and a very concise header finding. Distinguish raw partial reading from usable output. Bottom: Regex corrigée, lecture encore insuffisante. Modèle plus fort et recadrages : pistes non validées.\"\n}\n\n## Source Image Rules\nImages 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.\n\n## Constraints\n[\n  \"French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.\",\n  \"One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.\",\n  \"Do not use sample content as evidence for this slide. Match its visual identity only.\",\n  \"Keep all required figure data and labels intact. No native/local drawing or text overlays.\"\n]\n\n## Style Reference Rule\nUse Image 1 as the approved sample-slide style reference. Match its palette, typography mood, density, texture, and overall visual identity. Do not copy its exact layout unless this slide's layout explicitly asks for it.\n\n## Input Image Handling Rules\nFor any input image marked as a strict input asset, include it visibly and preserve its content. Do not redraw, replace, relabel, or invent a similar figure. Scale and crop only as needed for composition while keeping the important labels, arrows, data, and relationships recognizable.\n\n## Universal Constraints\n- The final image itself must contain the title and key points.\n- Render Chinese text exactly and legibly; avoid garbled characters.\n- Keep the confirmed deck style consistent while varying layout by slide role.\n- No watermark, unrelated logo, or extra slide number.\n",
+      "out": "slide_17.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\06_concordance_et_local.png",
+          "role": "strict input asset: Concordance et diagnostic local",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "expected_backend": "built-in image tool",
+      "sample_generation_method": {
+        "backend_used": "built-in image tool",
+        "tool_name": "image_gen__imagegen",
+        "mode": "edit",
+        "prompt_source": "sample_prompt.md",
+        "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+        "approved_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+        "size": "16:9 requested, approved image observed 1672x941; no exposed size parameter",
+        "quality": "built-in default; not exposed",
+        "model": "not exposed",
+        "transparent_background": false,
+        "handoff_rule": "Use tools.image_gen__imagegen with referenced_image_paths including the approved sample; inspect each local input using view_image first. Never render locally. Return blocker if this exact path is unavailable."
+      },
+      "generation_contract": {
+        "must_use_selected_image_backend": true,
+        "must_match_sample_generation_method": true,
+        "forbidden_final_image_methods": [
+          "local drawing/rendering scripts",
+          "Pillow-generated slides",
+          "SVG/HTML/CSS/canvas screenshots",
+          "python-pptx/PptxGenJS/native PPT layout screenshots",
+          "manually composited text/image overlays"
+        ],
+        "must_return": [
+          "backend_used",
+          "selected_source",
+          "qa_note"
+        ]
+      }
+    },
+    "19": {
+      "slide": 19,
+      "title": "Confidentialité et choix de déploiement",
+      "prompt": "# Codex PPT Slide Image Prompt\n\n## Canvas\n{\n  \"type\": \"16:9 full-slide PowerPoint image\",\n  \"language\": \"French\",\n  \"slide_number\": 19,\n  \"render_slide_number\": false\n}\n\n## Deck Goal\nDefend the VLM financial document extraction TP in 21 slides, teaching every part and interpreting measured evidence honestly.\n\n## Required Background\n{\n  \"deck_context\": {\n    \"source_summary\": \"One Moroccan balance sheet, 2 pages, closing year 2024; 90 printed lines normalized to 88 canonical items. Minimum JSON has poste, rubrique, montant_net_N and montant_net_N1. Enriched Python pipeline uses catalogue without amounts, Gemini REST and Ollama Qwen3-VL 4B Instruct CPU, strict JSON/schema/business validation, Decimal arithmetic and evaluation against a work reference.\",\n    \"verified_results\": \"Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany.\",\n    \"scope\": \"No independent test corpus or double annotation. Do not claim universal100% reliability or MoE/GPU execution. The reference was used during development. No reference amounts enter model prompts. Web is a separate TypeScript adaptation with different image sizes/contract; its latency is not the Python measurement.\",\n    \"core_claim\": \"Usable extraction combines a visual model, an explicit output contract and independent validation. Explain decisions and preserve negative results.\"\n  },\n  \"slide_local_context\": {\n    \"background_not_to_render_verbatim\": \"\\n\\n- L'anonymisation doit supprimer l'information transmise et pas seulement la masquer dans une couche visuelle.\\n- Pour une API distante : minimisation, conditions du fournisseur, conservation et examen des formalités CNDP applicables.\\n- Le local garde le traitement sur la machine, mais exige aussi contrôle d'accès, gestion des secrets et règles de conservation.\\n- Choix pour ce cas : extraction API validée lorsque son usage est autorisé. La solution locale testée n'atteint pas la qualité requise.\\n- Rôle : point de vue argumenté. Distinguer recommandation technique et validation juridique.\\n- Images sources requises : aucune. Les sources officielles de la loi 09-08 et de la CNDP devront figurer dans les futures notes de cette slide.\\n\\n\",\n    \"content_rule\": \"Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs.\"\n  }\n}\n\n## Global Style\n{\n  \"name\": \"Soutenance claire\",\n  \"visual_direction\": \"White evidence-led university defense; match approved slide 15 palette and typography mood, but vary composition with content. No dashboard-like card grids.\",\n  \"color_palette\": \"white #FFFFFF, navy #142838, teal #137D72, slate #5C6F80, restrained amber #B77216 for caveats; strict supplied plots retain their original colors\",\n  \"typography\": \"Large bold readable French sans-serif titles, short clear body labels, generous whitespace. All accents exact.\",\n  \"texture_and_finish\": \"Flat polished editorial, no 3D props, no invented logos, no slide numbers\"\n}\n\n## Input Images\n\n- Image 1: D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png — approved sample slide 15 STYLE ONLY; Match palette, typography mood and whitespace, not its chart content or exact layout.\n\n\n## Slide\n{\n  \"number\": 19,\n  \"title\": \"Confidentialité et choix de déploiement\",\n  \"role\": \"recommendation\",\n  \"intent\": \"Explain the approved outline section clearly with verified project data.\"\n}\n\n## Text\n{\n  \"title\": \"Confidentialité et choix de déploiement\",\n  \"key_points\": [\n    \"API : minimiser les données et examiner les conditions\",\n    \"CNDP : vérifier les formalités applicables\",\n    \"Local : accès, secrets et conservation maîtrisés\",\n    \"Pour ce cas : API validée si son usage est autorisé\"\n  ],\n  \"speaker_focus\": null\n}\n\n## Layout\n{\n  \"composition\": \"A balanced comparison organized around document flow and a confidentiality boundary, restrained line illustrations. No fake legal certification seal. Bottom caveat: Le local testé n’atteint pas la qualité requise. Une recommandation technique ne vaut pas conformité juridique.\",\n  \"spacing\": \"Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides.\"\n}\n\n## Visual Elements\n{\n  \"main_visual\": \"A balanced comparison organized around document flow and a confidentiality boundary, restrained line illustrations. No fake legal certification seal. Bottom caveat: Le local testé n’atteint pas la qualité requise. Une recommandation technique ne vaut pas conformité juridique.\"\n}\n\n## Source Image Rules\nImages 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.\n\n## Constraints\n[\n  \"French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.\",\n  \"One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.\",\n  \"Do not use sample content as evidence for this slide. Match its visual identity only.\",\n  \"Keep all required figure data and labels intact. No native/local drawing or text overlays.\"\n]\n\n## Style Reference Rule\nUse Image 1 as the approved sample-slide style reference. Match its palette, typography mood, density, texture, and overall visual identity. Do not copy its exact layout unless this slide's layout explicitly asks for it.\n\n## Input Image Handling Rules\nFor any input image marked as a strict input asset, include it visibly and preserve its content. Do not redraw, replace, relabel, or invent a similar figure. Scale and crop only as needed for composition while keeping the important labels, arrows, data, and relationships recognizable.\n\n## Universal Constraints\n- The final image itself must contain the title and key points.\n- Render Chinese text exactly and legibly; avoid garbled characters.\n- Keep the confirmed deck style consistent while varying layout by slide role.\n- No watermark, unrelated logo, or extra slide number.\n",
+      "out": "slide_19.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "expected_backend": "built-in image tool",
+      "sample_generation_method": {
+        "backend_used": "built-in image tool",
+        "tool_name": "image_gen__imagegen",
+        "mode": "edit",
+        "prompt_source": "sample_prompt.md",
+        "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+        "approved_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+        "size": "16:9 requested, approved image observed 1672x941; no exposed size parameter",
+        "quality": "built-in default; not exposed",
+        "model": "not exposed",
+        "transparent_background": false,
+        "handoff_rule": "Use tools.image_gen__imagegen with referenced_image_paths including the approved sample; inspect each local input using view_image first. Never render locally. Return blocker if this exact path is unavailable."
+      },
+      "generation_contract": {
+        "must_use_selected_image_backend": true,
+        "must_match_sample_generation_method": true,
+        "forbidden_final_image_methods": [
+          "local drawing/rendering scripts",
+          "Pillow-generated slides",
+          "SVG/HTML/CSS/canvas screenshots",
+          "python-pptx/PptxGenJS/native PPT layout screenshots",
+          "manually composited text/image overlays"
+        ],
+        "must_return": [
+          "backend_used",
+          "selected_source",
+          "qa_note"
+        ]
+      }
+    },
+    "21": {
+      "slide": 21,
+      "title": "Conclusion, limites et suite du projet",
+      "prompt": "# Codex PPT Slide Image Prompt\n\n## Canvas\n{\n  \"type\": \"16:9 full-slide PowerPoint image\",\n  \"language\": \"French\",\n  \"slide_number\": 21,\n  \"render_slide_number\": false\n}\n\n## Deck Goal\nDefend the VLM financial document extraction TP in 21 slides, teaching every part and interpreting measured evidence honestly.\n\n## Required Background\n{\n  \"deck_context\": {\n    \"source_summary\": \"One Moroccan balance sheet, 2 pages, closing year 2024; 90 printed lines normalized to 88 canonical items. Minimum JSON has poste, rubrique, montant_net_N and montant_net_N1. Enriched Python pipeline uses catalogue without amounts, Gemini REST and Ollama Qwen3-VL 4B Instruct CPU, strict JSON/schema/business validation, Decimal arithmetic and evaluation against a work reference.\",\n    \"verified_results\": \"Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany.\",\n    \"scope\": \"No independent test corpus or double annotation. Do not claim universal100% reliability or MoE/GPU execution. The reference was used during development. No reference amounts enter model prompts. Web is a separate TypeScript adaptation with different image sizes/contract; its latency is not the Python measurement.\",\n    \"core_claim\": \"Usable extraction combines a visual model, an explicit output contract and independent validation. Explain decisions and preserve negative results.\"\n  },\n  \"slide_local_context\": {\n    \"background_not_to_render_verbatim\": \"\\n\\n- L'extraction devient exploitable quand le contrat JSON, les contrôles et l'évaluation accompagnent le modèle.\\n- Sur le bilan fourni : solution API validée et échec local documenté. Le notebook, les JSON et les journaux permettent de vérifier le travail.\\n- Limites principales : un seul bilan, référence utilisée en développement, absence de double annotation et local CPU dense.\\n- Suite proposée : corpus indépendant multi-entreprises, double annotation, matériel local adapté et mesure des coûts réels.\\n- Rôle : conclusion personnelle fondée sur les preuves et ouverture aux questions. Aucun résultat futur annoncé comme acquis.\\n- Images sources requises : aucune.\\n\",\n    \"content_rule\": \"Render only the title, concise key_points and necessary diagram labels. Background explains facts and caveats, not extra body paragraphs.\"\n  }\n}\n\n## Global Style\n{\n  \"name\": \"Soutenance claire\",\n  \"visual_direction\": \"White evidence-led university defense; match approved slide 15 palette and typography mood, but vary composition with content. No dashboard-like card grids.\",\n  \"color_palette\": \"white #FFFFFF, navy #142838, teal #137D72, slate #5C6F80, restrained amber #B77216 for caveats; strict supplied plots retain their original colors\",\n  \"typography\": \"Large bold readable French sans-serif titles, short clear body labels, generous whitespace. All accents exact.\",\n  \"texture_and_finish\": \"Flat polished editorial, no 3D props, no invented logos, no slide numbers\"\n}\n\n## Input Images\n\n- Image 1: D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png — approved sample slide 15 STYLE ONLY; Match palette, typography mood and whitespace, not its chart content or exact layout.\n\n\n## Slide\n{\n  \"number\": 21,\n  \"title\": \"Conclusion, limites et suite du projet\",\n  \"role\": \"conclusion\",\n  \"intent\": \"Explain the approved outline section clearly with verified project data.\"\n}\n\n## Text\n{\n  \"title\": \"Conclusion, limites et suite du projet\",\n  \"key_points\": [\n    \"Une extraction fiable exige modèle et contrôles\",\n    \"API validée sur le bilan fourni\",\n    \"Local testé, résultat négatif conservé\",\n    \"Suite : corpus indépendant et double annotation\"\n  ],\n  \"speaker_focus\": null\n}\n\n## Layout\n{\n  \"composition\": \"A spacious closing statement and a compact visual journey from document to verified JSON. Main conclusion prominent, lower limits: Un bilan unique, référence utilisée en développement, local CPU dense. Natural closing Questions. Do not invent future results.\",\n  \"spacing\": \"Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides.\"\n}\n\n## Visual Elements\n{\n  \"main_visual\": \"A spacious closing statement and a compact visual journey from document to verified JSON. Main conclusion prominent, lower limits: Un bilan unique, référence utilisée en développement, local CPU dense. Natural closing Questions. Do not invent future results.\"\n}\n\n## Source Image Rules\nImages 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.\n\n## Constraints\n[\n  \"French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.\",\n  \"One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.\",\n  \"Do not use sample content as evidence for this slide. Match its visual identity only.\",\n  \"Keep all required figure data and labels intact. No native/local drawing or text overlays.\"\n]\n\n## Style Reference Rule\nUse Image 1 as the approved sample-slide style reference. Match its palette, typography mood, density, texture, and overall visual identity. Do not copy its exact layout unless this slide's layout explicitly asks for it.\n\n## Input Image Handling Rules\nFor any input image marked as a strict input asset, include it visibly and preserve its content. Do not redraw, replace, relabel, or invent a similar figure. Scale and crop only as needed for composition while keeping the important labels, arrows, data, and relationships recognizable.\n\n## Universal Constraints\n- The final image itself must contain the title and key points.\n- Render Chinese text exactly and legibly; avoid garbled characters.\n- Keep the confirmed deck style consistent while varying layout by slide role.\n- No watermark, unrelated logo, or extra slide number.\n",
+      "out": "slide_21.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "expected_backend": "built-in image tool",
+      "sample_generation_method": {
+        "backend_used": "built-in image tool",
+        "tool_name": "image_gen__imagegen",
+        "mode": "edit",
+        "prompt_source": "sample_prompt.md",
+        "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+        "approved_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+        "size": "16:9 requested, approved image observed 1672x941; no exposed size parameter",
+        "quality": "built-in default; not exposed",
+        "model": "not exposed",
+        "transparent_background": false,
+        "handoff_rule": "Use tools.image_gen__imagegen with referenced_image_paths including the approved sample; inspect each local input using view_image first. Never render locally. Return blocker if this exact path is unavailable."
+      },
+      "generation_contract": {
+        "must_use_selected_image_backend": true,
+        "must_match_sample_generation_method": true,
+        "forbidden_final_image_methods": [
+          "local drawing/rendering scripts",
+          "Pillow-generated slides",
+          "SVG/HTML/CSS/canvas screenshots",
+          "python-pptx/PptxGenJS/native PPT layout screenshots",
+          "manually composited text/image overlays"
+        ],
+        "must_return": [
+          "backend_used",
+          "selected_source",
+          "qa_note"
+        ]
+      }
+    }
+  }
+}

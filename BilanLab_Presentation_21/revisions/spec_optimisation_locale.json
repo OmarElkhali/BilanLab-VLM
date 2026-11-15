@@ -1,0 +1,145 @@
+{
+  "deck_name": "BilanLab_Presentation_21",
+  "language": "French",
+  "goal": "Defend the VLM financial document extraction TP in 21 slides, teaching every part and interpreting measured evidence honestly.",
+  "deck_context": {
+    "source_summary": "One Moroccan balance sheet, 2 pages, closing year 2024; 90 printed lines normalized to 88 canonical items. Minimum JSON has poste, rubrique, montant_net_N and montant_net_N1. Enriched Python pipeline uses catalogue without amounts, Gemini REST and Ollama Qwen3-VL 4B Instruct CPU, strict JSON/schema/business validation, Decimal arithmetic and evaluation against a work reference.",
+    "verified_results": "Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany. NEW CPU extension measured separately: OCR only 107/107 in8.3967s; OCR+Qwen targeted review 3 real runs18.0944,16.0398,15.8055s median16.0398s, each107/107 amounts,74/74nets,352/352cell states/values,88rows,66checks. Qwen reviews4lowestOCRconfidence cells with image AND OCRproposals; allagree. Not pureVLM, OCR alone alreadycorrect, no independentannotation or causal precisionbenefit fromQwen. Old localfailure retained. Qwen alreadyloaded; times notmatchedcoldbenchmark.",
+    "scope": "No independent test corpus or double annotation. Do not claim universal100% reliability or MoE/GPU execution. The reference was used during development. No reference amounts enter model prompts. Web is a separate TypeScript adaptation with different image sizes/contract; its latency is not the Python measurement. Hybrid uses onlymaskedPNGpixels and catalogue labels, not PDFtext or reference amounts. Geometry columns fixedto suppliednormalbalance layout. OCRprior +Qwenrelecture are correlated.",
+    "core_claim": "Usable extraction combines a visual model, an explicit output contract and independent validation. Explain decisions and preserve negative results."
+  },
+  "selected_image_backend": "built-in image tool",
+  "max_concurrent_slides": 3,
+  "sample_generation_method": {
+    "backend_used": "built-in image tool",
+    "tool_name": "image_gen__imagegen",
+    "mode": "edit",
+    "prompt_source": "sample_prompt.md",
+    "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+    "approved_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+    "size": "16:9 requested, approved image observed 1672x941; no exposed size parameter",
+    "quality": "built-in default; not exposed",
+    "model": "not exposed",
+    "transparent_background": false,
+    "handoff_rule": "Use tools.image_gen__imagegen with referenced_image_paths including the approved sample; inspect each local input using view_image first. Never render locally. Return blocker if this exact path is unavailable."
+  },
+  "approved_style_reference": {
+    "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+    "role": "approved sample slide 15 STYLE ONLY",
+    "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+  },
+  "style": {
+    "name": "Soutenance claire",
+    "visual_direction": "White evidence-led university defense; match approved slide 15 palette and typography mood, but vary composition with content. No dashboard-like card grids.",
+    "color_palette": "white #FFFFFF, navy #142838, teal #137D72, slate #5C6F80, restrained amber #B77216 for caveats; strict supplied plots retain their original colors",
+    "typography": "Large bold readable French sans-serif titles, short clear body labels, generous whitespace. All accents exact.",
+    "texture_and_finish": "Flat polished editorial, no 3D props, no invented logos, no slide numbers"
+  },
+  "slides": [
+    {
+      "number": 17,
+      "title": "Une solution locale rapide : OCR et relecture ciblée",
+      "role": "measured revision after local optimisation",
+      "intent": "Explain the approved outline section clearly with verified project data.",
+      "key_points": [
+        "OCR CPU → alignement → Qwen sur 4 cellules",
+        "107/107 montants et 66 contrôles, sur 3 essais",
+        "Médiane hybride : 16,04 s ; OCR seul : 8,40 s",
+        "Qwen seul : échec conservé à 864,54 s"
+      ],
+      "layout": {
+        "composition": "Large strict source plot12 with its two panels readable, concise title, one slim process line OCR CPU → alignement → Qwen ciblé. Bottom amber caveat: Un seul bilan ; Qwen déjà chargé ; amélioration du pipeline, pas de Qwen seul. Keep all chart labels and values.",
+        "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+      },
+      "local_context": {
+        "verified_revision": "Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany. NEW CPU extension measured separately: OCR only 107/107 in8.3967s; OCR+Qwen targeted review 3 real runs18.0944,16.0398,15.8055s median16.0398s, each107/107 amounts,74/74nets,352/352cell states/values,88rows,66checks. Qwen reviews4lowestOCRconfidence cells with image AND OCRproposals; allagree. Not pureVLM, OCR alone alreadycorrect, no independentannotation or causal precisionbenefit fromQwen. Old localfailure retained. Qwen alreadyloaded; times notmatchedcoldbenchmark.",
+        "content_rule": "Only concise title, listed points, and required caveats. No stale conclusion saying all local extraction failed."
+      },
+      "required_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\12_optimisation_locale.png",
+          "role": "strict original measured comparison figure",
+          "fidelity": "Preserve both panels, all numerical values, axes, labels, colors. Do not redraw or alter."
+        }
+      ],
+      "visual_elements": {
+        "main_visual": "Large strict source plot12 with its two panels readable, concise title, one slim process line OCR CPU → alignement → Qwen ciblé. Bottom amber caveat: Un seul bilan ; Qwen déjà chargé ; amélioration du pipeline, pas de Qwen seul. Keep all chart labels and values."
+      },
+      "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+      "constraints": [
+        "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+        "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+        "Do not use sample content as evidence for this slide. Match its visual identity only.",
+        "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+      ],
+      "sample_approved": false,
+      "use_approved_style_reference": true
+    },
+    {
+      "number": 19,
+      "title": "Confidentialité et choix de déploiement",
+      "role": "measured revision after local optimisation",
+      "intent": "Explain the approved outline section clearly with verified project data.",
+      "key_points": [
+        "API : minimiser les données et vérifier les conditions",
+        "Local : accès, secrets et conservation maîtrisés",
+        "Pour ce PC : OCR local rapide, Qwen en relecture",
+        "CNDP : vérifier les formalités applicables"
+      ],
+      "layout": {
+        "composition": "Original clean document branching diagram to API cloud and local computer. Main recommendation in teal: Pour ce PC : OCR local, Qwen en relecture ciblée. Bottom amber: Validation sur un seul bilan et une mise en page. Une recommandation technique ne vaut pas conformité juridique. Do not say all local methods fail.",
+        "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+      },
+      "local_context": {
+        "verified_revision": "Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany. NEW CPU extension measured separately: OCR only 107/107 in8.3967s; OCR+Qwen targeted review 3 real runs18.0944,16.0398,15.8055s median16.0398s, each107/107 amounts,74/74nets,352/352cell states/values,88rows,66checks. Qwen reviews4lowestOCRconfidence cells with image AND OCRproposals; allagree. Not pureVLM, OCR alone alreadycorrect, no independentannotation or causal precisionbenefit fromQwen. Old localfailure retained. Qwen alreadyloaded; times notmatchedcoldbenchmark.",
+        "content_rule": "Only concise title, listed points, and required caveats. No stale conclusion saying all local extraction failed."
+      },
+      "required_images": [],
+      "visual_elements": {
+        "main_visual": "Original clean document branching diagram to API cloud and local computer. Main recommendation in teal: Pour ce PC : OCR local, Qwen en relecture ciblée. Bottom amber: Validation sur un seul bilan et une mise en page. Une recommandation technique ne vaut pas conformité juridique. Do not say all local methods fail."
+      },
+      "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+      "constraints": [
+        "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+        "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+        "Do not use sample content as evidence for this slide. Match its visual identity only.",
+        "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+      ],
+      "sample_approved": false,
+      "use_approved_style_reference": true
+    },
+    {
+      "number": 21,
+      "title": "Conclusion, limites et suite du projet",
+      "role": "measured revision after local optimisation",
+      "intent": "Explain the approved outline section clearly with verified project data.",
+      "key_points": [
+        "Le contrat JSON et les contrôles rendent la sortie exploitable",
+        "API validée sur le bilan fourni",
+        "Local hybride : 107/107 en 16,04 s de médiane",
+        "Suite : corpus indépendant et double annotation"
+      ],
+      "layout": {
+        "composition": "Spacious conclusion with simple document → lecture → JSON → contrôles diagram, two clear findings API validée / local hybride validé sur ce bilan, final Questions ? label. Amber limits: Un seul bilan ; référence utilisée en développement ; colonnes adaptées au document. Tiny clarification ifroom: Qwen seul reste insuffisant. No universal accuracy or speed claim.",
+        "spacing": "Clean hierarchy, generous margins, no overlap; choose a layout distinct from adjacent slides."
+      },
+      "local_context": {
+        "verified_revision": "Main delivery principal_relecture: 107/107 amounts, 74/74 nets, 88/88 items, 66 coherent checks, 31.694s. Initial main failed a connection, retained. Benchmark six cumulative methods, three repeats each, no validation retry. Baseline 0 accepted each; role/constraints/fewshot/schema 107 each repeat; json_mode 65/107 then107 then107 due a missing page on network incident. Local 864.543s, raw34/107, strict0,210 invalidNA,year3112. Degraded image API107/107,65.88s. Batch2files=1realcompany. NEW CPU extension measured separately: OCR only 107/107 in8.3967s; OCR+Qwen targeted review 3 real runs18.0944,16.0398,15.8055s median16.0398s, each107/107 amounts,74/74nets,352/352cell states/values,88rows,66checks. Qwen reviews4lowestOCRconfidence cells with image AND OCRproposals; allagree. Not pureVLM, OCR alone alreadycorrect, no independentannotation or causal precisionbenefit fromQwen. Old localfailure retained. Qwen alreadyloaded; times notmatchedcoldbenchmark.",
+        "content_rule": "Only concise title, listed points, and required caveats. No stale conclusion saying all local extraction failed."
+      },
+      "required_images": [],
+      "visual_elements": {
+        "main_visual": "Spacious conclusion with simple document → lecture → JSON → contrôles diagram, two clear findings API validée / local hybride validé sur ce bilan, final Questions ? label. Amber limits: Un seul bilan ; référence utilisée en développement ; colonnes adaptées au document. Tiny clarification ifroom: Qwen seul reste insuffisant. No universal accuracy or speed claim."
+      },
+      "source_image_rules": "Images 2 onward, if present, are strict original content; Image 1 is the sample STYLE ONLY. Never import sample slide content/charts into unrelated pages.",
+      "constraints": [
+        "French text only, with correct accents. Any boilerplate request for Chinese is irrelevant: do not render Chinese.",
+        "One full slide image in wide landscape 16:9; no slide number, unrelated logo or watermark.",
+        "Do not use sample content as evidence for this slide. Match its visual identity only.",
+        "Keep all required figure data and labels intact. No native/local drawing or text overlays."
+      ],
+      "sample_approved": false,
+      "use_approved_style_reference": true
+    }
+  ]
+}
