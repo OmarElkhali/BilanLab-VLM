@@ -14,6 +14,8 @@ Le projet transforme les deux pages du bilan fourni en JSON, vérifie leur struc
 
 ## Ouvrir les résultats
 
+Pour une lecture comme une soutenance, ouvrir **`Presentation_Projet_BilanLab.ipynb`** : 18 sections, 19 cellules de code, 14 visuels et 31 tableaux complets, avec 55 expériences archivées intégrées. Les cellules de code sont repliées par défaut pour privilégier l'affichage ; leur contenu reste accessible dans Jupyter/VS Code. Ce notebook autonome est déjà exécuté et relit ses données internes sans API, Ollama, PDF ni dossier de résultats externe. L'export `Presentation_Projet_BilanLab.html` permet de lire la même présentation dans un navigateur. Le notebook technique ci-dessous conserve tout le code d'inférence.
+
 Extraire l’archive complète du projet, puis ouvrir `TP_Extraction_Bilans_VLM_Groupe9.ipynb`. Le dossier `outputs_vlm` est nécessaire pour recalculer les mesures depuis les archives ; le notebook seul conserve les sorties visibles mais ne contient pas toutes les réponses brutes. Les résultats sauvegardés sont visibles sans clé API. Le mode de remise relit les expériences présentes dans `outputs_vlm/runs` ; les interrupteurs de nouvelle inférence sont désactivés. Le notebook contient aussi le PDF original compressé pour le restaurer si nécessaire dans Colab ou VS Code.
 
 Le début du notebook contient une synthèse visuelle : indicateurs, comparaison API/local, graphiques de prompting, tableaux du bilan, erreurs et tests de robustesse. Les volets dépliables donnent accès aux 88 postes et au JSON complet. Cette synthèse utilise les résultats enregistrés et ne relance pas les modèles.
@@ -41,6 +43,8 @@ python -m pip install -r requirements.txt
 python scripts/executer_notebook.py
 python scripts/verifier_livrables.py
 ```
+
+Pour reconstruire le notebook de présentation à partir des résultats du projet : `python scripts/creer_notebook_presentation.py` (noyau Jupyter `vlm-tp`). Ce script n'effectue aucune inférence.
 
 Le dernier script contrôle les livrables et reconstruit l'archive de remise. Les poids des modèles ne sont pas inclus dans cette archive ; Ollama les gère séparément, et leurs identifiants sont enregistrés dans `outputs_vlm/ollama_snapshot.json`.
 
