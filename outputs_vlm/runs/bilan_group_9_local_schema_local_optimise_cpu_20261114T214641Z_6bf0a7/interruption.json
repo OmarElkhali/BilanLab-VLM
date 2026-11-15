@@ -1,0 +1,5 @@
+{
+  "statut": "interrompu_pour_changement_de_variante",
+  "motif": "Variante thinking : encodage de l image r?duite observ? ? 27.363 s, g?n?ration autour de 3.4 tokens/s et prompt trop volumineux. Reprise sur variante Instruct t?l?charg?e et sch?ma natif sans r?p?tition dans le prompt. Aucun score attribu? ? l essai interrompu.",
+  "utc": "2026-11-14T21:57:37.789763+00:00"
+}

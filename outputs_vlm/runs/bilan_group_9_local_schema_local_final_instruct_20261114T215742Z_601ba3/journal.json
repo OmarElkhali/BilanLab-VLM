@@ -1,0 +1,58 @@
+[
+  {
+    "backend": "local",
+    "variant": "schema",
+    "page": 1,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": false,
+    "accepte": false,
+    "image_sha256": "1c391628331564638d652d65b7899ee4e8ad9569dd136810bb1ffaa7b7e3fc40",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_local_schema_local_final_instruct_20261114T215742Z_601ba3",
+    "finish_reason": "stop",
+    "seconds": 122.20286489999853,
+    "http_attempts": 1,
+    "input_tokens": 2671,
+    "output_tokens": 121,
+    "thought_tokens": 0,
+    "load_seconds": 24.4361615,
+    "model_version": "qwen3-vl:4b-instruct",
+    "local_transport": "map_v3",
+    "actual_image_size": [
+      990,
+      1400
+    ],
+    "actual_image_fichier": "outputs_vlm\\images_local\\53d5d8359f9e522ef7b57efe3f215a21b4e7a4f033e6b3545eab58da5288cc27.png",
+    "actual_image_sha256": "53d5d8359f9e522ef7b57efe3f215a21b4e7a4f033e6b3545eab58da5288cc27",
+    "erreur": "'A_TOTAL' is a required property",
+    "wall_seconds": 123.1032875000019
+  },
+  {
+    "backend": "local",
+    "variant": "schema",
+    "page": 2,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": false,
+    "accepte": false,
+    "image_sha256": "dc15802621fe7975e7971647765e9955c392168e7b92a98981fe7c7f27929641",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_local_schema_local_final_instruct_20261114T215742Z_601ba3",
+    "finish_reason": "stop",
+    "seconds": 305.55927879999945,
+    "http_attempts": 1,
+    "input_tokens": 2488,
+    "output_tokens": 1009,
+    "thought_tokens": 0,
+    "load_seconds": 3.3253371,
+    "model_version": "qwen3-vl:4b-instruct",
+    "local_transport": "map_v3",
+    "actual_image_size": [
+      990,
+      1400
+    ],
+    "actual_image_fichier": "outputs_vlm\\images_local\\5bad3271c77d6d074ce35c958d5b128afb6d52c69d75319438f6927d710c6fe0.png",
+    "actual_image_sha256": "5bad3271c77d6d074ce35c958d5b128afb6d52c69d75319438f6927d710c6fe0",
+    "erreur": "'BILAN (PASSIF)' is not one of ['passif']",
+    "wall_seconds": 306.0297941000026
+  }
+]

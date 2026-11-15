@@ -1,0 +1,34 @@
+[
+  {
+    "backend": "api",
+    "variant": "schema",
+    "page": 1,
+    "attempt": 1,
+    "syntaxe_json": false,
+    "schema_valide": false,
+    "accepte": false,
+    "image_sha256": "a638978bfbb9d8e2f6505021cc4ddb02f4a79a90570fd29f417a934825059768",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_schema_scan_degrade_final_20261114T213541Z_7e1516",
+    "erreur": "HTTP 400. Vérifier clé/quota/modèle/schéma sans exposer la clé.",
+    "wall_seconds": 5.4501084000003175
+  },
+  {
+    "backend": "api",
+    "variant": "schema",
+    "page": 2,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "5e53567494a57a98b9ca0588fb6d104840a4420481e21a3909768642db1129a0",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_schema_scan_degrade_final_20261114T213541Z_7e1516",
+    "finish_reason": "STOP",
+    "seconds": 8.767652700000326,
+    "http_attempts": 1,
+    "input_tokens": 2859,
+    "output_tokens": 1508,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 8.823481100000208
+  }
+]

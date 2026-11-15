@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "strategie": "Fichiers obsoletes retires du projet et archives de facon reversible hors du depot",
+  "archive_locale": "%LOCALAPPDATA%/BilanLab_archives/2026-11-15",
+  "fichiers_retires": [
+    "scripts/enrichir_notebook.py",
+    "outputs_vlm/revisions/notebook_avant_audit.ipynb",
+    "BilanLab_Presentation_21/prepare_deck.py",
+    "webapp/outputs/bilanlab-site.tar.gz"
+  ],
+  "historique_git_webapp": "Sauvegarde hors projet ; le projet complet utilise maintenant un seul depot racine",
+  "conserves": "Sources, preuves experimentales, essais negatifs, figures, presentation et notes",
+  "exclus_github": "Environnements, dependances installees, caches de construction, secrets et ZIP de remise redondant",
+  "restriction": "Suppression definitive refusee par le controle automatique ; archivage reversible utilise"
+}

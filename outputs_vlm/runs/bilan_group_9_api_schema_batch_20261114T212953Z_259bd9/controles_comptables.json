@@ -1,0 +1,660 @@
+[
+  {
+    "controle": "somme_enfants",
+    "id": "A_TOTAL",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_TOTAL",
+    "colonne": "montant_amort_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_TOTAL",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_TOTAL",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_TOTAL",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_I",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_I",
+    "colonne": "montant_amort_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_I",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_I",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_I",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_A",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_A",
+    "colonne": "montant_amort_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_A",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_A",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_A",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_A1",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_A2",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_A3",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_B",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_B",
+    "colonne": "montant_amort_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_B",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_B",
+    "colonne": "montant_net_N1",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_B",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_B1",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_B2",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_B3",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_B4",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_C",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_C",
+    "colonne": "montant_amort_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_C",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_C",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C1",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C2",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C3",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C4",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C5",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C6",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_C7",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_D",
+    "colonne": "montant_brut_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_D",
+    "colonne": "montant_amort_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_D",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_D",
+    "colonne": "montant_net_N1",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_D",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_D1",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_D2",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_D3",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_D4",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_E",
+    "colonne": "montant_brut_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_E",
+    "colonne": "montant_amort_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_E",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_E",
+    "colonne": "montant_net_N1",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_E",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_E1",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_E2",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_II",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_II",
+    "colonne": "montant_amort_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_II",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_II",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_II",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_F",
+    "colonne": "montant_brut_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_F",
+    "colonne": "montant_amort_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_F",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_F",
+    "colonne": "montant_net_N1",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_F",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_F1",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_F2",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_F3",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_F4",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_F5",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_G",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_G",
+    "colonne": "montant_amort_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_G",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_G",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G1",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G2",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G3",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G4",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G5",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G6",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_G7",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_H",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_J",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_III",
+    "colonne": "montant_brut_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_III",
+    "colonne": "montant_amort_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_III",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "A_III",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_III",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_T1",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_T2",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "brut_moins_amort",
+    "id": "A_T3",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "actif_egal_passif",
+    "id": "document",
+    "colonne": "montant_net_N",
+    "statut": "indetermine",
+    "ecart": null
+  },
+  {
+    "controle": "actif_egal_passif",
+    "id": "document",
+    "colonne": "montant_net_N1",
+    "statut": "indetermine",
+    "ecart": null
+  }
+]

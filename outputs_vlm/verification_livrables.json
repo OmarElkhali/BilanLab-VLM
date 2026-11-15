@@ -1,0 +1,20 @@
+{
+  "statut": "OK",
+  "cellules_code_executees": 52,
+  "erreurs_notebook": 0,
+  "lignes_reference": 88,
+  "montants_strictement_exacts": 107,
+  "controles_comptables_ok": 66,
+  "entrees_lot_reussies": 2,
+  "bilans_reels_distincts": 1,
+  "experiences_archivees": 55,
+  "essais_benchmark_courants": 18,
+  "figures_supplementaires": 11,
+  "schema_minimal_tp": true,
+  "export_html_autonome": true,
+  "cle_api_incluse": false,
+  "local_hybride_median_s": 16.03980439999941,
+  "local_hybride_montants_exacts": 107,
+  "local_hybride_essais": 3,
+  "limite_locale": "Qwen seul negatif conserve ; hybride OCR + Qwen exact sur un seul bilan, Qwen deja charge"
+}

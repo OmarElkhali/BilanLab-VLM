@@ -1,0 +1,16 @@
+{
+  "campagne": "verification_20261115T083627Z",
+  "essais_benchmark": 18,
+  "tentatives_courantes": 48,
+  "figures_supplementaires": 11,
+  "json_minimal_present": true,
+  "bilans_reels_distincts": 1,
+  "diversite_multi_entreprises": false,
+  "montants_principal_corrects": 107,
+  "limites": [
+    "Référence non indépendante",
+    "Un seul bilan réel",
+    "Local CPU et modèle dense",
+    "Coût local non mesuré"
+  ]
+}

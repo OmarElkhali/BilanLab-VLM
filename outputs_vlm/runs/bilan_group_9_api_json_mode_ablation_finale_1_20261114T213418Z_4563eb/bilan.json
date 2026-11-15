@@ -1,0 +1,1544 @@
+{
+  "source_sha256": "794d9172b8ac0aa368241932231bcc6a85204a15843f46a85a923cdcaebcc0fa",
+  "source_fichier": "bilan_group_9.pdf",
+  "backend": "api",
+  "modele": "gemini-3.1-flash-lite",
+  "variant": "json_mode",
+  "label": "ablation_finale_1",
+  "utc": "20261114T213418Z",
+  "environment": {
+    "pymupdf": "1.28.2",
+    "Pillow": "10.3.0",
+    "requests": "2.31.0",
+    "jsonschema": "4.23.0",
+    "pandas": "2.2.2",
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "transport": "compact_v2",
+  "execution_host": "test",
+  "dpi": 200,
+  "contrast": false,
+  "catalogue_sha256": "ba4854d6f1c61c45ad840e155854a13a872a2d5a13bc209e83001ea16ed2da4e",
+  "document_complet": true,
+  "pages": [
+    {
+      "page": 1,
+      "nature": "actif",
+      "exercice_N": 2024,
+      "unite": "inconnue",
+      "preuve_unite": "",
+      "avertissements": [],
+      "lignes": [
+        {
+          "id": "A_TOTAL",
+          "parent_id": null,
+          "poste": "TOTAL I+II+III",
+          "rubrique": "actif",
+          "type_ligne": "total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "23758226.56",
+          "montant_amort_N": "3055930.09",
+          "montant_net_N": "20702296.47",
+          "montant_net_N1": "21253217.96"
+        },
+        {
+          "id": "A_I",
+          "parent_id": "A_TOTAL",
+          "poste": "TOTAL I actif immobilisé",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "3605004.45",
+          "montant_amort_N": "3055930.09",
+          "montant_net_N": "549074.36",
+          "montant_net_N1": "668280.43"
+        },
+        {
+          "id": "A_A",
+          "parent_id": "A_I",
+          "poste": "Immobilisations en non-valeurs",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "226804.00",
+          "montant_amort_N": "224560.25",
+          "montant_net_N": "2243.75",
+          "montant_net_N1": "2243.75"
+        },
+        {
+          "id": "A_A1",
+          "parent_id": "A_A",
+          "poste": "Frais préliminaires",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": "8206.00",
+          "montant_amort_N": "8206.00",
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_A2",
+          "parent_id": "A_A",
+          "poste": "Charges à répartir sur plusieurs exercices",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "218598.00",
+          "montant_amort_N": "216354.25",
+          "montant_net_N": "2243.75",
+          "montant_net_N1": "2243.75"
+        },
+        {
+          "id": "A_A3",
+          "parent_id": "A_A",
+          "poste": "Primes de remboursement des obligations",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_B",
+          "parent_id": "A_I",
+          "poste": "Immobilisations incorporelles",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": "15600.00",
+          "montant_amort_N": "15600.00",
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_B1",
+          "parent_id": "A_B",
+          "poste": "Immobilisations en recherche et développement",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_B2",
+          "parent_id": "A_B",
+          "poste": "Brevets, marques, droits et valeurs similaires",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": "15600.00",
+          "montant_amort_N": "15600.00",
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_B3",
+          "parent_id": "A_B",
+          "poste": "Fonds commercial",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_B4",
+          "parent_id": "A_B",
+          "poste": "Autres immobilisations incorporelles",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_C",
+          "parent_id": "A_I",
+          "poste": "Immobilisations corporelles",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "3362600.45",
+          "montant_amort_N": "2815769.84",
+          "montant_net_N": "546830.61",
+          "montant_net_N1": "666036.68"
+        },
+        {
+          "id": "A_C1",
+          "parent_id": "A_C",
+          "poste": "Terrains",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_C2",
+          "parent_id": "A_C",
+          "poste": "Constructions",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "2476201.66",
+          "montant_amort_N": "1978700.24",
+          "montant_net_N": "497501.42",
+          "montant_net_N1": "614626.42"
+        },
+        {
+          "id": "A_C3",
+          "parent_id": "A_C",
+          "poste": "Installations techniques, matériel et outillage",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": "23187.60",
+          "montant_amort_N": "23187.60",
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_C4",
+          "parent_id": "A_C",
+          "poste": "Matériel de transport",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": "551457.34",
+          "montant_amort_N": "551457.34",
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_C5",
+          "parent_id": "A_C",
+          "poste": "Mobilier, matériel de bureau et aménagements",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "lu",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "311753.85",
+          "montant_amort_N": "262424.66",
+          "montant_net_N": "49329.19",
+          "montant_net_N1": "51410.26"
+        },
+        {
+          "id": "A_C6",
+          "parent_id": "A_C",
+          "poste": "Autres immobilisations corporelles",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_C7",
+          "parent_id": "A_C",
+          "poste": "Immobilisations corporelles en cours",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_D",
+          "parent_id": "A_I",
+          "poste": "Immobilisations financières",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_D1",
+          "parent_id": "A_D",
+          "poste": "Prêts immobilisés",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_D2",
+          "parent_id": "A_D",
+          "poste": "Autres créances financières",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_D3",
+          "parent_id": "A_D",
+          "poste": "Titres de participation",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_D4",
+          "parent_id": "A_D",
+          "poste": "Autres titres immobilisés",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_E",
+          "parent_id": "A_I",
+          "poste": "Écart de conversion actif immobilisé",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_E1",
+          "parent_id": "A_E",
+          "poste": "Diminution des créances immobilisées",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_E2",
+          "parent_id": "A_E",
+          "poste": "Augmentation des dettes de financement",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_II",
+          "parent_id": "A_TOTAL",
+          "poste": "TOTAL II actif circulant hors trésorerie",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "18311788.75",
+          "montant_amort_N": null,
+          "montant_net_N": "18311788.75",
+          "montant_net_N1": "18820979.82"
+        },
+        {
+          "id": "A_F",
+          "parent_id": "A_II",
+          "poste": "Stocks",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_F1",
+          "parent_id": "A_F",
+          "poste": "Marchandises",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_F2",
+          "parent_id": "A_F",
+          "poste": "Matières et fournitures consommables",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_F3",
+          "parent_id": "A_F",
+          "poste": "Produits en cours",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_F4",
+          "parent_id": "A_F",
+          "poste": "Produits intermédiaires et produits résiduels",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_F5",
+          "parent_id": "A_F",
+          "poste": "Produits finis",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_G",
+          "parent_id": "A_II",
+          "poste": "Créances de l'actif circulant",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "18311788.75",
+          "montant_amort_N": null,
+          "montant_net_N": "18311788.75",
+          "montant_net_N1": "18820979.82"
+        },
+        {
+          "id": "A_G1",
+          "parent_id": "A_G",
+          "poste": "Fournisseurs débiteurs, avances et acomptes",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "1619.34",
+          "montant_amort_N": null,
+          "montant_net_N": "1619.34",
+          "montant_net_N1": "1619.34"
+        },
+        {
+          "id": "A_G2",
+          "parent_id": "A_G",
+          "poste": "Clients et comptes rattachés",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "18300692.45",
+          "montant_amort_N": null,
+          "montant_net_N": "18300692.45",
+          "montant_net_N1": "18556410.52"
+        },
+        {
+          "id": "A_G3",
+          "parent_id": "A_G",
+          "poste": "Personnel débiteur",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "7.96",
+          "montant_amort_N": null,
+          "montant_net_N": "7.96",
+          "montant_net_N1": "7.96"
+        },
+        {
+          "id": "A_G4",
+          "parent_id": "A_G",
+          "poste": "État débiteur",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "9469.00",
+          "montant_amort_N": null,
+          "montant_net_N": "9469.00",
+          "montant_net_N1": "262942.00"
+        },
+        {
+          "id": "A_G5",
+          "parent_id": "A_G",
+          "poste": "Comptes d'associés débiteurs",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_G6",
+          "parent_id": "A_G",
+          "poste": "Autres débiteurs",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_G7",
+          "parent_id": "A_G",
+          "poste": "Comptes de régularisation actif",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_H",
+          "parent_id": "A_II",
+          "poste": "Titres et valeurs de placement",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_J",
+          "parent_id": "A_II",
+          "poste": "Écarts de conversion actif circulant",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_III",
+          "parent_id": "A_TOTAL",
+          "poste": "TOTAL III trésorerie actif",
+          "rubrique": "actif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "1841433.36",
+          "montant_amort_N": null,
+          "montant_net_N": "1841433.36",
+          "montant_net_N1": "1763957.71"
+        },
+        {
+          "id": "A_T1",
+          "parent_id": "A_III",
+          "poste": "Chèques et valeurs à encaisser",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "vide",
+            "montant_amort_N": "vide",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "A_T2",
+          "parent_id": "A_III",
+          "poste": "Banques, T.G. et C.P. débiteurs",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "1747266.28",
+          "montant_amort_N": null,
+          "montant_net_N": "1747266.28",
+          "montant_net_N1": "1321826.25"
+        },
+        {
+          "id": "A_T3",
+          "parent_id": "A_III",
+          "poste": "Caisses, régie d'avances et accréditifs",
+          "rubrique": "actif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "lu",
+            "montant_amort_N": "vide",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": "94167.08",
+          "montant_amort_N": null,
+          "montant_net_N": "94167.08",
+          "montant_net_N1": "442131.46"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "nature": "passif",
+      "exercice_N": 2024,
+      "unite": "inconnue",
+      "preuve_unite": "",
+      "avertissements": [],
+      "lignes": [
+        {
+          "id": "P_TOTAL",
+          "parent_id": null,
+          "poste": "TOTAL I+II+III",
+          "rubrique": "passif",
+          "type_ligne": "total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "20702296.47",
+          "montant_net_N1": "21253217.96"
+        },
+        {
+          "id": "P_I",
+          "parent_id": "P_TOTAL",
+          "poste": "TOTAL I financement permanent",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "11952756.77",
+          "montant_net_N1": "11538218.11"
+        },
+        {
+          "id": "P_A",
+          "parent_id": "P_I",
+          "poste": "Capitaux propres",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "9665481.84",
+          "montant_net_N1": "8831813.73"
+        },
+        {
+          "id": "P_A1",
+          "parent_id": "P_A",
+          "poste": "Capital social ou personnel",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "500000.00",
+          "montant_net_N1": "500000.00"
+        },
+        {
+          "id": "P_A2",
+          "parent_id": "P_A",
+          "poste": "Actionnaires, capital souscrit non appelé",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_A3",
+          "parent_id": "P_A",
+          "poste": "Primes d'émission, de fusion et d'apport",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_A4",
+          "parent_id": "P_A",
+          "poste": "Écart de réévaluation",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_A5",
+          "parent_id": "P_A",
+          "poste": "Réserve légale",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "10000.00",
+          "montant_net_N1": "10000.00"
+        },
+        {
+          "id": "P_A6",
+          "parent_id": "P_A",
+          "poste": "Autres réserves",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_A7",
+          "parent_id": "P_A",
+          "poste": "Report à nouveau",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "-20171.22",
+          "montant_net_N1": "-20171.22"
+        },
+        {
+          "id": "P_A8",
+          "parent_id": "P_A",
+          "poste": "Résultats nets en instance d'affectation",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "8341984.95",
+          "montant_net_N1": "7882724.80"
+        },
+        {
+          "id": "P_A9",
+          "parent_id": "P_A",
+          "poste": "Résultat net de l'exercice",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "833668.11",
+          "montant_net_N1": "459260.15"
+        },
+        {
+          "id": "P_B",
+          "parent_id": "P_I",
+          "poste": "Capitaux propres assimilés",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_B1",
+          "parent_id": "P_B",
+          "poste": "Subventions d'investissement",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_B2",
+          "parent_id": "P_B",
+          "poste": "Provisions réglementaires",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_C",
+          "parent_id": "P_I",
+          "poste": "Dettes de financement",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "2147840.93",
+          "montant_net_N1": "2566970.38"
+        },
+        {
+          "id": "P_C1",
+          "parent_id": "P_C",
+          "poste": "Emprunts obligataires",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_C2",
+          "parent_id": "P_C",
+          "poste": "Autres dettes de financement",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "2147840.93",
+          "montant_net_N1": "2566970.38"
+        },
+        {
+          "id": "P_D",
+          "parent_id": "P_I",
+          "poste": "Provisions durables pour risques et charges",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "139434.00",
+          "montant_net_N1": "139434.00"
+        },
+        {
+          "id": "P_D1",
+          "parent_id": "P_D",
+          "poste": "Provisions pour risques",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "139434.00",
+          "montant_net_N1": "139434.00"
+        },
+        {
+          "id": "P_D2",
+          "parent_id": "P_D",
+          "poste": "Provisions pour charges",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_E",
+          "parent_id": "P_I",
+          "poste": "Écart de conversion passif financement permanent",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_E1",
+          "parent_id": "P_E",
+          "poste": "Augmentation des créances immobilisées",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_E2",
+          "parent_id": "P_E",
+          "poste": "Diminution des dettes de financement",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_II",
+          "parent_id": "P_TOTAL",
+          "poste": "TOTAL II passif circulant hors trésorerie",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "8749120.96",
+          "montant_net_N1": "9714581.11"
+        },
+        {
+          "id": "P_F",
+          "parent_id": "P_II",
+          "poste": "Dettes du passif circulant",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "8749120.96",
+          "montant_net_N1": "9714581.11"
+        },
+        {
+          "id": "P_F1",
+          "parent_id": "P_F",
+          "poste": "Fournisseurs et comptes rattachés",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "98041.80",
+          "montant_net_N1": "66800.50"
+        },
+        {
+          "id": "P_F2",
+          "parent_id": "P_F",
+          "poste": "Clients créditeurs, avances et acomptes",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_F3",
+          "parent_id": "P_F",
+          "poste": "Personnel créditeur",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "6069.00",
+          "montant_net_N1": "49847.72"
+        },
+        {
+          "id": "P_F4",
+          "parent_id": "P_F",
+          "poste": "Organismes sociaux",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "28594.50",
+          "montant_net_N1": "16423.98"
+        },
+        {
+          "id": "P_F5",
+          "parent_id": "P_F",
+          "poste": "État créditeur",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "229371.67",
+          "montant_net_N1": "239993.94"
+        },
+        {
+          "id": "P_F6",
+          "parent_id": "P_F",
+          "poste": "Comptes d'associés créditeurs",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_F7",
+          "parent_id": "P_F",
+          "poste": "Autres créanciers",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "8387043.99",
+          "montant_net_N1": "9341514.97"
+        },
+        {
+          "id": "P_F8",
+          "parent_id": "P_F",
+          "poste": "Comptes de régularisation passif",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_G",
+          "parent_id": "P_II",
+          "poste": "Autres provisions pour risques et charges",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_H",
+          "parent_id": "P_II",
+          "poste": "Écarts de conversion passif circulant",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_III",
+          "parent_id": "P_TOTAL",
+          "poste": "TOTAL III trésorerie passif",
+          "rubrique": "passif",
+          "type_ligne": "sous_total",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "418.74",
+          "montant_net_N1": "418.74"
+        },
+        {
+          "id": "P_T1",
+          "parent_id": "P_III",
+          "poste": "Crédits d'escompte",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_T2",
+          "parent_id": "P_III",
+          "poste": "Crédits de trésorerie",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "vide",
+            "montant_net_N1": "vide"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": null,
+          "montant_net_N1": null
+        },
+        {
+          "id": "P_T3",
+          "parent_id": "P_III",
+          "poste": "Banques soldes créditeurs",
+          "rubrique": "passif",
+          "type_ligne": "detail",
+          "etats": {
+            "montant_brut_N": "non_applicable",
+            "montant_amort_N": "non_applicable",
+            "montant_net_N": "lu",
+            "montant_net_N1": "lu"
+          },
+          "montant_brut_N": null,
+          "montant_amort_N": null,
+          "montant_net_N": "418.74",
+          "montant_net_N1": "418.74"
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 70.1740346000006,
+  "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_json_mode_ablation_finale_1_20261114T213418Z_4563eb"
+}

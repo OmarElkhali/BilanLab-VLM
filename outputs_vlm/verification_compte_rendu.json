@@ -1,0 +1,14 @@
+{
+  "statut": "OK",
+  "questions_traitees": 8,
+  "pages_pdf": 6,
+  "groupe": 9,
+  "auteurs": [
+    "Omar Elkhali",
+    "Jamila Ouzzane",
+    "Ayoub Moutik"
+  ],
+  "notebook_github": "https://github.com/OmarElkhali/BilanLab-VLM/blob/main/Presentation_Projet_BilanLab.ipynb",
+  "lien_pdf_cliquable": true,
+  "pdf_sha256": "5cd4ebe74e110a004a0047067501f4e703ee35de68d96270db851f1b12217f6b"
+}

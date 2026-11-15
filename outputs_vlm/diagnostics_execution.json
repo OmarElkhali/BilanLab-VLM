@@ -1,0 +1,26 @@
+{
+  "cloud_legacy_probe": {
+    "model": "qwen3-vl:235b-cloud",
+    "http": 410,
+    "conclusion": "modele retire"
+  },
+  "cloud_replacement_probe": {
+    "model": "glm-5.3-flash:cloud",
+    "http": 402,
+    "conclusion": "credits requis"
+  },
+  "gemini_authenticated_models_probe": {
+    "http": 200,
+    "selected_model": "gemini-3.1-flash-lite"
+  },
+  "local_schema_diagnostic": {
+    "observed_error": "error parsing grammar: unknown escape at \\d",
+    "solution": "^-?[0-9]+[.][0-9]{2}$",
+    "portable_self_check_http": 200,
+    "portable_self_check_result": {
+      "montant": "-12.34"
+    }
+  },
+  "execution_environment": "Windows local, pas Colab",
+  "annotation_scope": "un bilan, reference de travail relue, sans double annotation independante"
+}

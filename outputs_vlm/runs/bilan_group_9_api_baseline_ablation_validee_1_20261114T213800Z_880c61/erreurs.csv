@@ -1,0 +1,353 @@
+﻿id,poste,colonne,attendu,predit,etat_attendu,etat_predit,type
+A_TOTAL,TOTAL I+II+III,montant_brut_N,23758226.56,,lu,,ligne_absente
+A_TOTAL,TOTAL I+II+III,montant_amort_N,3055930.09,,lu,,ligne_absente
+A_TOTAL,TOTAL I+II+III,montant_net_N,20702296.47,,lu,,ligne_absente
+A_TOTAL,TOTAL I+II+III,montant_net_N1,21253217.96,,lu,,ligne_absente
+A_I,TOTAL I actif immobilisé,montant_brut_N,3605004.45,,lu,,ligne_absente
+A_I,TOTAL I actif immobilisé,montant_amort_N,3055930.09,,lu,,ligne_absente
+A_I,TOTAL I actif immobilisé,montant_net_N,549074.36,,lu,,ligne_absente
+A_I,TOTAL I actif immobilisé,montant_net_N1,668280.43,,lu,,ligne_absente
+A_A,Immobilisations en non-valeurs,montant_brut_N,226804.00,,lu,,ligne_absente
+A_A,Immobilisations en non-valeurs,montant_amort_N,224560.25,,lu,,ligne_absente
+A_A,Immobilisations en non-valeurs,montant_net_N,2243.75,,lu,,ligne_absente
+A_A,Immobilisations en non-valeurs,montant_net_N1,2243.75,,lu,,ligne_absente
+A_A1,Frais préliminaires,montant_brut_N,8206.00,,lu,,ligne_absente
+A_A1,Frais préliminaires,montant_amort_N,8206.00,,lu,,ligne_absente
+A_A1,Frais préliminaires,montant_net_N,,,vide,,ligne_absente
+A_A1,Frais préliminaires,montant_net_N1,,,vide,,ligne_absente
+A_A2,Charges à répartir sur plusieurs exercices,montant_brut_N,218598.00,,lu,,ligne_absente
+A_A2,Charges à répartir sur plusieurs exercices,montant_amort_N,216354.25,,lu,,ligne_absente
+A_A2,Charges à répartir sur plusieurs exercices,montant_net_N,2243.75,,lu,,ligne_absente
+A_A2,Charges à répartir sur plusieurs exercices,montant_net_N1,2243.75,,lu,,ligne_absente
+A_A3,Primes de remboursement des obligations,montant_brut_N,,,vide,,ligne_absente
+A_A3,Primes de remboursement des obligations,montant_amort_N,,,vide,,ligne_absente
+A_A3,Primes de remboursement des obligations,montant_net_N,,,vide,,ligne_absente
+A_A3,Primes de remboursement des obligations,montant_net_N1,,,vide,,ligne_absente
+A_B,Immobilisations incorporelles,montant_brut_N,15600.00,,lu,,ligne_absente
+A_B,Immobilisations incorporelles,montant_amort_N,15600.00,,lu,,ligne_absente
+A_B,Immobilisations incorporelles,montant_net_N,,,vide,,ligne_absente
+A_B,Immobilisations incorporelles,montant_net_N1,,,vide,,ligne_absente
+A_B1,Immobilisations en recherche et développement,montant_brut_N,,,vide,,ligne_absente
+A_B1,Immobilisations en recherche et développement,montant_amort_N,,,vide,,ligne_absente
+A_B1,Immobilisations en recherche et développement,montant_net_N,,,vide,,ligne_absente
+A_B1,Immobilisations en recherche et développement,montant_net_N1,,,vide,,ligne_absente
+A_B2,"Brevets, marques, droits et valeurs similaires",montant_brut_N,15600.00,,lu,,ligne_absente
+A_B2,"Brevets, marques, droits et valeurs similaires",montant_amort_N,15600.00,,lu,,ligne_absente
+A_B2,"Brevets, marques, droits et valeurs similaires",montant_net_N,,,vide,,ligne_absente
+A_B2,"Brevets, marques, droits et valeurs similaires",montant_net_N1,,,vide,,ligne_absente
+A_B3,Fonds commercial,montant_brut_N,,,vide,,ligne_absente
+A_B3,Fonds commercial,montant_amort_N,,,vide,,ligne_absente
+A_B3,Fonds commercial,montant_net_N,,,vide,,ligne_absente
+A_B3,Fonds commercial,montant_net_N1,,,vide,,ligne_absente
+A_B4,Autres immobilisations incorporelles,montant_brut_N,,,vide,,ligne_absente
+A_B4,Autres immobilisations incorporelles,montant_amort_N,,,vide,,ligne_absente
+A_B4,Autres immobilisations incorporelles,montant_net_N,,,vide,,ligne_absente
+A_B4,Autres immobilisations incorporelles,montant_net_N1,,,vide,,ligne_absente
+A_C,Immobilisations corporelles,montant_brut_N,3362600.45,,lu,,ligne_absente
+A_C,Immobilisations corporelles,montant_amort_N,2815769.84,,lu,,ligne_absente
+A_C,Immobilisations corporelles,montant_net_N,546830.61,,lu,,ligne_absente
+A_C,Immobilisations corporelles,montant_net_N1,666036.68,,lu,,ligne_absente
+A_C1,Terrains,montant_brut_N,,,vide,,ligne_absente
+A_C1,Terrains,montant_amort_N,,,vide,,ligne_absente
+A_C1,Terrains,montant_net_N,,,vide,,ligne_absente
+A_C1,Terrains,montant_net_N1,,,vide,,ligne_absente
+A_C2,Constructions,montant_brut_N,2476201.66,,lu,,ligne_absente
+A_C2,Constructions,montant_amort_N,1978700.24,,lu,,ligne_absente
+A_C2,Constructions,montant_net_N,497501.42,,lu,,ligne_absente
+A_C2,Constructions,montant_net_N1,614626.42,,lu,,ligne_absente
+A_C3,"Installations techniques, matériel et outillage",montant_brut_N,23187.60,,lu,,ligne_absente
+A_C3,"Installations techniques, matériel et outillage",montant_amort_N,23187.60,,lu,,ligne_absente
+A_C3,"Installations techniques, matériel et outillage",montant_net_N,,,vide,,ligne_absente
+A_C3,"Installations techniques, matériel et outillage",montant_net_N1,,,vide,,ligne_absente
+A_C4,Matériel de transport,montant_brut_N,551457.34,,lu,,ligne_absente
+A_C4,Matériel de transport,montant_amort_N,551457.34,,lu,,ligne_absente
+A_C4,Matériel de transport,montant_net_N,,,vide,,ligne_absente
+A_C4,Matériel de transport,montant_net_N1,,,vide,,ligne_absente
+A_C5,"Mobilier, matériel de bureau et aménagements",montant_brut_N,311753.85,,lu,,ligne_absente
+A_C5,"Mobilier, matériel de bureau et aménagements",montant_amort_N,262424.66,,lu,,ligne_absente
+A_C5,"Mobilier, matériel de bureau et aménagements",montant_net_N,49329.19,,lu,,ligne_absente
+A_C5,"Mobilier, matériel de bureau et aménagements",montant_net_N1,51410.26,,lu,,ligne_absente
+A_C6,Autres immobilisations corporelles,montant_brut_N,,,vide,,ligne_absente
+A_C6,Autres immobilisations corporelles,montant_amort_N,,,vide,,ligne_absente
+A_C6,Autres immobilisations corporelles,montant_net_N,,,vide,,ligne_absente
+A_C6,Autres immobilisations corporelles,montant_net_N1,,,vide,,ligne_absente
+A_C7,Immobilisations corporelles en cours,montant_brut_N,,,vide,,ligne_absente
+A_C7,Immobilisations corporelles en cours,montant_amort_N,,,vide,,ligne_absente
+A_C7,Immobilisations corporelles en cours,montant_net_N,,,vide,,ligne_absente
+A_C7,Immobilisations corporelles en cours,montant_net_N1,,,vide,,ligne_absente
+A_D,Immobilisations financières,montant_brut_N,,,vide,,ligne_absente
+A_D,Immobilisations financières,montant_amort_N,,,vide,,ligne_absente
+A_D,Immobilisations financières,montant_net_N,,,vide,,ligne_absente
+A_D,Immobilisations financières,montant_net_N1,,,vide,,ligne_absente
+A_D1,Prêts immobilisés,montant_brut_N,,,vide,,ligne_absente
+A_D1,Prêts immobilisés,montant_amort_N,,,vide,,ligne_absente
+A_D1,Prêts immobilisés,montant_net_N,,,vide,,ligne_absente
+A_D1,Prêts immobilisés,montant_net_N1,,,vide,,ligne_absente
+A_D2,Autres créances financières,montant_brut_N,,,vide,,ligne_absente
+A_D2,Autres créances financières,montant_amort_N,,,vide,,ligne_absente
+A_D2,Autres créances financières,montant_net_N,,,vide,,ligne_absente
+A_D2,Autres créances financières,montant_net_N1,,,vide,,ligne_absente
+A_D3,Titres de participation,montant_brut_N,,,vide,,ligne_absente
+A_D3,Titres de participation,montant_amort_N,,,vide,,ligne_absente
+A_D3,Titres de participation,montant_net_N,,,vide,,ligne_absente
+A_D3,Titres de participation,montant_net_N1,,,vide,,ligne_absente
+A_D4,Autres titres immobilisés,montant_brut_N,,,vide,,ligne_absente
+A_D4,Autres titres immobilisés,montant_amort_N,,,vide,,ligne_absente
+A_D4,Autres titres immobilisés,montant_net_N,,,vide,,ligne_absente
+A_D4,Autres titres immobilisés,montant_net_N1,,,vide,,ligne_absente
+A_E,Écart de conversion actif immobilisé,montant_brut_N,,,vide,,ligne_absente
+A_E,Écart de conversion actif immobilisé,montant_amort_N,,,vide,,ligne_absente
+A_E,Écart de conversion actif immobilisé,montant_net_N,,,vide,,ligne_absente
+A_E,Écart de conversion actif immobilisé,montant_net_N1,,,vide,,ligne_absente
+A_E1,Diminution des créances immobilisées,montant_brut_N,,,vide,,ligne_absente
+A_E1,Diminution des créances immobilisées,montant_amort_N,,,vide,,ligne_absente
+A_E1,Diminution des créances immobilisées,montant_net_N,,,vide,,ligne_absente
+A_E1,Diminution des créances immobilisées,montant_net_N1,,,vide,,ligne_absente
+A_E2,Augmentation des dettes de financement,montant_brut_N,,,vide,,ligne_absente
+A_E2,Augmentation des dettes de financement,montant_amort_N,,,vide,,ligne_absente
+A_E2,Augmentation des dettes de financement,montant_net_N,,,vide,,ligne_absente
+A_E2,Augmentation des dettes de financement,montant_net_N1,,,vide,,ligne_absente
+A_II,TOTAL II actif circulant hors trésorerie,montant_brut_N,18311788.75,,lu,,ligne_absente
+A_II,TOTAL II actif circulant hors trésorerie,montant_amort_N,,,vide,,ligne_absente
+A_II,TOTAL II actif circulant hors trésorerie,montant_net_N,18311788.75,,lu,,ligne_absente
+A_II,TOTAL II actif circulant hors trésorerie,montant_net_N1,18820979.82,,lu,,ligne_absente
+A_F,Stocks,montant_brut_N,,,vide,,ligne_absente
+A_F,Stocks,montant_amort_N,,,vide,,ligne_absente
+A_F,Stocks,montant_net_N,,,vide,,ligne_absente
+A_F,Stocks,montant_net_N1,,,vide,,ligne_absente
+A_F1,Marchandises,montant_brut_N,,,vide,,ligne_absente
+A_F1,Marchandises,montant_amort_N,,,vide,,ligne_absente
+A_F1,Marchandises,montant_net_N,,,vide,,ligne_absente
+A_F1,Marchandises,montant_net_N1,,,vide,,ligne_absente
+A_F2,Matières et fournitures consommables,montant_brut_N,,,vide,,ligne_absente
+A_F2,Matières et fournitures consommables,montant_amort_N,,,vide,,ligne_absente
+A_F2,Matières et fournitures consommables,montant_net_N,,,vide,,ligne_absente
+A_F2,Matières et fournitures consommables,montant_net_N1,,,vide,,ligne_absente
+A_F3,Produits en cours,montant_brut_N,,,vide,,ligne_absente
+A_F3,Produits en cours,montant_amort_N,,,vide,,ligne_absente
+A_F3,Produits en cours,montant_net_N,,,vide,,ligne_absente
+A_F3,Produits en cours,montant_net_N1,,,vide,,ligne_absente
+A_F4,Produits intermédiaires et produits résiduels,montant_brut_N,,,vide,,ligne_absente
+A_F4,Produits intermédiaires et produits résiduels,montant_amort_N,,,vide,,ligne_absente
+A_F4,Produits intermédiaires et produits résiduels,montant_net_N,,,vide,,ligne_absente
+A_F4,Produits intermédiaires et produits résiduels,montant_net_N1,,,vide,,ligne_absente
+A_F5,Produits finis,montant_brut_N,,,vide,,ligne_absente
+A_F5,Produits finis,montant_amort_N,,,vide,,ligne_absente
+A_F5,Produits finis,montant_net_N,,,vide,,ligne_absente
+A_F5,Produits finis,montant_net_N1,,,vide,,ligne_absente
+A_G,Créances de l'actif circulant,montant_brut_N,18311788.75,,lu,,ligne_absente
+A_G,Créances de l'actif circulant,montant_amort_N,,,vide,,ligne_absente
+A_G,Créances de l'actif circulant,montant_net_N,18311788.75,,lu,,ligne_absente
+A_G,Créances de l'actif circulant,montant_net_N1,18820979.82,,lu,,ligne_absente
+A_G1,"Fournisseurs débiteurs, avances et acomptes",montant_brut_N,1619.34,,lu,,ligne_absente
+A_G1,"Fournisseurs débiteurs, avances et acomptes",montant_amort_N,,,vide,,ligne_absente
+A_G1,"Fournisseurs débiteurs, avances et acomptes",montant_net_N,1619.34,,lu,,ligne_absente
+A_G1,"Fournisseurs débiteurs, avances et acomptes",montant_net_N1,1619.34,,lu,,ligne_absente
+A_G2,Clients et comptes rattachés,montant_brut_N,18300692.45,,lu,,ligne_absente
+A_G2,Clients et comptes rattachés,montant_amort_N,,,vide,,ligne_absente
+A_G2,Clients et comptes rattachés,montant_net_N,18300692.45,,lu,,ligne_absente
+A_G2,Clients et comptes rattachés,montant_net_N1,18556410.52,,lu,,ligne_absente
+A_G3,Personnel débiteur,montant_brut_N,7.96,,lu,,ligne_absente
+A_G3,Personnel débiteur,montant_amort_N,,,vide,,ligne_absente
+A_G3,Personnel débiteur,montant_net_N,7.96,,lu,,ligne_absente
+A_G3,Personnel débiteur,montant_net_N1,7.96,,lu,,ligne_absente
+A_G4,État débiteur,montant_brut_N,9469.00,,lu,,ligne_absente
+A_G4,État débiteur,montant_amort_N,,,vide,,ligne_absente
+A_G4,État débiteur,montant_net_N,9469.00,,lu,,ligne_absente
+A_G4,État débiteur,montant_net_N1,262942.00,,lu,,ligne_absente
+A_G5,Comptes d'associés débiteurs,montant_brut_N,,,vide,,ligne_absente
+A_G5,Comptes d'associés débiteurs,montant_amort_N,,,vide,,ligne_absente
+A_G5,Comptes d'associés débiteurs,montant_net_N,,,vide,,ligne_absente
+A_G5,Comptes d'associés débiteurs,montant_net_N1,,,vide,,ligne_absente
+A_G6,Autres débiteurs,montant_brut_N,,,vide,,ligne_absente
+A_G6,Autres débiteurs,montant_amort_N,,,vide,,ligne_absente
+A_G6,Autres débiteurs,montant_net_N,,,vide,,ligne_absente
+A_G6,Autres débiteurs,montant_net_N1,,,vide,,ligne_absente
+A_G7,Comptes de régularisation actif,montant_brut_N,,,vide,,ligne_absente
+A_G7,Comptes de régularisation actif,montant_amort_N,,,vide,,ligne_absente
+A_G7,Comptes de régularisation actif,montant_net_N,,,vide,,ligne_absente
+A_G7,Comptes de régularisation actif,montant_net_N1,,,vide,,ligne_absente
+A_H,Titres et valeurs de placement,montant_brut_N,,,vide,,ligne_absente
+A_H,Titres et valeurs de placement,montant_amort_N,,,vide,,ligne_absente
+A_H,Titres et valeurs de placement,montant_net_N,,,vide,,ligne_absente
+A_H,Titres et valeurs de placement,montant_net_N1,,,vide,,ligne_absente
+A_J,Écarts de conversion actif circulant,montant_brut_N,,,vide,,ligne_absente
+A_J,Écarts de conversion actif circulant,montant_amort_N,,,vide,,ligne_absente
+A_J,Écarts de conversion actif circulant,montant_net_N,,,vide,,ligne_absente
+A_J,Écarts de conversion actif circulant,montant_net_N1,,,vide,,ligne_absente
+A_III,TOTAL III trésorerie actif,montant_brut_N,1841433.36,,lu,,ligne_absente
+A_III,TOTAL III trésorerie actif,montant_amort_N,,,vide,,ligne_absente
+A_III,TOTAL III trésorerie actif,montant_net_N,1841433.36,,lu,,ligne_absente
+A_III,TOTAL III trésorerie actif,montant_net_N1,1763957.71,,lu,,ligne_absente
+A_T1,Chèques et valeurs à encaisser,montant_brut_N,,,vide,,ligne_absente
+A_T1,Chèques et valeurs à encaisser,montant_amort_N,,,vide,,ligne_absente
+A_T1,Chèques et valeurs à encaisser,montant_net_N,,,vide,,ligne_absente
+A_T1,Chèques et valeurs à encaisser,montant_net_N1,,,vide,,ligne_absente
+A_T2,"Banques, T.G. et C.P. débiteurs",montant_brut_N,1747266.28,,lu,,ligne_absente
+A_T2,"Banques, T.G. et C.P. débiteurs",montant_amort_N,,,vide,,ligne_absente
+A_T2,"Banques, T.G. et C.P. débiteurs",montant_net_N,1747266.28,,lu,,ligne_absente
+A_T2,"Banques, T.G. et C.P. débiteurs",montant_net_N1,1321826.25,,lu,,ligne_absente
+A_T3,"Caisses, régie d'avances et accréditifs",montant_brut_N,94167.08,,lu,,ligne_absente
+A_T3,"Caisses, régie d'avances et accréditifs",montant_amort_N,,,vide,,ligne_absente
+A_T3,"Caisses, régie d'avances et accréditifs",montant_net_N,94167.08,,lu,,ligne_absente
+A_T3,"Caisses, régie d'avances et accréditifs",montant_net_N1,442131.46,,lu,,ligne_absente
+P_TOTAL,TOTAL I+II+III,montant_brut_N,,,non_applicable,,ligne_absente
+P_TOTAL,TOTAL I+II+III,montant_amort_N,,,non_applicable,,ligne_absente
+P_TOTAL,TOTAL I+II+III,montant_net_N,20702296.47,,lu,,ligne_absente
+P_TOTAL,TOTAL I+II+III,montant_net_N1,21253217.96,,lu,,ligne_absente
+P_I,TOTAL I financement permanent,montant_brut_N,,,non_applicable,,ligne_absente
+P_I,TOTAL I financement permanent,montant_amort_N,,,non_applicable,,ligne_absente
+P_I,TOTAL I financement permanent,montant_net_N,11952756.77,,lu,,ligne_absente
+P_I,TOTAL I financement permanent,montant_net_N1,11538218.11,,lu,,ligne_absente
+P_A,Capitaux propres,montant_brut_N,,,non_applicable,,ligne_absente
+P_A,Capitaux propres,montant_amort_N,,,non_applicable,,ligne_absente
+P_A,Capitaux propres,montant_net_N,9665481.84,,lu,,ligne_absente
+P_A,Capitaux propres,montant_net_N1,8831813.73,,lu,,ligne_absente
+P_A1,Capital social ou personnel,montant_brut_N,,,non_applicable,,ligne_absente
+P_A1,Capital social ou personnel,montant_amort_N,,,non_applicable,,ligne_absente
+P_A1,Capital social ou personnel,montant_net_N,500000.00,,lu,,ligne_absente
+P_A1,Capital social ou personnel,montant_net_N1,500000.00,,lu,,ligne_absente
+P_A2,"Actionnaires, capital souscrit non appelé",montant_brut_N,,,non_applicable,,ligne_absente
+P_A2,"Actionnaires, capital souscrit non appelé",montant_amort_N,,,non_applicable,,ligne_absente
+P_A2,"Actionnaires, capital souscrit non appelé",montant_net_N,,,vide,,ligne_absente
+P_A2,"Actionnaires, capital souscrit non appelé",montant_net_N1,,,vide,,ligne_absente
+P_A3,"Primes d'émission, de fusion et d'apport",montant_brut_N,,,non_applicable,,ligne_absente
+P_A3,"Primes d'émission, de fusion et d'apport",montant_amort_N,,,non_applicable,,ligne_absente
+P_A3,"Primes d'émission, de fusion et d'apport",montant_net_N,,,vide,,ligne_absente
+P_A3,"Primes d'émission, de fusion et d'apport",montant_net_N1,,,vide,,ligne_absente
+P_A4,Écart de réévaluation,montant_brut_N,,,non_applicable,,ligne_absente
+P_A4,Écart de réévaluation,montant_amort_N,,,non_applicable,,ligne_absente
+P_A4,Écart de réévaluation,montant_net_N,,,vide,,ligne_absente
+P_A4,Écart de réévaluation,montant_net_N1,,,vide,,ligne_absente
+P_A5,Réserve légale,montant_brut_N,,,non_applicable,,ligne_absente
+P_A5,Réserve légale,montant_amort_N,,,non_applicable,,ligne_absente
+P_A5,Réserve légale,montant_net_N,10000.00,,lu,,ligne_absente
+P_A5,Réserve légale,montant_net_N1,10000.00,,lu,,ligne_absente
+P_A6,Autres réserves,montant_brut_N,,,non_applicable,,ligne_absente
+P_A6,Autres réserves,montant_amort_N,,,non_applicable,,ligne_absente
+P_A6,Autres réserves,montant_net_N,,,vide,,ligne_absente
+P_A6,Autres réserves,montant_net_N1,,,vide,,ligne_absente
+P_A7,Report à nouveau,montant_brut_N,,,non_applicable,,ligne_absente
+P_A7,Report à nouveau,montant_amort_N,,,non_applicable,,ligne_absente
+P_A7,Report à nouveau,montant_net_N,-20171.22,,lu,,ligne_absente
+P_A7,Report à nouveau,montant_net_N1,-20171.22,,lu,,ligne_absente
+P_A8,Résultats nets en instance d'affectation,montant_brut_N,,,non_applicable,,ligne_absente
+P_A8,Résultats nets en instance d'affectation,montant_amort_N,,,non_applicable,,ligne_absente
+P_A8,Résultats nets en instance d'affectation,montant_net_N,8341984.95,,lu,,ligne_absente
+P_A8,Résultats nets en instance d'affectation,montant_net_N1,7882724.80,,lu,,ligne_absente
+P_A9,Résultat net de l'exercice,montant_brut_N,,,non_applicable,,ligne_absente
+P_A9,Résultat net de l'exercice,montant_amort_N,,,non_applicable,,ligne_absente
+P_A9,Résultat net de l'exercice,montant_net_N,833668.11,,lu,,ligne_absente
+P_A9,Résultat net de l'exercice,montant_net_N1,459260.15,,lu,,ligne_absente
+P_B,Capitaux propres assimilés,montant_brut_N,,,non_applicable,,ligne_absente
+P_B,Capitaux propres assimilés,montant_amort_N,,,non_applicable,,ligne_absente
+P_B,Capitaux propres assimilés,montant_net_N,,,vide,,ligne_absente
+P_B,Capitaux propres assimilés,montant_net_N1,,,vide,,ligne_absente
+P_B1,Subventions d'investissement,montant_brut_N,,,non_applicable,,ligne_absente
+P_B1,Subventions d'investissement,montant_amort_N,,,non_applicable,,ligne_absente
+P_B1,Subventions d'investissement,montant_net_N,,,vide,,ligne_absente
+P_B1,Subventions d'investissement,montant_net_N1,,,vide,,ligne_absente
+P_B2,Provisions réglementaires,montant_brut_N,,,non_applicable,,ligne_absente
+P_B2,Provisions réglementaires,montant_amort_N,,,non_applicable,,ligne_absente
+P_B2,Provisions réglementaires,montant_net_N,,,vide,,ligne_absente
+P_B2,Provisions réglementaires,montant_net_N1,,,vide,,ligne_absente
+P_C,Dettes de financement,montant_brut_N,,,non_applicable,,ligne_absente
+P_C,Dettes de financement,montant_amort_N,,,non_applicable,,ligne_absente
+P_C,Dettes de financement,montant_net_N,2147840.93,,lu,,ligne_absente
+P_C,Dettes de financement,montant_net_N1,2566970.38,,lu,,ligne_absente
+P_C1,Emprunts obligataires,montant_brut_N,,,non_applicable,,ligne_absente
+P_C1,Emprunts obligataires,montant_amort_N,,,non_applicable,,ligne_absente
+P_C1,Emprunts obligataires,montant_net_N,,,vide,,ligne_absente
+P_C1,Emprunts obligataires,montant_net_N1,,,vide,,ligne_absente
+P_C2,Autres dettes de financement,montant_brut_N,,,non_applicable,,ligne_absente
+P_C2,Autres dettes de financement,montant_amort_N,,,non_applicable,,ligne_absente
+P_C2,Autres dettes de financement,montant_net_N,2147840.93,,lu,,ligne_absente
+P_C2,Autres dettes de financement,montant_net_N1,2566970.38,,lu,,ligne_absente
+P_D,Provisions durables pour risques et charges,montant_brut_N,,,non_applicable,,ligne_absente
+P_D,Provisions durables pour risques et charges,montant_amort_N,,,non_applicable,,ligne_absente
+P_D,Provisions durables pour risques et charges,montant_net_N,139434.00,,lu,,ligne_absente
+P_D,Provisions durables pour risques et charges,montant_net_N1,139434.00,,lu,,ligne_absente
+P_D1,Provisions pour risques,montant_brut_N,,,non_applicable,,ligne_absente
+P_D1,Provisions pour risques,montant_amort_N,,,non_applicable,,ligne_absente
+P_D1,Provisions pour risques,montant_net_N,139434.00,,lu,,ligne_absente
+P_D1,Provisions pour risques,montant_net_N1,139434.00,,lu,,ligne_absente
+P_D2,Provisions pour charges,montant_brut_N,,,non_applicable,,ligne_absente
+P_D2,Provisions pour charges,montant_amort_N,,,non_applicable,,ligne_absente
+P_D2,Provisions pour charges,montant_net_N,,,vide,,ligne_absente
+P_D2,Provisions pour charges,montant_net_N1,,,vide,,ligne_absente
+P_E,Écart de conversion passif financement permanent,montant_brut_N,,,non_applicable,,ligne_absente
+P_E,Écart de conversion passif financement permanent,montant_amort_N,,,non_applicable,,ligne_absente
+P_E,Écart de conversion passif financement permanent,montant_net_N,,,vide,,ligne_absente
+P_E,Écart de conversion passif financement permanent,montant_net_N1,,,vide,,ligne_absente
+P_E1,Augmentation des créances immobilisées,montant_brut_N,,,non_applicable,,ligne_absente
+P_E1,Augmentation des créances immobilisées,montant_amort_N,,,non_applicable,,ligne_absente
+P_E1,Augmentation des créances immobilisées,montant_net_N,,,vide,,ligne_absente
+P_E1,Augmentation des créances immobilisées,montant_net_N1,,,vide,,ligne_absente
+P_E2,Diminution des dettes de financement,montant_brut_N,,,non_applicable,,ligne_absente
+P_E2,Diminution des dettes de financement,montant_amort_N,,,non_applicable,,ligne_absente
+P_E2,Diminution des dettes de financement,montant_net_N,,,vide,,ligne_absente
+P_E2,Diminution des dettes de financement,montant_net_N1,,,vide,,ligne_absente
+P_II,TOTAL II passif circulant hors trésorerie,montant_brut_N,,,non_applicable,,ligne_absente
+P_II,TOTAL II passif circulant hors trésorerie,montant_amort_N,,,non_applicable,,ligne_absente
+P_II,TOTAL II passif circulant hors trésorerie,montant_net_N,8749120.96,,lu,,ligne_absente
+P_II,TOTAL II passif circulant hors trésorerie,montant_net_N1,9714581.11,,lu,,ligne_absente
+P_F,Dettes du passif circulant,montant_brut_N,,,non_applicable,,ligne_absente
+P_F,Dettes du passif circulant,montant_amort_N,,,non_applicable,,ligne_absente
+P_F,Dettes du passif circulant,montant_net_N,8749120.96,,lu,,ligne_absente
+P_F,Dettes du passif circulant,montant_net_N1,9714581.11,,lu,,ligne_absente
+P_F1,Fournisseurs et comptes rattachés,montant_brut_N,,,non_applicable,,ligne_absente
+P_F1,Fournisseurs et comptes rattachés,montant_amort_N,,,non_applicable,,ligne_absente
+P_F1,Fournisseurs et comptes rattachés,montant_net_N,98041.80,,lu,,ligne_absente
+P_F1,Fournisseurs et comptes rattachés,montant_net_N1,66800.50,,lu,,ligne_absente
+P_F2,"Clients créditeurs, avances et acomptes",montant_brut_N,,,non_applicable,,ligne_absente
+P_F2,"Clients créditeurs, avances et acomptes",montant_amort_N,,,non_applicable,,ligne_absente
+P_F2,"Clients créditeurs, avances et acomptes",montant_net_N,,,vide,,ligne_absente
+P_F2,"Clients créditeurs, avances et acomptes",montant_net_N1,,,vide,,ligne_absente
+P_F3,Personnel créditeur,montant_brut_N,,,non_applicable,,ligne_absente
+P_F3,Personnel créditeur,montant_amort_N,,,non_applicable,,ligne_absente
+P_F3,Personnel créditeur,montant_net_N,6069.00,,lu,,ligne_absente
+P_F3,Personnel créditeur,montant_net_N1,49847.72,,lu,,ligne_absente
+P_F4,Organismes sociaux,montant_brut_N,,,non_applicable,,ligne_absente
+P_F4,Organismes sociaux,montant_amort_N,,,non_applicable,,ligne_absente
+P_F4,Organismes sociaux,montant_net_N,28594.50,,lu,,ligne_absente
+P_F4,Organismes sociaux,montant_net_N1,16423.98,,lu,,ligne_absente
+P_F5,État créditeur,montant_brut_N,,,non_applicable,,ligne_absente
+P_F5,État créditeur,montant_amort_N,,,non_applicable,,ligne_absente
+P_F5,État créditeur,montant_net_N,229371.67,,lu,,ligne_absente
+P_F5,État créditeur,montant_net_N1,239993.94,,lu,,ligne_absente
+P_F6,Comptes d'associés créditeurs,montant_brut_N,,,non_applicable,,ligne_absente
+P_F6,Comptes d'associés créditeurs,montant_amort_N,,,non_applicable,,ligne_absente
+P_F6,Comptes d'associés créditeurs,montant_net_N,,,vide,,ligne_absente
+P_F6,Comptes d'associés créditeurs,montant_net_N1,,,vide,,ligne_absente
+P_F7,Autres créanciers,montant_brut_N,,,non_applicable,,ligne_absente
+P_F7,Autres créanciers,montant_amort_N,,,non_applicable,,ligne_absente
+P_F7,Autres créanciers,montant_net_N,8387043.99,,lu,,ligne_absente
+P_F7,Autres créanciers,montant_net_N1,9341514.97,,lu,,ligne_absente
+P_F8,Comptes de régularisation passif,montant_brut_N,,,non_applicable,,ligne_absente
+P_F8,Comptes de régularisation passif,montant_amort_N,,,non_applicable,,ligne_absente
+P_F8,Comptes de régularisation passif,montant_net_N,,,vide,,ligne_absente
+P_F8,Comptes de régularisation passif,montant_net_N1,,,vide,,ligne_absente
+P_G,Autres provisions pour risques et charges,montant_brut_N,,,non_applicable,,ligne_absente
+P_G,Autres provisions pour risques et charges,montant_amort_N,,,non_applicable,,ligne_absente
+P_G,Autres provisions pour risques et charges,montant_net_N,,,vide,,ligne_absente
+P_G,Autres provisions pour risques et charges,montant_net_N1,,,vide,,ligne_absente
+P_H,Écarts de conversion passif circulant,montant_brut_N,,,non_applicable,,ligne_absente
+P_H,Écarts de conversion passif circulant,montant_amort_N,,,non_applicable,,ligne_absente
+P_H,Écarts de conversion passif circulant,montant_net_N,,,vide,,ligne_absente
+P_H,Écarts de conversion passif circulant,montant_net_N1,,,vide,,ligne_absente
+P_III,TOTAL III trésorerie passif,montant_brut_N,,,non_applicable,,ligne_absente
+P_III,TOTAL III trésorerie passif,montant_amort_N,,,non_applicable,,ligne_absente
+P_III,TOTAL III trésorerie passif,montant_net_N,418.74,,lu,,ligne_absente
+P_III,TOTAL III trésorerie passif,montant_net_N1,418.74,,lu,,ligne_absente
+P_T1,Crédits d'escompte,montant_brut_N,,,non_applicable,,ligne_absente
+P_T1,Crédits d'escompte,montant_amort_N,,,non_applicable,,ligne_absente
+P_T1,Crédits d'escompte,montant_net_N,,,vide,,ligne_absente
+P_T1,Crédits d'escompte,montant_net_N1,,,vide,,ligne_absente
+P_T2,Crédits de trésorerie,montant_brut_N,,,non_applicable,,ligne_absente
+P_T2,Crédits de trésorerie,montant_amort_N,,,non_applicable,,ligne_absente
+P_T2,Crédits de trésorerie,montant_net_N,,,vide,,ligne_absente
+P_T2,Crédits de trésorerie,montant_net_N1,,,vide,,ligne_absente
+P_T3,Banques soldes créditeurs,montant_brut_N,,,non_applicable,,ligne_absente
+P_T3,Banques soldes créditeurs,montant_amort_N,,,non_applicable,,ligne_absente
+P_T3,Banques soldes créditeurs,montant_net_N,418.74,,lu,,ligne_absente
+P_T3,Banques soldes créditeurs,montant_net_N1,418.74,,lu,,ligne_absente

@@ -1,0 +1,34 @@
+[
+  {
+    "backend": "api",
+    "variant": "schema",
+    "page": 1,
+    "attempt": 1,
+    "syntaxe_json": false,
+    "schema_valide": false,
+    "accepte": false,
+    "image_sha256": "5a06030a5f20e293e71622ec066bae7aeacf523d1d106d0f7549a97bf22eda20",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_schema_principal_valide_20261115T083627Z_ee228f",
+    "erreur": "Connexion impossible ou délai dépassé ; requête éventuellement facturée.",
+    "wall_seconds": 10.892955400000005
+  },
+  {
+    "backend": "api",
+    "variant": "schema",
+    "page": 2,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "82523bf44829e49e9f75dcdd7c82f1f3fb46c8f043c4cd631958db3b4c9ad09d",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_schema_principal_valide_20261115T083627Z_ee228f",
+    "finish_reason": "STOP",
+    "seconds": 39.09974169999998,
+    "http_attempts": 1,
+    "input_tokens": 2863,
+    "output_tokens": 1508,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 39.16887059999999
+  }
+]
