@@ -1,0 +1,49 @@
+﻿id,parent_id,poste,type_ligne,montant_brut_N,montant_amort_N,montant_net_N,montant_net_N1,état_montant_brut_N,état_montant_amort_N,état_montant_net_N,état_montant_net_N1
+A_TOTAL,,TOTAL I+II+III,total,23758226.56,3055930.09,20702296.47,21253217.96,lu,lu,lu,lu
+A_I,A_TOTAL,TOTAL I actif immobilisé,sous_total,3605004.45,3055930.09,549074.36,668280.43,lu,lu,lu,lu
+A_A,A_I,Immobilisations en non-valeurs,sous_total,226804.00,224560.25,2243.75,2243.75,lu,lu,lu,lu
+A_A1,A_A,Frais préliminaires,detail,8206.00,8206.00,,,lu,lu,vide,vide
+A_A2,A_A,Charges à répartir sur plusieurs exercices,detail,218598.00,216354.25,2243.75,2243.75,lu,lu,lu,lu
+A_A3,A_A,Primes de remboursement des obligations,detail,,,,,vide,vide,vide,vide
+A_B,A_I,Immobilisations incorporelles,sous_total,15600.00,15600.00,,,lu,lu,vide,vide
+A_B1,A_B,Immobilisations en recherche et développement,detail,,,,,vide,vide,vide,vide
+A_B2,A_B,"Brevets, marques, droits et valeurs similaires",detail,15600.00,15600.00,,,lu,lu,vide,vide
+A_B3,A_B,Fonds commercial,detail,,,,,vide,vide,vide,vide
+A_B4,A_B,Autres immobilisations incorporelles,detail,,,,,vide,vide,vide,vide
+A_C,A_I,Immobilisations corporelles,sous_total,3362600.45,2815769.84,546830.61,666036.68,lu,lu,lu,lu
+A_C1,A_C,Terrains,detail,,,,,vide,vide,vide,vide
+A_C2,A_C,Constructions,detail,2476201.66,1978700.24,497501.42,614626.42,lu,lu,lu,lu
+A_C3,A_C,"Installations techniques, matériel et outillage",detail,23187.60,23187.60,,,lu,lu,vide,vide
+A_C4,A_C,Matériel de transport,detail,551457.34,551457.34,,,lu,lu,vide,vide
+A_C5,A_C,"Mobilier, matériel de bureau et aménagements",detail,311753.85,262424.66,49329.19,51410.26,lu,lu,lu,lu
+A_C6,A_C,Autres immobilisations corporelles,detail,,,,,vide,vide,vide,vide
+A_C7,A_C,Immobilisations corporelles en cours,detail,,,,,vide,vide,vide,vide
+A_D,A_I,Immobilisations financières,sous_total,,,,,vide,vide,vide,vide
+A_D1,A_D,Prêts immobilisés,detail,,,,,vide,vide,vide,vide
+A_D2,A_D,Autres créances financières,detail,,,,,vide,vide,vide,vide
+A_D3,A_D,Titres de participation,detail,,,,,vide,vide,vide,vide
+A_D4,A_D,Autres titres immobilisés,detail,,,,,vide,vide,vide,vide
+A_E,A_I,Écart de conversion actif immobilisé,sous_total,,,,,vide,vide,vide,vide
+A_E1,A_E,Diminution des créances immobilisées,detail,,,,,vide,vide,vide,vide
+A_E2,A_E,Augmentation des dettes de financement,detail,,,,,vide,vide,vide,vide
+A_II,A_TOTAL,TOTAL II actif circulant hors trésorerie,sous_total,18311788.75,,18311788.75,18820979.82,lu,vide,lu,lu
+A_F,A_II,Stocks,sous_total,,,,,vide,vide,vide,vide
+A_F1,A_F,Marchandises,detail,,,,,vide,vide,vide,vide
+A_F2,A_F,Matières et fournitures consommables,detail,,,,,vide,vide,vide,vide
+A_F3,A_F,Produits en cours,detail,,,,,vide,vide,vide,vide
+A_F4,A_F,Produits intermédiaires et produits résiduels,detail,,,,,vide,vide,vide,vide
+A_F5,A_F,Produits finis,detail,,,,,vide,vide,vide,vide
+A_G,A_II,Créances de l'actif circulant,sous_total,18311788.75,,18311788.75,18820979.82,lu,vide,lu,lu
+A_G1,A_G,"Fournisseurs débiteurs, avances et acomptes",detail,1619.34,,1619.34,1619.34,lu,vide,lu,lu
+A_G2,A_G,Clients et comptes rattachés,detail,18300692.45,,18300692.45,18556410.52,lu,vide,lu,lu
+A_G3,A_G,Personnel débiteur,detail,7.96,,7.96,7.96,lu,vide,lu,lu
+A_G4,A_G,État débiteur,detail,9469.00,,9469.00,262942.00,lu,vide,lu,lu
+A_G5,A_G,Comptes d'associés débiteurs,detail,,,,,vide,vide,vide,vide
+A_G6,A_G,Autres débiteurs,detail,,,,,vide,vide,vide,vide
+A_G7,A_G,Comptes de régularisation actif,detail,,,,,vide,vide,vide,vide
+A_H,A_II,Titres et valeurs de placement,detail,,,,,vide,vide,vide,vide
+A_J,A_II,Écarts de conversion actif circulant,detail,,,,,vide,vide,vide,vide
+A_III,A_TOTAL,TOTAL III trésorerie actif,sous_total,1841433.36,,1841433.36,1763957.71,lu,vide,lu,lu
+A_T1,A_III,Chèques et valeurs à encaisser,detail,,,,,vide,vide,vide,vide
+A_T2,A_III,"Banques, T.G. et C.P. débiteurs",detail,1747266.28,,1747266.28,1321826.25,lu,vide,lu,lu
+A_T3,A_III,"Caisses, régie d'avances et accréditifs",detail,94167.08,,94167.08,442131.46,lu,vide,lu,lu

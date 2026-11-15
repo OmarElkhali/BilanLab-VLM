@@ -1,0 +1,29 @@
+{
+  "source_sha256": "794d9172b8ac0aa368241932231bcc6a85204a15843f46a85a923cdcaebcc0fa",
+  "source_fichier": "bilan_group_9.pdf",
+  "backend": "api",
+  "modele": "gemini-3.1-flash-lite",
+  "variant": "baseline",
+  "label": "ablation_validee_2",
+  "utc": "20261115T084138Z",
+  "environment": {
+    "pymupdf": "1.28.2",
+    "Pillow": "12.3.0",
+    "requests": "2.34.2",
+    "jsonschema": "4.26.0",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "transport": "compact_v2",
+  "execution_host": "test",
+  "dpi": 200,
+  "contrast": false,
+  "catalogue_sha256": "ba4854d6f1c61c45ad840e155854a13a872a2d5a13bc209e83001ea16ed2da4e",
+  "document_complet": false,
+  "pages": [],
+  "wall_seconds": 9.651129500000025,
+  "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_baseline_ablation_validee_2_20261115T084138Z_9ff624",
+  "campaign_id": "verification_20261115T083627Z"
+}

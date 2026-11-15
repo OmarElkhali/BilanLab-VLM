@@ -1,0 +1,41 @@
+﻿id,parent_id,poste,type_ligne,montant_brut_N,montant_amort_N,montant_net_N,montant_net_N1,état_montant_brut_N,état_montant_amort_N,état_montant_net_N,état_montant_net_N1
+P_TOTAL,,TOTAL I+II+III,total,,,20702296.47,21253217.96,non_applicable,non_applicable,lu,lu
+P_I,P_TOTAL,TOTAL I financement permanent,sous_total,,,11952756.77,11538218.11,non_applicable,non_applicable,lu,lu
+P_A,P_I,Capitaux propres,sous_total,,,9665481.84,8831813.73,non_applicable,non_applicable,lu,lu
+P_A1,P_A,Capital social ou personnel,detail,,,500000.00,500000.00,non_applicable,non_applicable,lu,lu
+P_A2,P_A,"Actionnaires, capital souscrit non appelé",detail,,,,,non_applicable,non_applicable,vide,vide
+P_A3,P_A,"Primes d'émission, de fusion et d'apport",detail,,,,,non_applicable,non_applicable,vide,vide
+P_A4,P_A,Écart de réévaluation,detail,,,,,non_applicable,non_applicable,vide,vide
+P_A5,P_A,Réserve légale,detail,,,10000.00,10000.00,non_applicable,non_applicable,lu,lu
+P_A6,P_A,Autres réserves,detail,,,,,non_applicable,non_applicable,vide,vide
+P_A7,P_A,Report à nouveau,detail,,,-20171.22,-20171.22,non_applicable,non_applicable,lu,lu
+P_A8,P_A,Résultats nets en instance d'affectation,detail,,,8341984.95,7882724.80,non_applicable,non_applicable,lu,lu
+P_A9,P_A,Résultat net de l'exercice,detail,,,833668.11,459260.15,non_applicable,non_applicable,lu,lu
+P_B,P_I,Capitaux propres assimilés,sous_total,,,,,non_applicable,non_applicable,vide,vide
+P_B1,P_B,Subventions d'investissement,detail,,,,,non_applicable,non_applicable,vide,vide
+P_B2,P_B,Provisions réglementaires,detail,,,,,non_applicable,non_applicable,vide,vide
+P_C,P_I,Dettes de financement,sous_total,,,2147840.93,2566970.38,non_applicable,non_applicable,lu,lu
+P_C1,P_C,Emprunts obligataires,detail,,,,,non_applicable,non_applicable,vide,vide
+P_C2,P_C,Autres dettes de financement,detail,,,2147840.93,2566970.38,non_applicable,non_applicable,lu,lu
+P_D,P_I,Provisions durables pour risques et charges,sous_total,,,139434.00,139434.00,non_applicable,non_applicable,lu,lu
+P_D1,P_D,Provisions pour risques,detail,,,139434.00,139434.00,non_applicable,non_applicable,lu,lu
+P_D2,P_D,Provisions pour charges,detail,,,,,non_applicable,non_applicable,vide,vide
+P_E,P_I,Écart de conversion passif financement permanent,sous_total,,,,,non_applicable,non_applicable,vide,vide
+P_E1,P_E,Augmentation des créances immobilisées,detail,,,,,non_applicable,non_applicable,vide,vide
+P_E2,P_E,Diminution des dettes de financement,detail,,,,,non_applicable,non_applicable,vide,vide
+P_II,P_TOTAL,TOTAL II passif circulant hors trésorerie,sous_total,,,8749120.96,9714581.11,non_applicable,non_applicable,lu,lu
+P_F,P_II,Dettes du passif circulant,sous_total,,,8749120.96,9714581.11,non_applicable,non_applicable,lu,lu
+P_F1,P_F,Fournisseurs et comptes rattachés,detail,,,98041.80,66800.50,non_applicable,non_applicable,lu,lu
+P_F2,P_F,"Clients créditeurs, avances et acomptes",detail,,,,,non_applicable,non_applicable,vide,vide
+P_F3,P_F,Personnel créditeur,detail,,,6069.00,49847.72,non_applicable,non_applicable,lu,lu
+P_F4,P_F,Organismes sociaux,detail,,,28594.50,16423.98,non_applicable,non_applicable,lu,lu
+P_F5,P_F,État créditeur,detail,,,229371.67,239993.94,non_applicable,non_applicable,lu,lu
+P_F6,P_F,Comptes d'associés créditeurs,detail,,,,,non_applicable,non_applicable,vide,vide
+P_F7,P_F,Autres créanciers,detail,,,8387043.99,9341514.97,non_applicable,non_applicable,lu,lu
+P_F8,P_F,Comptes de régularisation passif,detail,,,,,non_applicable,non_applicable,vide,vide
+P_G,P_II,Autres provisions pour risques et charges,detail,,,,,non_applicable,non_applicable,vide,vide
+P_H,P_II,Écarts de conversion passif circulant,detail,,,,,non_applicable,non_applicable,vide,vide
+P_III,P_TOTAL,TOTAL III trésorerie passif,sous_total,,,418.74,418.74,non_applicable,non_applicable,lu,lu
+P_T1,P_III,Crédits d'escompte,detail,,,,,non_applicable,non_applicable,vide,vide
+P_T2,P_III,Crédits de trésorerie,detail,,,,,non_applicable,non_applicable,vide,vide
+P_T3,P_III,Banques soldes créditeurs,detail,,,418.74,418.74,non_applicable,non_applicable,lu,lu

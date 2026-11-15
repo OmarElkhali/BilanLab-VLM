@@ -1,0 +1,5 @@
+{
+  "statut": "interrompu_pour_optimisation",
+  "motif": "CPU lent sur image 1654x2339 : encodage image 138.695 s, g?n?ration observ?e environ 2.66 tokens/s. Reprise pr?vue sur images r?duites et transport compact. Aucun score de qualit? d?duit de cet essai interrompu.",
+  "utc": "2026-11-14T21:45:56.726174+00:00"
+}

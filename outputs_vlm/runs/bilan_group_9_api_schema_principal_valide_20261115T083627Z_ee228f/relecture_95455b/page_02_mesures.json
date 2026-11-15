@@ -1,0 +1,9 @@
+{
+  "finish_reason": "STOP",
+  "seconds": 4.724610600000005,
+  "http_attempts": 1,
+  "input_tokens": 2964,
+  "output_tokens": 1508,
+  "thought_tokens": 0,
+  "model_version": "gemini-3.1-flash-lite"
+}

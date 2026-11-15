@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/OmarElkhali/BilanLab-VLM",
+  "private": true,
+  "collaborateurs": [
+    {
+      "login": "Jamila-Ouzzane",
+      "statut": "invitation_envoyee",
+      "permission": "push"
+    },
+    {
+      "login": "AyoubMoutik",
+      "statut": "invitation_envoyee",
+      "permission": "push"
+    }
+  ],
+  "push": "a_effectuer"
+}

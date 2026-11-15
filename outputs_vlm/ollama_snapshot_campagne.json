@@ -1,0 +1,132 @@
+{
+  "version": {
+    "version": "0.30.6"
+  },
+  "tags": {
+    "models": [
+      {
+        "name": "qwen3-vl:4b-instruct",
+        "model": "qwen3-vl:4b-instruct",
+        "modified_at": "2026-11-14T21:56:01.1575339Z",
+        "size": 3337225651,
+        "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+        "details": {
+          "parent_model": "dhiltgen/qwen3-vl:4b-instruct-q4_K_M-llamacpp",
+          "format": "gguf",
+          "family": "qwen3vl",
+          "families": [
+            "qwen3vl",
+            "clip"
+          ],
+          "parameter_size": "4.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "vision"
+        ]
+      },
+      {
+        "name": "qwen3:4b",
+        "model": "qwen3:4b",
+        "modified_at": "2025-11-04T19:21:21.1811367Z",
+        "size": 2497293931,
+        "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "4.0B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 2560
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "qwen3-vl:4b",
+        "model": "qwen3-vl:4b",
+        "modified_at": "2025-11-04T19:06:17.3966158Z",
+        "size": 3295636135,
+        "digest": "1343d82ebee38e26a4dd6b0180b915eb91550184e67c505dea97509571c8f683",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3vl",
+          "families": [
+            "qwen3vl"
+          ],
+          "parameter_size": "4.4B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 2560
+        },
+        "capabilities": [
+          "vision",
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "qwen3-vl:235b-cloud",
+        "model": "qwen3-vl:235b-cloud",
+        "remote_model": "qwen3-vl:235b",
+        "remote_host": "https://ollama.com:443",
+        "modified_at": "2025-11-04T18:35:53.9402092Z",
+        "size": 393,
+        "digest": "86b3322ec200a5d4c450b758fe56a3c172e3e712a87b3ef4917417ab7499042a",
+        "details": {
+          "parent_model": "",
+          "format": "",
+          "family": "qwen3vl",
+          "families": [
+            "qwen3vl"
+          ],
+          "parameter_size": "235B",
+          "quantization_level": "FP8",
+          "context_length": 262144,
+          "embedding_length": 2048
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "vision",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "ps": {
+    "models": [
+      {
+        "name": "qwen3-vl:4b-instruct",
+        "model": "qwen3-vl:4b-instruct",
+        "size": 4279259626,
+        "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3vl",
+          "families": [
+            "qwen3vl",
+            "clip"
+          ],
+          "parameter_size": "4.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-11-15T08:50:22.2834408Z",
+        "size_vram": 0,
+        "context_length": 8192
+      }
+    ]
+  }
+}

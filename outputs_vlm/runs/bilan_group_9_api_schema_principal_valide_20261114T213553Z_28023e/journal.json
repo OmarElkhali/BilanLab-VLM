@@ -1,0 +1,40 @@
+[
+  {
+    "backend": "api",
+    "variant": "schema",
+    "page": 1,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "1c391628331564638d652d65b7899ee4e8ad9569dd136810bb1ffaa7b7e3fc40",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_schema_principal_valide_20261114T213553Z_28023e",
+    "finish_reason": "STOP",
+    "seconds": 11.468084899999667,
+    "http_attempts": 1,
+    "input_tokens": 3068,
+    "output_tokens": 1755,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 11.53005220000341
+  },
+  {
+    "backend": "api",
+    "variant": "schema",
+    "page": 2,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "dc15802621fe7975e7971647765e9955c392168e7b92a98981fe7c7f27929641",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_schema_principal_valide_20261114T213553Z_28023e",
+    "finish_reason": "STOP",
+    "seconds": 8.414739899999404,
+    "http_attempts": 1,
+    "input_tokens": 2859,
+    "output_tokens": 1508,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 8.466277599996829
+  }
+]

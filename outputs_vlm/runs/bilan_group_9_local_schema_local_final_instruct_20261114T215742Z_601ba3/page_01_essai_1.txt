@@ -1,0 +1,13 @@
+{
+  "nature": "ACTIF",
+  "exercice_N": 3112,
+  "unite": "inconnue",
+  "preuve_unite": "",
+  "valeurs": {
+    "brut_N": "226804,00",
+    "amort_N": "224560,25",
+    "net_N": "2243,75",
+    "net_N1": "2243,75"
+  },
+  "avertissements": []
+}

@@ -1,0 +1,12 @@
+{
+  "numeric_correct": 42,
+  "numeric_total": 107,
+  "exactitude_numerique": 0.3925233644859813,
+  "net_correct": 42,
+  "net_total": 74,
+  "exactitude_nette": 0.5675675675675675,
+  "exactitude_etats_valeurs": 0.45454545454545453,
+  "lignes_presentes": 40,
+  "lignes_attendues": 88,
+  "completude_lignes": 0.45454545454545453
+}

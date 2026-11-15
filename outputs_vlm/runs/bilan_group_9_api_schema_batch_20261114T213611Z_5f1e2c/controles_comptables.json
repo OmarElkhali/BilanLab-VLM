@@ -1,0 +1,156 @@
+[
+  {
+    "controle": "somme_enfants",
+    "id": "P_TOTAL",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_TOTAL",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_I",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_I",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_A",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_A",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_B",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_B",
+    "colonne": "montant_net_N1",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_C",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_C",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_D",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_D",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_E",
+    "colonne": "montant_net_N",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_E",
+    "colonne": "montant_net_N1",
+    "statut": "sans_donnees",
+    "ecart": null
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_II",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_II",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_F",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_F",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_III",
+    "colonne": "montant_net_N",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "somme_enfants",
+    "id": "P_III",
+    "colonne": "montant_net_N1",
+    "statut": "ok",
+    "ecart": "0.00"
+  },
+  {
+    "controle": "actif_egal_passif",
+    "id": "document",
+    "colonne": "montant_net_N",
+    "statut": "indetermine",
+    "ecart": null
+  },
+  {
+    "controle": "actif_egal_passif",
+    "id": "document",
+    "colonne": "montant_net_N1",
+    "statut": "indetermine",
+    "ecart": null
+  }
+]

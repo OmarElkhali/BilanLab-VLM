@@ -1,0 +1,16 @@
+[
+  {
+    "controle": "actif_egal_passif",
+    "id": "document",
+    "colonne": "montant_net_N",
+    "statut": "indetermine",
+    "ecart": null
+  },
+  {
+    "controle": "actif_egal_passif",
+    "id": "document",
+    "colonne": "montant_net_N1",
+    "statut": "indetermine",
+    "ecart": null
+  }
+]

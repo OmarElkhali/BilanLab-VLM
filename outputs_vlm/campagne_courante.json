@@ -1,0 +1,182 @@
+{
+  "id": "verification_20261115T083627Z",
+  "statut": "terminee",
+  "repetitions": 3,
+  "graine_ordre": 42,
+  "protocole": "Notebook Python, images 200 DPI masquées, température 0, zéro réessai de validation pour le benchmark.",
+  "parallelisme": "Un essai local CPU et la série API distante se chevauchent ; les requêtes API restent séquentielles.",
+  "experiences": [
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "principal_valide",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_schema_principal_valide_20261115T083627Z_ee228f",
+      "complet": false
+    },
+    {
+      "backend": "api",
+      "variante": "fewshot",
+      "label": "ablation_validee_1",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_fewshot_ablation_validee_1_20261115T083718Z_e53261",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "role",
+      "label": "ablation_validee_1",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_role_ablation_validee_1_20261115T083749Z_da3620",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "constraints",
+      "label": "ablation_validee_1",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_constraints_ablation_validee_1_20261115T083759Z_0edc46",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "json_mode",
+      "label": "ablation_validee_1",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_json_mode_ablation_validee_1_20261115T083810Z_be4a38",
+      "complet": false
+    },
+    {
+      "backend": "api",
+      "variante": "baseline",
+      "label": "ablation_validee_1",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_baseline_ablation_validee_1_20261115T083855Z_b71411",
+      "complet": false
+    },
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "ablation_validee_1",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_schema_ablation_validee_1_20261115T084100Z_c3ae30",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "fewshot",
+      "label": "ablation_validee_2",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_fewshot_ablation_validee_2_20261115T084127Z_1a9bf0",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "baseline",
+      "label": "ablation_validee_2",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_baseline_ablation_validee_2_20261115T084138Z_9ff624",
+      "complet": false
+    },
+    {
+      "backend": "api",
+      "variante": "constraints",
+      "label": "ablation_validee_2",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_constraints_ablation_validee_2_20261115T084147Z_52c8a2",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "json_mode",
+      "label": "ablation_validee_2",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_json_mode_ablation_validee_2_20261115T084200Z_cf8c65",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "ablation_validee_2",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_schema_ablation_validee_2_20261115T084211Z_bff2a4",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "role",
+      "label": "ablation_validee_2",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_role_ablation_validee_2_20261115T084229Z_af8ad3",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "fewshot",
+      "label": "ablation_validee_3",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_fewshot_ablation_validee_3_20261115T084318Z_39f1ff",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "role",
+      "label": "ablation_validee_3",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_role_ablation_validee_3_20261115T084346Z_3b5d2b",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "constraints",
+      "label": "ablation_validee_3",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_constraints_ablation_validee_3_20261115T084436Z_895d51",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "baseline",
+      "label": "ablation_validee_3",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_baseline_ablation_validee_3_20261115T084446Z_b9abf9",
+      "complet": false
+    },
+    {
+      "backend": "api",
+      "variante": "json_mode",
+      "label": "ablation_validee_3",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_json_mode_ablation_validee_3_20261115T084526Z_bcd6ef",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "ablation_validee_3",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_schema_ablation_validee_3_20261115T084540Z_191e32",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "scan_degrade_valide",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_schema_scan_degrade_valide_20261115T084551Z_7f4a40",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "batch_valide",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_schema_batch_valide_20261115T084658Z_3fdb16",
+      "complet": true
+    },
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "batch_valide",
+      "run_dir": "outputs_vlm\\runs\\bilan_group9_scan_synthetique_api_schema_batch_valide_20261115T084714Z_8da98e",
+      "complet": true
+    },
+    {
+      "backend": "local",
+      "variante": "schema",
+      "label": "local_verification",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_local_schema_local_verification_20261115T083627Z_137862",
+      "complet": false
+    },
+    {
+      "backend": "api",
+      "variante": "schema",
+      "label": "principal_relecture",
+      "run_dir": "outputs_vlm\\runs\\bilan_group_9_api_schema_principal_relecture_20261115T085006Z_264f1e",
+      "complet": true
+    }
+  ],
+  "erreurs": [],
+  "fin_utc": "2026-11-15T08:50:52.483284+00:00",
+  "finalisation_utc": "2026-11-15T08:50:53.697807+00:00",
+  "schema_minimal": true
+}

@@ -1,0 +1,107 @@
+{
+  "statut": "OK",
+  "diapositives": 21,
+  "images_enregistrees": 20,
+  "temoin_accepte": 1,
+  "notes_orales_integrees": 21,
+  "format": "16:9",
+  "backend": "built-in image tool",
+  "qa_visuelle": "Chaque image finale inspectee par le parent, apres controle par son sous-agent.",
+  "reprises": [
+    "slide_01 : titre repete et bandeau retires",
+    "slide_03 : en-tete du temoin remplace",
+    "slides_17_19_21 : nouvelles mesures locales et recommandations synchronisees"
+  ],
+  "limites": [
+    "Les diapositives sont des images, les elements de texte et de graphe ne sont pas editables separement.",
+    "Les petits caracteres des pages de bilan sont visibles comme document source, non comme tableau de lecture detaillee.",
+    "Validation structurelle du PPTX ; aucune ouverture native dans PowerPoint revendiquee."
+  ],
+  "pptx": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\BilanLab_Presentation_21.pptx",
+  "images": {
+    "slide_01.png": {
+      "sha256": "e229e25846e9beacf7dbb0b3293ac034d3ef891f14188655a1d3ef6f56d16b0f",
+      "octets": 1182547
+    },
+    "slide_02.png": {
+      "sha256": "7e10d598375993045f37170634b7b390624a1e562bb69a66243b442d98379784",
+      "octets": 1387384
+    },
+    "slide_03.png": {
+      "sha256": "cd0255646356511566f8180ced513f34cb033aaf28f0a57594e3cb445378e13c",
+      "octets": 1721282
+    },
+    "slide_04.png": {
+      "sha256": "88d06bf74ee81bfbc6545bd1eb975bb5be42efeb68cdf91f5c0d2d30593ff7cf",
+      "octets": 1394912
+    },
+    "slide_05.png": {
+      "sha256": "873c1a58f72a8ba422bf936f8389bd47b610bd2a22eb5206abf5b226ea847d0d",
+      "octets": 1314477
+    },
+    "slide_06.png": {
+      "sha256": "6124acb7ec1b6cb96d1edad81dc3c564e712044747c26390c06b2304fcdd743d",
+      "octets": 1460354
+    },
+    "slide_07.png": {
+      "sha256": "c1680fc084044836d65805371a618bf53104ea6b8d9cfbad105b55fa362268b8",
+      "octets": 1382891
+    },
+    "slide_08.png": {
+      "sha256": "1f4e8c6d48eb1d4ba5ffc3ee878653b1566cd94974d57e3d68f52a17dd0782d8",
+      "octets": 1527492
+    },
+    "slide_09.png": {
+      "sha256": "0fd923eb50d773781800f4665fb296028f3e6b7d66d8e213a21510a28a8d61f1",
+      "octets": 1457315
+    },
+    "slide_10.png": {
+      "sha256": "fdc127602c64e385ffb0fc4096641bb9b36454243eed88a5c7f0b4621a89c7b8",
+      "octets": 1495298
+    },
+    "slide_11.png": {
+      "sha256": "ce18db36509f339c367624bb21ca6bfc605d9015f22d1781f62473f2bf6b1981",
+      "octets": 1288430
+    },
+    "slide_12.png": {
+      "sha256": "188450cbddb184deb3759942b20c360864aa75ed439b2bcdd8756a094850ef52",
+      "octets": 1505579
+    },
+    "slide_13.png": {
+      "sha256": "e9e666be6a8911b8bc2f358472c9419c33a7b27d7975efe09e905f095f6eccd2",
+      "octets": 1426435
+    },
+    "slide_14.png": {
+      "sha256": "f2d57c003fe9cebe795c7d929ed8358600b73a7149c8d0f9e331c702e182df8d",
+      "octets": 1291675
+    },
+    "slide_15.png": {
+      "sha256": "b4f2d887d65e40b05cb8f4a14415696da0de13353116b525986a54b16c3a7121",
+      "octets": 1390544
+    },
+    "slide_16.png": {
+      "sha256": "9d1b26ee9777b75bc85187f9b04f06ac4a6293572cc9e474613ef829d0b9e231",
+      "octets": 1421845
+    },
+    "slide_17.png": {
+      "sha256": "80aee91ad95d73ccffa7c14d82ce6d83665c332b57a5e0b1b226e22ed8684533",
+      "octets": 1372757
+    },
+    "slide_18.png": {
+      "sha256": "c20519b18157121b7db56ad6673b9ac50fdacd217d09817a03fb9854b01f03d6",
+      "octets": 1682898
+    },
+    "slide_19.png": {
+      "sha256": "4e3d052487033ae2ecee76b0b8505f5ebc0366c32327b6858cecdf7ae00fb588",
+      "octets": 1379768
+    },
+    "slide_20.png": {
+      "sha256": "ce8d370c41b3325606969d59a3bcd0d1d7e15237a9a77e1d015da88ad4b23aa8",
+      "octets": 1469876
+    },
+    "slide_21.png": {
+      "sha256": "74f455850a9dc39d1d259b70907d2bfc9d748d9013ff0ccd5bded65a8dec92a6",
+      "octets": 1398755
+    }
+  }
+}

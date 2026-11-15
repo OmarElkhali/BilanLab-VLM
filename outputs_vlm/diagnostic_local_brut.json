@@ -1,0 +1,452 @@
+{
+  "statut": "diagnostic des valeurs brutes, sans acceptation ni réparation du JSON métier",
+  "montants_bruts_corrects": 34,
+  "montants_attendus": 107,
+  "exactitude_brute_diagnostique": 0.3177570093457944,
+  "marqueurs_NA_incompatibles": 210,
+  "annees_brutes": [
+    3112,
+    2024
+  ],
+  "aucun_montant_corrige": true,
+  "erreurs": [
+    {
+      "id": "A_B2",
+      "colonne": "montant_brut_N",
+      "attendu": "15600.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_B2",
+      "colonne": "montant_amort_N",
+      "attendu": "15600.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_C",
+      "colonne": "montant_brut_N",
+      "attendu": "3362600.45",
+      "brut_modele": "336200.45"
+    },
+    {
+      "id": "A_C2",
+      "colonne": "montant_brut_N",
+      "attendu": "2476201.66",
+      "brut_modele": "23187.60"
+    },
+    {
+      "id": "A_C2",
+      "colonne": "montant_amort_N",
+      "attendu": "1978700.24",
+      "brut_modele": "23187.60"
+    },
+    {
+      "id": "A_C2",
+      "colonne": "montant_net_N",
+      "attendu": "497501.42",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_C2",
+      "colonne": "montant_net_N1",
+      "attendu": "614626.42",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_C3",
+      "colonne": "montant_brut_N",
+      "attendu": "23187.60",
+      "brut_modele": "551457.34"
+    },
+    {
+      "id": "A_C3",
+      "colonne": "montant_amort_N",
+      "attendu": "23187.60",
+      "brut_modele": "551457.34"
+    },
+    {
+      "id": "A_C4",
+      "colonne": "montant_brut_N",
+      "attendu": "551457.34",
+      "brut_modele": "311753.85"
+    },
+    {
+      "id": "A_C4",
+      "colonne": "montant_amort_N",
+      "attendu": "551457.34",
+      "brut_modele": "262424.66"
+    },
+    {
+      "id": "A_C5",
+      "colonne": "montant_brut_N",
+      "attendu": "311753.85",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_C5",
+      "colonne": "montant_amort_N",
+      "attendu": "262424.66",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_C5",
+      "colonne": "montant_net_N",
+      "attendu": "49329.19",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_C5",
+      "colonne": "montant_net_N1",
+      "attendu": "51410.26",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_II",
+      "colonne": "montant_net_N",
+      "attendu": "18311788.75",
+      "brut_modele": "18820979.82"
+    },
+    {
+      "id": "A_G",
+      "colonne": "montant_net_N",
+      "attendu": "18311788.75",
+      "brut_modele": "18820979.82"
+    },
+    {
+      "id": "A_G1",
+      "colonne": "montant_net_N",
+      "attendu": "1619.34",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_G1",
+      "colonne": "montant_net_N1",
+      "attendu": "1619.34",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_G2",
+      "colonne": "montant_brut_N",
+      "attendu": "18300692.45",
+      "brut_modele": "1830692.45"
+    },
+    {
+      "id": "A_G2",
+      "colonne": "montant_net_N",
+      "attendu": "18300692.45",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_G2",
+      "colonne": "montant_net_N1",
+      "attendu": "18556410.52",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_G3",
+      "colonne": "montant_net_N",
+      "attendu": "7.96",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_G3",
+      "colonne": "montant_net_N1",
+      "attendu": "7.96",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_G4",
+      "colonne": "montant_net_N",
+      "attendu": "9469.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_G4",
+      "colonne": "montant_net_N1",
+      "attendu": "262942.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_III",
+      "colonne": "montant_net_N",
+      "attendu": "1841433.36",
+      "brut_modele": "1763957.71"
+    },
+    {
+      "id": "A_T2",
+      "colonne": "montant_net_N",
+      "attendu": "1747266.28",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_T2",
+      "colonne": "montant_net_N1",
+      "attendu": "1321826.25",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_T3",
+      "colonne": "montant_net_N",
+      "attendu": "94167.08",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "A_T3",
+      "colonne": "montant_net_N1",
+      "attendu": "442131.46",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_TOTAL",
+      "colonne": "montant_net_N",
+      "attendu": "20702296.47",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_TOTAL",
+      "colonne": "montant_net_N1",
+      "attendu": "21253217.96",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_I",
+      "colonne": "montant_net_N",
+      "attendu": "11952756.77",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_I",
+      "colonne": "montant_net_N1",
+      "attendu": "11538218.11",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A",
+      "colonne": "montant_net_N",
+      "attendu": "9665481.84",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A",
+      "colonne": "montant_net_N1",
+      "attendu": "8831813.73",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A1",
+      "colonne": "montant_net_N",
+      "attendu": "500000.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A1",
+      "colonne": "montant_net_N1",
+      "attendu": "500000.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A5",
+      "colonne": "montant_net_N",
+      "attendu": "10000.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A5",
+      "colonne": "montant_net_N1",
+      "attendu": "10000.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A7",
+      "colonne": "montant_net_N",
+      "attendu": "-20171.22",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A7",
+      "colonne": "montant_net_N1",
+      "attendu": "-20171.22",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A8",
+      "colonne": "montant_net_N",
+      "attendu": "8341984.95",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A8",
+      "colonne": "montant_net_N1",
+      "attendu": "7882724.80",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A9",
+      "colonne": "montant_net_N",
+      "attendu": "833668.11",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_A9",
+      "colonne": "montant_net_N1",
+      "attendu": "459260.15",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_C",
+      "colonne": "montant_net_N",
+      "attendu": "2147840.93",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_C",
+      "colonne": "montant_net_N1",
+      "attendu": "2566970.38",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_C2",
+      "colonne": "montant_net_N",
+      "attendu": "2147840.93",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_C2",
+      "colonne": "montant_net_N1",
+      "attendu": "2566970.38",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_D",
+      "colonne": "montant_net_N",
+      "attendu": "139434.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_D",
+      "colonne": "montant_net_N1",
+      "attendu": "139434.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_D1",
+      "colonne": "montant_net_N",
+      "attendu": "139434.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_D1",
+      "colonne": "montant_net_N1",
+      "attendu": "139434.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_II",
+      "colonne": "montant_net_N",
+      "attendu": "8749120.96",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_II",
+      "colonne": "montant_net_N1",
+      "attendu": "9714581.11",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F",
+      "colonne": "montant_net_N",
+      "attendu": "8749120.96",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F",
+      "colonne": "montant_net_N1",
+      "attendu": "9714581.11",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F1",
+      "colonne": "montant_net_N",
+      "attendu": "98041.80",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F1",
+      "colonne": "montant_net_N1",
+      "attendu": "66800.50",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F3",
+      "colonne": "montant_net_N",
+      "attendu": "6069.00",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F3",
+      "colonne": "montant_net_N1",
+      "attendu": "49847.72",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F4",
+      "colonne": "montant_net_N",
+      "attendu": "28594.50",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F4",
+      "colonne": "montant_net_N1",
+      "attendu": "16423.98",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F5",
+      "colonne": "montant_net_N",
+      "attendu": "229371.67",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F5",
+      "colonne": "montant_net_N1",
+      "attendu": "239993.94",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F7",
+      "colonne": "montant_net_N",
+      "attendu": "8387043.99",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_F7",
+      "colonne": "montant_net_N1",
+      "attendu": "9341514.97",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_III",
+      "colonne": "montant_net_N",
+      "attendu": "418.74",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_III",
+      "colonne": "montant_net_N1",
+      "attendu": "418.74",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_T3",
+      "colonne": "montant_net_N",
+      "attendu": "418.74",
+      "brut_modele": "NA"
+    },
+    {
+      "id": "P_T3",
+      "colonne": "montant_net_N1",
+      "attendu": "418.74",
+      "brut_modele": "NA"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "lignes": [
+    {
+      "poste": "CAPITAUX PROPRES",
+      "rubrique": "passif",
+      "montant_net_N": "9665481.84",
+      "montant_net_N1": "8831813.73"
+    },
+    {
+      "poste": "Capital social ou personnel (1)",
+      "rubrique": "passif",
+      "montant_net_N": "500000.00",
+      "montant_net_N1": "500000.00"
+    },
+    {
+      "poste": "Actionnaires, capital souscrit Non appelé",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Primes d'émission, de fusion et d'apport",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Ecart de réévaluation",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Réserve légale",
+      "rubrique": "passif",
+      "montant_net_N": "10000.00",
+      "montant_net_N1": "10000.00"
+    },
+    {
+      "poste": "Autres réserves",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Report à nouveau (2)",
+      "rubrique": "passif",
+      "montant_net_N": "-20171.22",
+      "montant_net_N1": "-20171.22"
+    },
+    {
+      "poste": "Résultat nets en instance d'affectation (2)",
+      "rubrique": "passif",
+      "montant_net_N": "8341984.95",
+      "montant_net_N1": "7882724.80"
+    },
+    {
+      "poste": "Résultat net de l'exercice (2)",
+      "rubrique": "passif",
+      "montant_net_N": "833668.11",
+      "montant_net_N1": "459260.15"
+    },
+    {
+      "poste": "CAPITAUX PROPRES ASSIMILES",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Subvention d'investissement",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Provisions réglementaires",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "DETTES DE FINANCEMENT",
+      "rubrique": "passif",
+      "montant_net_N": "2147840.93",
+      "montant_net_N1": "2566970.38"
+    },
+    {
+      "poste": "Emprunts obligataires",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Autres dettes de financement",
+      "rubrique": "passif",
+      "montant_net_N": "2147840.93",
+      "montant_net_N1": "2566970.38"
+    },
+    {
+      "poste": "PROVISIONS DURABLES POUR RISQUES ET CHARGES",
+      "rubrique": "passif",
+      "montant_net_N": "139434.00",
+      "montant_net_N1": "139434.00"
+    },
+    {
+      "poste": "Provisions pour risques",
+      "rubrique": "passif",
+      "montant_net_N": "139434.00",
+      "montant_net_N1": "139434.00"
+    },
+    {
+      "poste": "Provisions pour charge",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "ECART DE CONVERSION - PASSIF",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Augmentation des créances immobilisées",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Diminution des dettes de financement",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "TOTAL I ( A+B+C+D+E )",
+      "rubrique": "passif",
+      "montant_net_N": "11952756.77",
+      "montant_net_N1": "11538218.11"
+    },
+    {
+      "poste": "DETTES DU PASSIF CIRCULANT",
+      "rubrique": "passif",
+      "montant_net_N": "8749120.96",
+      "montant_net_N1": "9714581.11"
+    },
+    {
+      "poste": "Fournisseurs et comptes rattachés",
+      "rubrique": "passif",
+      "montant_net_N": "98041.80",
+      "montant_net_N1": "66800.50"
+    },
+    {
+      "poste": "Clients créditeurs, avances et acomptes",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Personnel - créditeur",
+      "rubrique": "passif",
+      "montant_net_N": "6069.00",
+      "montant_net_N1": "49847.72"
+    },
+    {
+      "poste": "Organisme sociaux",
+      "rubrique": "passif",
+      "montant_net_N": "28594.50",
+      "montant_net_N1": "16423.98"
+    },
+    {
+      "poste": "Etat - Créditeur",
+      "rubrique": "passif",
+      "montant_net_N": "229371.67",
+      "montant_net_N1": "239993.94"
+    },
+    {
+      "poste": "Comptes d'associés créditeurs",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Autres créanciers",
+      "rubrique": "passif",
+      "montant_net_N": "8387043.99",
+      "montant_net_N1": "9341514.97"
+    },
+    {
+      "poste": "Comptes de régularisations - passif",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "AUTRES PROVISIONS POUR RISQUES ET CHARGES",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "ECARTS DE CONVERSION - PASSIF",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "TOTAL II ( F+G+H )",
+      "rubrique": "passif",
+      "montant_net_N": "8749120.96",
+      "montant_net_N1": "9714581.11"
+    },
+    {
+      "poste": "TRESORERIE - PASSIF",
+      "rubrique": "passif",
+      "montant_net_N": "418.74",
+      "montant_net_N1": "418.74"
+    },
+    {
+      "poste": "Crédits d'escomptes",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Crédit de trésorerie",
+      "rubrique": "passif",
+      "montant_net_N": null,
+      "montant_net_N1": null
+    },
+    {
+      "poste": "Banques ( Soldes créditeurs )",
+      "rubrique": "passif",
+      "montant_net_N": "418.74",
+      "montant_net_N1": "418.74"
+    },
+    {
+      "poste": "TOTAL III",
+      "rubrique": "passif",
+      "montant_net_N": "418.74",
+      "montant_net_N1": "418.74"
+    },
+    {
+      "poste": "TOTAL I+II+III",
+      "rubrique": "passif",
+      "montant_net_N": "20702296.47",
+      "montant_net_N1": "21253217.96"
+    }
+  ]
+}

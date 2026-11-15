@@ -1,0 +1,28 @@
+{
+  "source_sha256": "794d9172b8ac0aa368241932231bcc6a85204a15843f46a85a923cdcaebcc0fa",
+  "source_fichier": "bilan_group_9.pdf",
+  "backend": "local",
+  "modele": "qwen3-vl:4b-instruct",
+  "variant": "schema",
+  "label": "local_final_instruct",
+  "utc": "20261114T215742Z",
+  "environment": {
+    "pymupdf": "1.28.2",
+    "Pillow": "10.3.0",
+    "requests": "2.31.0",
+    "jsonschema": "4.23.0",
+    "pandas": "2.2.2",
+    "matplotlib": "3.8.4",
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "transport": "local_map_v3_1400px",
+  "execution_host": "test",
+  "dpi": 200,
+  "contrast": false,
+  "catalogue_sha256": "ba4854d6f1c61c45ad840e155854a13a872a2d5a13bc209e83001ea16ed2da4e",
+  "document_complet": false,
+  "pages": [],
+  "wall_seconds": 429.2062092999986,
+  "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_local_schema_local_final_instruct_20261114T215742Z_601ba3"
+}

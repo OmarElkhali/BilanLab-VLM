@@ -1,0 +1,40 @@
+[
+  {
+    "backend": "api",
+    "variant": "role",
+    "page": 1,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "5a06030a5f20e293e71622ec066bae7aeacf523d1d106d0f7549a97bf22eda20",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_role_ablation_validee_3_20261115T084346Z_3b5d2b",
+    "finish_reason": "STOP",
+    "seconds": 25.420997299999954,
+    "http_attempts": 1,
+    "input_tokens": 2745,
+    "output_tokens": 1755,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 25.48426970000014
+  },
+  {
+    "backend": "api",
+    "variant": "role",
+    "page": 2,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "82523bf44829e49e9f75dcdd7c82f1f3fb46c8f043c4cd631958db3b4c9ad09d",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_role_ablation_validee_3_20261115T084346Z_3b5d2b",
+    "finish_reason": "STOP",
+    "seconds": 24.51698190000002,
+    "http_attempts": 1,
+    "input_tokens": 2536,
+    "output_tokens": 1428,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 24.573797499999955
+  }
+]

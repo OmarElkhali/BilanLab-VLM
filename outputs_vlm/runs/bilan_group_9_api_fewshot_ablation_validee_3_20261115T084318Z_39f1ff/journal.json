@@ -1,0 +1,40 @@
+[
+  {
+    "backend": "api",
+    "variant": "fewshot",
+    "page": 1,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "5a06030a5f20e293e71622ec066bae7aeacf523d1d106d0f7549a97bf22eda20",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_fewshot_ablation_validee_3_20261115T084318Z_39f1ff",
+    "finish_reason": "STOP",
+    "seconds": 21.283246700000063,
+    "http_attempts": 1,
+    "input_tokens": 3072,
+    "output_tokens": 1755,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 21.341290699999945
+  },
+  {
+    "backend": "api",
+    "variant": "fewshot",
+    "page": 2,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": true,
+    "image_sha256": "82523bf44829e49e9f75dcdd7c82f1f3fb46c8f043c4cd631958db3b4c9ad09d",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_fewshot_ablation_validee_3_20261115T084318Z_39f1ff",
+    "finish_reason": "STOP",
+    "seconds": 6.263231299999916,
+    "http_attempts": 1,
+    "input_tokens": 2863,
+    "output_tokens": 1428,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "wall_seconds": 6.325419999999895
+  }
+]

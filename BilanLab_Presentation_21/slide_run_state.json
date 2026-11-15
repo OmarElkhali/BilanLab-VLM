@@ -1,0 +1,48 @@
+{
+  "status": "assembled",
+  "history": [
+    {
+      "from": "created",
+      "to": "jobs_prepared",
+      "at": "2026-11-15T09:53:48Z",
+      "note": "prepared slide prompt jobs"
+    },
+    {
+      "from": "jobs_prepared",
+      "to": "slides_dispatched",
+      "at": "2026-11-15T10:10:48Z",
+      "note": "all slide jobs dispatched"
+    },
+    {
+      "from": "slides_dispatched",
+      "to": "slides_recorded",
+      "at": "2026-11-15T13:33:17Z",
+      "note": "all slide images recorded"
+    },
+    {
+      "from": "slides_recorded",
+      "to": "jobs_prepared",
+      "at": "2026-11-15T13:48:31Z",
+      "note": "prepared slide prompt jobs"
+    },
+    {
+      "from": "jobs_prepared",
+      "to": "slides_dispatched",
+      "at": "2026-11-15T13:49:33Z",
+      "note": "all slide jobs dispatched"
+    },
+    {
+      "from": "slides_dispatched",
+      "to": "slides_recorded",
+      "at": "2026-11-15T13:51:09Z",
+      "note": "all slide images recorded"
+    },
+    {
+      "from": "slides_recorded",
+      "to": "assembled",
+      "at": "2026-11-15T13:55:57Z",
+      "note": "21 slides and 21 notes structurally verified after local revisions17,19,21"
+    }
+  ],
+  "updated_at": "2026-11-15T13:55:57Z"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "backend": "api",
+    "variant": "role",
+    "page": 1,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": false,
+    "image_sha256": "1c391628331564638d652d65b7899ee4e8ad9569dd136810bb1ffaa7b7e3fc40",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_role_ablation_1_20261114T212724Z_4ae39e",
+    "finish_reason": "STOP",
+    "seconds": 9.2385684999972,
+    "http_attempts": 1,
+    "input_tokens": 3227,
+    "output_tokens": 1755,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "erreur": "A_A3/montant_brut_N : non_applicable incorrect.",
+    "wall_seconds": 9.275930099996913
+  },
+  {
+    "backend": "api",
+    "variant": "role",
+    "page": 2,
+    "attempt": 1,
+    "syntaxe_json": true,
+    "schema_valide": true,
+    "accepte": false,
+    "image_sha256": "dc15802621fe7975e7971647765e9955c392168e7b92a98981fe7c7f27929641",
+    "run_dir": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\runs\\bilan_group_9_api_role_ablation_1_20261114T212724Z_4ae39e",
+    "finish_reason": "STOP",
+    "seconds": 8.664267400003155,
+    "http_attempts": 1,
+    "input_tokens": 3227,
+    "output_tokens": 874,
+    "thought_tokens": 0,
+    "model_version": "gemini-3.1-flash-lite",
+    "erreur": "Couverture incorrecte : absents=['P_A2', 'P_A3', 'P_A4', 'P_A6', 'P_B', 'P_B1', 'P_B2', 'P_C1', 'P_D2', 'P_E', 'P_E1', 'P_E2', 'P_F2', 'P_F6', 'P_F8', 'P_G', 'P_H', 'P_T1', 'P_T2'], inconnus=[]",
+    "wall_seconds": 8.693364899998414
+  }
+]

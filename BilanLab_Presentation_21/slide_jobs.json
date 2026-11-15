@@ -1,0 +1,894 @@
+{
+  "run_status": "slides_recorded",
+  "deck_name": "BilanLab_Presentation_21",
+  "selected_backend": "built-in image tool",
+  "sample_generation_method": {
+    "backend_used": "built-in image tool",
+    "tool_name": "image_gen__imagegen",
+    "mode": "edit",
+    "prompt_source": "sample_prompt.md",
+    "input_context_preparation": "view_image on strict source figure before calling image_gen; referenced_image_paths supplied",
+    "approved_sample_path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+    "size": "16:9 requested, approved image observed 1672x941; no exposed size parameter",
+    "quality": "built-in default; not exposed",
+    "model": "not exposed",
+    "transparent_background": false,
+    "handoff_rule": "Use tools.image_gen__imagegen with referenced_image_paths including the approved sample; inspect each local input using view_image first. Never render locally. Return blocker if this exact path is unavailable."
+  },
+  "max_concurrent_slides": 3,
+  "slides": [
+    {
+      "slide_id": "slide_01",
+      "number": 1,
+      "title": "Extraction de bilans marocains avec un VLM",
+      "job": "prompts/slide_01.json",
+      "out": "origin_image/slide_01.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_01",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_01.json",
+        "prompt_sha256": "867b4ba19a43d4d561d59fd7ecb154b31a2749720844db26abb9219763f4069c",
+        "dispatched_at": "2026-11-15T09:54:16Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_01",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea0-eb6c-7142-963d-2be8a8bbce40\\exec-ef2a5538-3a27-4284-866a-fd2342a39637.png",
+        "selected_source_sha256": "e229e25846e9beacf7dbb0b3293ac034d3ef891f14188655a1d3ef6f56d16b0f",
+        "final_image": "origin_image/slide_01.png",
+        "final_image_sha256": "e229e25846e9beacf7dbb0b3293ac034d3ef891f14188655a1d3ef6f56d16b0f",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Revised cover has single title, restrained subtitle and preserved concept; no truncated text.",
+        "recorded_at": "2026-11-15T09:59:30Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_02",
+      "number": 2,
+      "title": "Objectif métier et exigences du TP",
+      "job": "prompts/slide_02.json",
+      "out": "origin_image/slide_02.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_02",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_02.json",
+        "prompt_sha256": "34e114db8a76098b22f9dedaae8e748655446ce6baf74e535388ad0becab1137",
+        "dispatched_at": "2026-11-15T09:54:33Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_02",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea1-297a-7e62-a550-94fbc5749742\\exec-10663f67-77a7-4edf-84d1-115d064be7f4.png",
+        "selected_source_sha256": "7e10d598375993045f37170634b7b390624a1e562bb69a66243b442d98379784",
+        "final_image": "origin_image/slide_02.png",
+        "final_image_sha256": "7e10d598375993045f37170634b7b390624a1e562bb69a66243b442d98379784",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "French readable; four TP parts and deliverables verified; style matches approved sample.",
+        "recorded_at": "2026-11-15T09:58:18Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_03",
+      "number": 3,
+      "title": "Le bilan étudié et ses colonnes",
+      "job": "prompts/slide_03.json",
+      "out": "origin_image/slide_03.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\images_group9\\page_01.png",
+          "role": "strict input asset: Page actif anonymisée",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\images_group9\\page_02.png",
+          "role": "strict input asset: Page passif anonymisée",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_03",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_03.json",
+        "prompt_sha256": "9d92ab18e78b81fadc77067db81ec1b52e63b518a8134cc9b4207264aad3273d",
+        "dispatched_at": "2026-11-15T09:55:00Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_03",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea1-750a-7822-aeac-7526fc4b93b1\\exec-70b1804a-1bb1-4f7e-b0d3-4a0c20ed9a1b.png",
+        "selected_source_sha256": "cd0255646356511566f8180ced513f34cb033aaf28f0a57594e3cb445378e13c",
+        "final_image": "origin_image/slide_03.png",
+        "final_image_sha256": "cd0255646356511566f8180ced513f34cb033aaf28f0a57594e3cb445378e13c",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Both masked pages present, French headings legible, totals retained; fine page text naturally small at full-page scale.",
+        "recorded_at": "2026-11-15T09:58:52Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_04",
+      "number": 4,
+      "title": "Les difficultés de lecture d'un bilan",
+      "job": "prompts/slide_04.json",
+      "out": "origin_image/slide_04.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_04",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_04.json",
+        "prompt_sha256": "ef26847c201643cc6bc734e74098616b7b8f7bcc69e1ffddd0c5672adee500a4",
+        "dispatched_at": "2026-11-15T09:58:38Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_04",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea4-d959-7c71-9537-5219fc217914\\exec-0cc2a3c3-22f5-4f94-bd3f-8b497296e209.png",
+        "selected_source_sha256": "88d06bf74ee81bfbc6545bd1eb975bb5be42efeb68cdf91f5c0d2d30593ff7cf",
+        "final_image": "origin_image/slide_04.png",
+        "final_image_sha256": "88d06bf74ee81bfbc6545bd1eb975bb5be42efeb68cdf91f5c0d2d30593ff7cf",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Teaching examples explicit, French readable, visual concepts checked, no sample data leakage.",
+        "recorded_at": "2026-11-15T10:00:04Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_05",
+      "number": 5,
+      "title": "Architecture du pipeline et responsabilités du code",
+      "job": "prompts/slide_05.json",
+      "out": "origin_image/slide_05.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\00_architecture.png",
+          "role": "strict input asset: Architecture du pipeline",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_05",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_05.json",
+        "prompt_sha256": "ffb9595d6755c9c25c2c36607944f1cc348998ead5b2639f19f4d979efda45b7",
+        "dispatched_at": "2026-11-15T09:59:16Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_05",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea5-7709-7700-bd4c-2ecd0d56d37f\\exec-f0e1ae8a-ed11-4b14-a786-1b83b821f66b.png",
+        "selected_source_sha256": "873c1a58f72a8ba422bf936f8389bd47b610bd2a22eb5206abf5b226ea847d0d",
+        "final_image": "origin_image/slide_05.png",
+        "final_image_sha256": "873c1a58f72a8ba422bf936f8389bd47b610bd2a22eb5206abf5b226ea847d0d",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Pipeline labels and reference branch retained, French readable, no unrelated sample content.",
+        "recorded_at": "2026-11-15T10:00:52Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_06",
+      "number": 6,
+      "title": "Prétraitement et anonymisation réelle",
+      "job": "prompts/slide_06.json",
+      "out": "origin_image/slide_06.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_06",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_06.json",
+        "prompt_sha256": "a49bdeed9a83ae82d392d52679e4b49796ff72ea88817fd9b282cf8dc09b557f",
+        "dispatched_at": "2026-11-15T09:59:52Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_06",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea5-fb0b-78b2-a7a0-6f8b1eb89023\\exec-139a6fa9-6f5c-4106-aeb2-7d26e4795951.png",
+        "selected_source_sha256": "6124acb7ec1b6cb96d1edad81dc3c564e712044747c26390c06b2304fcdd743d",
+        "final_image": "origin_image/slide_06.png",
+        "final_image_sha256": "6124acb7ec1b6cb96d1edad81dc3c564e712044747c26390c06b2304fcdd743d",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Preprocessing stages, pixel masking and source-text layer distinction checked; readable French.",
+        "recorded_at": "2026-11-15T10:01:17Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_07",
+      "number": 7,
+      "title": "Le schéma JSON minimal demandé par le TP",
+      "job": "prompts/slide_07.json",
+      "out": "origin_image/slide_07.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_07",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_07.json",
+        "prompt_sha256": "5e2a9eed65a8fbb3656d226da7450395ea00ea8c880826cfab0fd2ecd6dd8239",
+        "dispatched_at": "2026-11-15T10:00:26Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_07",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea6-8908-72d0-8d23-af88dcfa3a50\\exec-792b5a38-0d86-4c06-8e90-9d171d07ce63.png",
+        "selected_source_sha256": "c1680fc084044836d65805371a618bf53104ea6b8d9cfbad105b55fa362268b8",
+        "final_image": "origin_image/slide_07.png",
+        "final_image_sha256": "c1680fc084044836d65805371a618bf53104ea6b8d9cfbad105b55fa362268b8",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Four minimal JSON fields, exact example amounts, 49/41 row counts checked and text readable.",
+        "recorded_at": "2026-11-15T10:01:55Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_08",
+      "number": 8,
+      "title": "Le schéma enrichi et les 88 postes canoniques",
+      "job": "prompts/slide_08.json",
+      "out": "origin_image/slide_08.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\04_etats_et_couverture.png",
+          "role": "strict input asset: États des cellules et couverture",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_08",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_08.json",
+        "prompt_sha256": "17a146534517c671b96a8b854592598b6822cae74282f891765c53177a4bce2d",
+        "dispatched_at": "2026-11-15T10:01:17Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_08",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea7-3723-7d21-acfd-311d35741d73\\exec-61123b12-f8e1-49a1-bec7-7ff423d6c04c.png",
+        "selected_source_sha256": "1f4e8c6d48eb1d4ba5ffc3ee878653b1566cd94974d57e3d68f52a17dd0782d8",
+        "final_image": "origin_image/slide_08.png",
+        "final_image_sha256": "1f4e8c6d48eb1d4ba5ffc3ee878653b1566cd94974d57e3d68f52a17dd0782d8",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "State plot, 90/88 normalization and 107/352 definitions checked; labels readable.",
+        "recorded_at": "2026-11-15T10:03:08Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_09",
+      "number": 9,
+      "title": "Les six techniques de prompting",
+      "job": "prompts/slide_09.json",
+      "out": "origin_image/slide_09.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_09",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_09.json",
+        "prompt_sha256": "01037efd0307afe171af277dd2dd9cbe100b3847dea22a09bd0eb736bb806749",
+        "dispatched_at": "2026-11-15T10:01:55Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_09",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea7-cc86-7f12-876e-4ce25680817e\\exec-7f97bf6b-4e17-4dbe-b4ec-ab7f81472a0d.png",
+        "selected_source_sha256": "0fd923eb50d773781800f4665fb296028f3e6b7d66d8e213a21510a28a8d61f1",
+        "final_image": "origin_image/slide_09.png",
+        "final_image_sha256": "0fd923eb50d773781800f4665fb296028f3e6b7d66d8e213a21510a28a8d61f1",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Six cumulative methods and native JSON/schema distinction checked; French clear.",
+        "recorded_at": "2026-11-15T10:03:08Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_10",
+      "number": 10,
+      "title": "Les deux chemins d'inférence",
+      "job": "prompts/slide_10.json",
+      "out": "origin_image/slide_10.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_10",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_10.json",
+        "prompt_sha256": "9a08ffa07094683cf6afab5a0de626fa10da6063d3577c2451f4ec617eb22c83",
+        "dispatched_at": "2026-11-15T10:02:20Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_10",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea8-3a06-7e31-ae02-7cbe88d7f014\\exec-fd031bcc-e81c-4d63-b54f-8bca987a174c.png",
+        "selected_source_sha256": "fdc127602c64e385ffb0fc4096641bb9b36454243eed88a5c7f0b4621a89c7b8",
+        "final_image": "origin_image/slide_10.png",
+        "final_image_sha256": "fdc127602c64e385ffb0fc4096641bb9b36454243eed88a5c7f0b4621a89c7b8",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Remote Gemini and CPU Ollama configuration verified, no GPU/MoE execution implied.",
+        "recorded_at": "2026-11-15T10:04:25Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_11",
+      "number": 11,
+      "title": "Validation du JSON et contrôles comptables",
+      "job": "prompts/slide_11.json",
+      "out": "origin_image/slide_11.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\05_controles_comptables.png",
+          "role": "strict input asset: Contrôles comptables par famille",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_11",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_11.json",
+        "prompt_sha256": "791bdc807fd1052cf68ada52f74096e045b5ff51baa5488ec5b6a796ed9862ff",
+        "dispatched_at": "2026-11-15T10:03:58Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_11",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dea9-c68a-7fa2-8b8b-856ee5cc82f1\\exec-f602fbcb-27b1-489b-b3c2-7a795b82b23f.png",
+        "selected_source_sha256": "ce18db36509f339c367624bb21ca6bfc605d9015f22d1781f62473f2bf6b1981",
+        "final_image": "origin_image/slide_11.png",
+        "final_image_sha256": "ce18db36509f339c367624bb21ca6bfc605d9015f22d1781f62473f2bf6b1981",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Original checks chart, Decimal and 0.01 tolerance caveat verified; readable equations and French.",
+        "recorded_at": "2026-11-15T10:05:40Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_12",
+      "number": 12,
+      "title": "Protocole de la nouvelle campagne",
+      "job": "prompts/slide_12.json",
+      "out": "origin_image/slide_12.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_12",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_12.json",
+        "prompt_sha256": "94a47f54547f401d102a7d935c1d531fe99ada6e05c8f10a08cd316bda3a3274",
+        "dispatched_at": "2026-11-15T10:04:24Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_12",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaa-127e-7903-aa1d-e7df8814ac44\\exec-9fd3c94a-bdf7-4d54-ade3-4393b0ff4ce7.png",
+        "selected_source_sha256": "188450cbddb184deb3759942b20c360864aa75ed439b2bcdd8756a094850ef52",
+        "final_image": "origin_image/slide_12.png",
+        "final_image_sha256": "188450cbddb184deb3759942b20c360864aa75ed439b2bcdd8756a094850ef52",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Exactly eighteen trial markers, seed42, single-document scope and no benchmark retries verified.",
+        "recorded_at": "2026-11-15T10:05:40Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_13",
+      "number": 13,
+      "title": "Résultat API de livraison",
+      "job": "prompts/slide_13.json",
+      "out": "origin_image/slide_13.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_13",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_13.json",
+        "prompt_sha256": "9039dab40bcb291a7034ed947a2475aad6548fe6548d9eaff3ec9ac8a7c3f011",
+        "dispatched_at": "2026-11-15T10:04:45Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_13",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaa-7f30-7540-b309-73521abfa91e\\exec-8046a81b-e6a9-4ea2-8209-2a19ff986ec3.png",
+        "selected_source_sha256": "e9e666be6a8911b8bc2f358472c9419c33a7b27d7975efe09e905f095f6eccd2",
+        "final_image": "origin_image/slide_13.png",
+        "final_image_sha256": "e9e666be6a8911b8bc2f358472c9419c33a7b27d7975efe09e905f095f6eccd2",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Delivery metrics 107/107,74/74,88/88,66,31.69s and separate principal_relecture provenance verified.",
+        "recorded_at": "2026-11-15T10:06:58Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_14",
+      "number": 14,
+      "title": "Le bilan extrait devient lisible et exploitable",
+      "job": "prompts/slide_14.json",
+      "out": "origin_image/slide_14.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\07_structure_bilan.png",
+          "role": "strict input asset: Structure financière extraite",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_14",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_14.json",
+        "prompt_sha256": "533474527ed0da20a5cc35b83e9254c1e2e485748cc9f9574d5cd4ee265c3f77",
+        "dispatched_at": "2026-11-15T10:06:00Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_14",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deab-a55b-7fe2-a70e-7b032c57700f\\exec-c1774033-6d89-4183-b668-f525fe0fd9ca.png",
+        "selected_source_sha256": "f2d57c003fe9cebe795c7d929ed8358600b73a7149c8d0f9e331c702e182df8d",
+        "final_image": "origin_image/slide_14.png",
+        "final_image_sha256": "f2d57c003fe9cebe795c7d929ed8358600b73a7149c8d0f9e331c702e182df8d",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Original financial figures preserve categories, periods, unit caveat and bar relationships; no invented MAD scale.",
+        "recorded_at": "2026-11-15T10:07:34Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_15",
+      "number": 15,
+      "title": "Fiabilité comparée des techniques de prompt",
+      "job": "prompts/slide_15.json",
+      "out": "origin_image/slide_15.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\01_exactitude_et_validation.png",
+          "role": "strict input asset: Exactitude et validation par stratégie",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "accepted",
+      "dispatch": null,
+      "result": {
+        "final_image": "origin_image/slide_15.png",
+        "accepted_sample": true
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_16",
+      "number": 16,
+      "title": "Vitesse, variabilité et coût estimable",
+      "job": "prompts/slide_16.json",
+      "out": "origin_image/slide_16.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\02_latence_et_stabilite.png",
+          "role": "strict input asset: Durées et stabilité observées",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_16",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_16.json",
+        "prompt_sha256": "a03fe2a5d7bd28b179a83512a8ac70fc555e8e53f5b52c480210828f35cec775",
+        "dispatched_at": "2026-11-15T10:06:19Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_16",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deab-e5d0-78d2-8500-8ba3ec5433b2\\exec-e9386a6e-2fb1-48ff-a606-05991d7ea692.png",
+        "selected_source_sha256": "9d1b26ee9777b75bc85187f9b04f06ac4a6293572cc9e474613ef829d0b9e231",
+        "final_image": "origin_image/slide_16.png",
+        "final_image_sha256": "9d1b26ee9777b75bc85187f9b04f06ac4a6293572cc9e474613ef829d0b9e231",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Latency points/medians and stability plot retained, scope and estimated/unmeasured costs clearly distinguished.",
+        "recorded_at": "2026-11-15T10:07:59Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_17",
+      "number": 17,
+      "title": "Une solution locale rapide : OCR et relecture ciblée",
+      "job": "prompts/slide_17.json",
+      "out": "origin_image/slide_17.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\12_optimisation_locale.png",
+          "role": "strict original measured comparison figure",
+          "fidelity": "Preserve both panels, all numerical values, axes, labels, colors. Do not redraw or alter."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/revision_slide_17",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_17.json",
+        "prompt_sha256": "a295071cf07244a3b65dc6bec8267ecf9a82e1cafd2128965e14d826b2e2ab24",
+        "dispatched_at": "2026-11-15T13:49:00Z"
+      },
+      "result": {
+        "agent_id": "/root/revision_slide_17",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1df77-d3cb-7951-a7d5-ca56f09eb1d5\\exec-bedda717-050d-4eb6-89f8-2009c48c83b7.png",
+        "selected_source_sha256": "80aee91ad95d73ccffa7c14d82ce6d83665c332b57a5e0b1b226e22ed8684533",
+        "final_image": "origin_image/slide_17.png",
+        "final_image_sha256": "80aee91ad95d73ccffa7c14d82ce6d83665c332b57a5e0b1b226e22ed8684533",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Revision locale verifiee : donnees mesurees, OCR distingue de Qwen seul, limites explicites, accents restaures dans le prompt par le worker.",
+        "recorded_at": "2026-11-15T13:51:08Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_18",
+      "number": 18,
+      "title": "Robustesse, relecture et traitement par lot",
+      "job": "prompts/slide_18.json",
+      "out": "origin_image/slide_18.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\outputs_vlm\\figures\\09_scan_original_et_degrade.png",
+          "role": "strict input asset: Original et scan synthétique dégradé",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_18",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_18.json",
+        "prompt_sha256": "229c7f62497a51c4e37d9371bb0d7382caeabb170467274b5977edaddd645257",
+        "dispatched_at": "2026-11-15T10:07:58Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_18",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1dead-5d0c-7f02-87c0-38ec71d70082\\exec-3aa30ecc-2aaf-4cb8-b1a7-eb2514931572.png",
+        "selected_source_sha256": "c20519b18157121b7db56ad6673b9ac50fdacd217d09817a03fb9854b01f03d6",
+        "final_image": "origin_image/slide_18.png",
+        "final_image_sha256": "c20519b18157121b7db56ad6673b9ac50fdacd217d09817a03fb9854b01f03d6",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Original/degraded comparison,107/10765.88s, separate re-reading and one-company batch scope checked.",
+        "recorded_at": "2026-11-15T10:11:05Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_19",
+      "number": 19,
+      "title": "Confidentialité et choix de déploiement",
+      "job": "prompts/slide_19.json",
+      "out": "origin_image/slide_19.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/revision_slide_19",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_19.json",
+        "prompt_sha256": "d9e70b43675c016f7f1af1fe100e3d720ae44201080d69e320cecfca96cfe962",
+        "dispatched_at": "2026-11-15T13:49:16Z"
+      },
+      "result": {
+        "agent_id": "/root/revision_slide_19",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1df78-1414-7433-8ab2-0e137814096d\\exec-3a24f1c4-f8c7-49ef-b347-c53e729b8f2f.png",
+        "selected_source_sha256": "4e3d052487033ae2ecee76b0b8505f5ebc0366c32327b6858cecdf7ae00fb588",
+        "final_image": "origin_image/slide_19.png",
+        "final_image_sha256": "4e3d052487033ae2ecee76b0b8505f5ebc0366c32327b6858cecdf7ae00fb588",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Revision locale verifiee : donnees mesurees, OCR distingue de Qwen seul, limites explicites, accents restaures dans le prompt par le worker.",
+        "recorded_at": "2026-11-15T13:51:08Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_20",
+      "number": 20,
+      "title": "BilanLab, l'application web du projet",
+      "job": "prompts/slide_20.json",
+      "out": "origin_image/slide_20.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        },
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\webapp\\outputs\\resultats-live.png",
+          "role": "strict input asset: Résultat réellement obtenu dans BilanLab",
+          "fidelity": "Preserve original source pixels/visual content, numerical data, axes, labels, colors and relationships. Do not redraw, replace or relabel; only compose surrounding slide. Crop screenshot only to useful result area as approved."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_20",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_20.json",
+        "prompt_sha256": "41de6c32f7a1e056404424b3a1d9a8f13db199f1726e699ff1ec3ce15b240827",
+        "dispatched_at": "2026-11-15T10:10:00Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_20",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaf-01fb-77c0-86b6-9e7ba7de845e\\exec-515bb0a7-0d32-460f-b36f-7e692f6dd8ea.png",
+        "selected_source_sha256": "ce8d370c41b3325606969d59a3bcd0d1d7e15237a9a77e1d015da88ad4b23aa8",
+        "final_image": "origin_image/slide_20.png",
+        "final_image_sha256": "ce8d370c41b3325606969d59a3bcd0d1d7e15237a9a77e1d015da88ad4b23aa8",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Capture réelle et valeurs 88 postes, 107/107, 66 contrôles et 16,05 s vérifiées.",
+        "recorded_at": "2026-11-15T13:33:17Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_21",
+      "number": 21,
+      "title": "Conclusion, limites et suite du projet",
+      "job": "prompts/slide_21.json",
+      "out": "origin_image/slide_21.png",
+      "input_images": [
+        {
+          "path": "D:\\SetupGame\\Desktop\\TP LLM\\VLM\\BilanLab_Presentation_21\\origin_image\\slide_15.png",
+          "role": "approved sample slide 15 STYLE ONLY",
+          "fidelity": "Match palette, typography mood and whitespace, not its chart content or exact layout."
+        }
+      ],
+      "requires_context_images": true,
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "/root/slide_21",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_21.json",
+        "prompt_sha256": "f33a69173fb96ec740fea9696b06d086707935e9d645ca941be0af663d2d6ef9",
+        "dispatched_at": "2026-11-15T13:49:33Z"
+      },
+      "result": {
+        "agent_id": "/root/slide_21",
+        "backend_used": "built-in image tool",
+        "selected_source": "C:\\Users\\SetupGame\\.codex\\generated_images\\01a1deaf-d77d-7bc3-9b3e-fe313a478674\\exec-0c584fbb-ce5f-4880-9948-d4eb589cc02d.png",
+        "selected_source_sha256": "74f455850a9dc39d1d259b70907d2bfc9d748d9013ff0ccd5bded65a8dec92a6",
+        "final_image": "origin_image/slide_21.png",
+        "final_image_sha256": "74f455850a9dc39d1d259b70907d2bfc9d748d9013ff0ccd5bded65a8dec92a6",
+        "expected_backend": "built-in image tool",
+        "expected_backend_labels": [
+          "built-in image tool",
+          "image_gen__imagegen"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Revision locale verifiee : donnees mesurees, OCR distingue de Qwen seul, limites explicites, accents restaures dans le prompt par le worker.",
+        "recorded_at": "2026-11-15T13:51:09Z"
+      },
+      "blocker": null
+    }
+  ],
+  "updated_at": "2026-11-15T13:51:09Z"
+}

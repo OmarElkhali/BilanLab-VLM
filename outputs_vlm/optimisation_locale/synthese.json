@@ -1,0 +1,117 @@
+{
+  "methode": "OCR CPU + relecture Qwen assistée par propositions OCR",
+  "trials": [
+    {
+      "essai": 1,
+      "archive": "hybride_essai_1.json",
+      "duree_s": 18.094435499999236,
+      "ocr_s": 7.633503799999744,
+      "qwen_s": 10.374850699998206,
+      "accords_qwen": 4,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "controles_ok": 66,
+      "ecarts": 0,
+      "erreurs_cellules": 0
+    },
+    {
+      "essai": 2,
+      "archive": "hybride_1794750247285378900.json",
+      "duree_s": 16.03980439999941,
+      "ocr_s": 7.523497700000007,
+      "qwen_s": 8.452812499999709,
+      "accords_qwen": 4,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "controles_ok": 66,
+      "ecarts": 0,
+      "erreurs_cellules": 0
+    },
+    {
+      "essai": 3,
+      "archive": "hybride_1794750263139258700.json",
+      "duree_s": 15.805513299997983,
+      "ocr_s": 7.0086831000007805,
+      "qwen_s": 8.745867600002384,
+      "accords_qwen": 4,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "controles_ok": 66,
+      "ecarts": 0,
+      "erreurs_cellules": 0
+    }
+  ],
+  "comparison": [
+    {
+      "methode": "Qwen seul / page entière",
+      "montants_exacts": 0,
+      "duree_s": 864.5432550999999,
+      "repetitions": 1
+    },
+    {
+      "methode": "OCR CPU seul",
+      "montants_exacts": 107,
+      "duree_s": 8.396715200000472,
+      "repetitions": 1
+    },
+    {
+      "methode": "OCR + Qwen ciblé",
+      "montants_exacts": 107,
+      "duree_s": 16.03980439999941,
+      "repetitions": 3
+    },
+    {
+      "methode": "API / livraison Python",
+      "montants_exacts": 107,
+      "duree_s": 31.694369700000152,
+      "repetitions": 1
+    }
+  ],
+  "median_seconds": 16.03980439999941,
+  "ratio_duree_ancien_sur_hybride": 53.89986271279166,
+  "ocr_only_metrics": {
+    "numeric_correct": 107,
+    "numeric_total": 107,
+    "exactitude_numerique": 1.0,
+    "net_correct": 74,
+    "net_total": 74,
+    "exactitude_nette": 1.0,
+    "exactitude_etats_valeurs": 1.0,
+    "lignes_presentes": 88,
+    "lignes_attendues": 88,
+    "completude_lignes": 1.0
+  },
+  "ocr_only_errors": 0,
+  "qwen_deja_charge": true,
+  "nouveau_benchmark_prompting": false,
+  "limites": [
+    "Un seul bilan utilisé au développement",
+    "Colonnes adaptées au modèle normal fourni",
+    "Qwen assisté par OCR, sans gain causal de précision démontré",
+    "Ancien temps non apparié à froid"
+  ]
+}
