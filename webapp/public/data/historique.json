@@ -1,0 +1,936 @@
+{
+  "experiences": [
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "baseline",
+      "experience": "ablation_validee_1",
+      "document_complet": false,
+      "numeric_correct": 0,
+      "numeric_total": 107,
+      "exactitude_numerique": 0.0,
+      "net_correct": 0,
+      "net_total": 74,
+      "exactitude_nette": 0.0,
+      "exactitude_etats_valeurs": 0.0,
+      "lignes_presentes": 0,
+      "lignes_attendues": 88,
+      "completude_lignes": 0.0,
+      "latence_s": 125.57361389999994,
+      "controles_ok": 0,
+      "controles_ecart": 0,
+      "controles_indetermines": 2,
+      "erreurs": {
+        "ligne_absente": 352
+      }
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "baseline",
+      "experience": "ablation_validee_2",
+      "document_complet": false,
+      "numeric_correct": 0,
+      "numeric_total": 107,
+      "exactitude_numerique": 0.0,
+      "net_correct": 0,
+      "net_total": 74,
+      "exactitude_nette": 0.0,
+      "exactitude_etats_valeurs": 0.0,
+      "lignes_presentes": 0,
+      "lignes_attendues": 88,
+      "completude_lignes": 0.0,
+      "latence_s": 9.651129500000025,
+      "controles_ok": 0,
+      "controles_ecart": 0,
+      "controles_indetermines": 2,
+      "erreurs": {
+        "ligne_absente": 352
+      }
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "baseline",
+      "experience": "ablation_validee_3",
+      "document_complet": false,
+      "numeric_correct": 0,
+      "numeric_total": 107,
+      "exactitude_numerique": 0.0,
+      "net_correct": 0,
+      "net_total": 74,
+      "exactitude_nette": 0.0,
+      "exactitude_etats_valeurs": 0.0,
+      "lignes_presentes": 0,
+      "lignes_attendues": 88,
+      "completude_lignes": 0.0,
+      "latence_s": 39.73548089999986,
+      "controles_ok": 0,
+      "controles_ecart": 0,
+      "controles_indetermines": 2,
+      "erreurs": {
+        "ligne_absente": 352
+      }
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "constraints",
+      "experience": "ablation_validee_1",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 11.011733499999991,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "constraints",
+      "experience": "ablation_validee_2",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 12.332584999999995,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "constraints",
+      "experience": "ablation_validee_3",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 10.521715500000028,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "fewshot",
+      "experience": "ablation_validee_1",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 31.287379200000032,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "fewshot",
+      "experience": "ablation_validee_2",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 10.640316600000006,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "fewshot",
+      "experience": "ablation_validee_3",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 27.67234439999993,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "json_mode",
+      "experience": "ablation_validee_1",
+      "document_complet": false,
+      "numeric_correct": 65,
+      "numeric_total": 107,
+      "exactitude_numerique": 0.6074766355140186,
+      "net_correct": 32,
+      "net_total": 74,
+      "exactitude_nette": 0.43243243243243246,
+      "exactitude_etats_valeurs": 0.5454545454545454,
+      "lignes_presentes": 48,
+      "lignes_attendues": 88,
+      "completude_lignes": 0.5454545454545454,
+      "latence_s": 44.196854099999996,
+      "controles_ok": 48,
+      "controles_ecart": 0,
+      "controles_indetermines": 2,
+      "erreurs": {
+        "ligne_absente": 160
+      }
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "json_mode",
+      "experience": "ablation_validee_2",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 11.110901900000044,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "json_mode",
+      "experience": "ablation_validee_3",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 14.064812200000006,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "role",
+      "experience": "ablation_validee_1",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 10.591845899999953,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "role",
+      "experience": "ablation_validee_2",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 48.73224889999983,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "role",
+      "experience": "ablation_validee_3",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 50.06352900000002,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "schema",
+      "experience": "ablation_validee_1",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 26.815676199999984,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "schema",
+      "experience": "ablation_validee_2",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 18.30351619999999,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "schema",
+      "experience": "ablation_validee_3",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 9.849859200000083,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "schema",
+      "experience": "scan_degrade_valide",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 65.8845867,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "api",
+      "modele": "gemini-3.1-flash-lite",
+      "variante": "schema",
+      "experience": "principal_relecture",
+      "document_complet": true,
+      "numeric_correct": 107,
+      "numeric_total": 107,
+      "exactitude_numerique": 1.0,
+      "net_correct": 74,
+      "net_total": 74,
+      "exactitude_nette": 1.0,
+      "exactitude_etats_valeurs": 1.0,
+      "lignes_presentes": 88,
+      "lignes_attendues": 88,
+      "completude_lignes": 1.0,
+      "latence_s": 31.694369700000152,
+      "controles_ok": 66,
+      "controles_ecart": 0,
+      "controles_indetermines": 0,
+      "erreurs": {}
+    },
+    {
+      "backend": "local",
+      "modele": "qwen3-vl:4b-instruct",
+      "variante": "schema",
+      "experience": "local_verification",
+      "document_complet": false,
+      "numeric_correct": 0,
+      "numeric_total": 107,
+      "exactitude_numerique": 0.0,
+      "net_correct": 0,
+      "net_total": 74,
+      "exactitude_nette": 0.0,
+      "exactitude_etats_valeurs": 0.0,
+      "lignes_presentes": 0,
+      "lignes_attendues": 88,
+      "completude_lignes": 0.0,
+      "latence_s": 864.5432550999999,
+      "controles_ok": 0,
+      "controles_ecart": 0,
+      "controles_indetermines": 2,
+      "erreurs": {
+        "ligne_absente": 352
+      }
+    }
+  ],
+  "diagnostic_local": {
+    "statut": "diagnostic des valeurs brutes, sans acceptation ni réparation du JSON métier",
+    "montants_bruts_corrects": 34,
+    "montants_attendus": 107,
+    "exactitude_brute_diagnostique": 0.3177570093457944,
+    "marqueurs_NA_incompatibles": 210,
+    "annees_brutes": [
+      3112,
+      2024
+    ],
+    "aucun_montant_corrige": true,
+    "erreurs": [
+      {
+        "id": "A_B2",
+        "colonne": "montant_brut_N",
+        "attendu": "15600.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_B2",
+        "colonne": "montant_amort_N",
+        "attendu": "15600.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_C",
+        "colonne": "montant_brut_N",
+        "attendu": "3362600.45",
+        "brut_modele": "336200.45"
+      },
+      {
+        "id": "A_C2",
+        "colonne": "montant_brut_N",
+        "attendu": "2476201.66",
+        "brut_modele": "23187.60"
+      },
+      {
+        "id": "A_C2",
+        "colonne": "montant_amort_N",
+        "attendu": "1978700.24",
+        "brut_modele": "23187.60"
+      },
+      {
+        "id": "A_C2",
+        "colonne": "montant_net_N",
+        "attendu": "497501.42",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_C2",
+        "colonne": "montant_net_N1",
+        "attendu": "614626.42",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_C3",
+        "colonne": "montant_brut_N",
+        "attendu": "23187.60",
+        "brut_modele": "551457.34"
+      },
+      {
+        "id": "A_C3",
+        "colonne": "montant_amort_N",
+        "attendu": "23187.60",
+        "brut_modele": "551457.34"
+      },
+      {
+        "id": "A_C4",
+        "colonne": "montant_brut_N",
+        "attendu": "551457.34",
+        "brut_modele": "311753.85"
+      },
+      {
+        "id": "A_C4",
+        "colonne": "montant_amort_N",
+        "attendu": "551457.34",
+        "brut_modele": "262424.66"
+      },
+      {
+        "id": "A_C5",
+        "colonne": "montant_brut_N",
+        "attendu": "311753.85",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_C5",
+        "colonne": "montant_amort_N",
+        "attendu": "262424.66",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_C5",
+        "colonne": "montant_net_N",
+        "attendu": "49329.19",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_C5",
+        "colonne": "montant_net_N1",
+        "attendu": "51410.26",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_II",
+        "colonne": "montant_net_N",
+        "attendu": "18311788.75",
+        "brut_modele": "18820979.82"
+      },
+      {
+        "id": "A_G",
+        "colonne": "montant_net_N",
+        "attendu": "18311788.75",
+        "brut_modele": "18820979.82"
+      },
+      {
+        "id": "A_G1",
+        "colonne": "montant_net_N",
+        "attendu": "1619.34",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_G1",
+        "colonne": "montant_net_N1",
+        "attendu": "1619.34",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_G2",
+        "colonne": "montant_brut_N",
+        "attendu": "18300692.45",
+        "brut_modele": "1830692.45"
+      },
+      {
+        "id": "A_G2",
+        "colonne": "montant_net_N",
+        "attendu": "18300692.45",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_G2",
+        "colonne": "montant_net_N1",
+        "attendu": "18556410.52",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_G3",
+        "colonne": "montant_net_N",
+        "attendu": "7.96",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_G3",
+        "colonne": "montant_net_N1",
+        "attendu": "7.96",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_G4",
+        "colonne": "montant_net_N",
+        "attendu": "9469.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_G4",
+        "colonne": "montant_net_N1",
+        "attendu": "262942.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_III",
+        "colonne": "montant_net_N",
+        "attendu": "1841433.36",
+        "brut_modele": "1763957.71"
+      },
+      {
+        "id": "A_T2",
+        "colonne": "montant_net_N",
+        "attendu": "1747266.28",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_T2",
+        "colonne": "montant_net_N1",
+        "attendu": "1321826.25",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_T3",
+        "colonne": "montant_net_N",
+        "attendu": "94167.08",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "A_T3",
+        "colonne": "montant_net_N1",
+        "attendu": "442131.46",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_TOTAL",
+        "colonne": "montant_net_N",
+        "attendu": "20702296.47",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_TOTAL",
+        "colonne": "montant_net_N1",
+        "attendu": "21253217.96",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_I",
+        "colonne": "montant_net_N",
+        "attendu": "11952756.77",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_I",
+        "colonne": "montant_net_N1",
+        "attendu": "11538218.11",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A",
+        "colonne": "montant_net_N",
+        "attendu": "9665481.84",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A",
+        "colonne": "montant_net_N1",
+        "attendu": "8831813.73",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A1",
+        "colonne": "montant_net_N",
+        "attendu": "500000.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A1",
+        "colonne": "montant_net_N1",
+        "attendu": "500000.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A5",
+        "colonne": "montant_net_N",
+        "attendu": "10000.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A5",
+        "colonne": "montant_net_N1",
+        "attendu": "10000.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A7",
+        "colonne": "montant_net_N",
+        "attendu": "-20171.22",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A7",
+        "colonne": "montant_net_N1",
+        "attendu": "-20171.22",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A8",
+        "colonne": "montant_net_N",
+        "attendu": "8341984.95",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A8",
+        "colonne": "montant_net_N1",
+        "attendu": "7882724.80",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A9",
+        "colonne": "montant_net_N",
+        "attendu": "833668.11",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_A9",
+        "colonne": "montant_net_N1",
+        "attendu": "459260.15",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_C",
+        "colonne": "montant_net_N",
+        "attendu": "2147840.93",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_C",
+        "colonne": "montant_net_N1",
+        "attendu": "2566970.38",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_C2",
+        "colonne": "montant_net_N",
+        "attendu": "2147840.93",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_C2",
+        "colonne": "montant_net_N1",
+        "attendu": "2566970.38",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_D",
+        "colonne": "montant_net_N",
+        "attendu": "139434.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_D",
+        "colonne": "montant_net_N1",
+        "attendu": "139434.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_D1",
+        "colonne": "montant_net_N",
+        "attendu": "139434.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_D1",
+        "colonne": "montant_net_N1",
+        "attendu": "139434.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_II",
+        "colonne": "montant_net_N",
+        "attendu": "8749120.96",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_II",
+        "colonne": "montant_net_N1",
+        "attendu": "9714581.11",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F",
+        "colonne": "montant_net_N",
+        "attendu": "8749120.96",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F",
+        "colonne": "montant_net_N1",
+        "attendu": "9714581.11",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F1",
+        "colonne": "montant_net_N",
+        "attendu": "98041.80",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F1",
+        "colonne": "montant_net_N1",
+        "attendu": "66800.50",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F3",
+        "colonne": "montant_net_N",
+        "attendu": "6069.00",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F3",
+        "colonne": "montant_net_N1",
+        "attendu": "49847.72",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F4",
+        "colonne": "montant_net_N",
+        "attendu": "28594.50",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F4",
+        "colonne": "montant_net_N1",
+        "attendu": "16423.98",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F5",
+        "colonne": "montant_net_N",
+        "attendu": "229371.67",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F5",
+        "colonne": "montant_net_N1",
+        "attendu": "239993.94",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F7",
+        "colonne": "montant_net_N",
+        "attendu": "8387043.99",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_F7",
+        "colonne": "montant_net_N1",
+        "attendu": "9341514.97",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_III",
+        "colonne": "montant_net_N",
+        "attendu": "418.74",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_III",
+        "colonne": "montant_net_N1",
+        "attendu": "418.74",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_T3",
+        "colonne": "montant_net_N",
+        "attendu": "418.74",
+        "brut_modele": "NA"
+      },
+      {
+        "id": "P_T3",
+        "colonne": "montant_net_N1",
+        "attendu": "418.74",
+        "brut_modele": "NA"
+      }
+    ]
+  },
+  "scope": {
+    "bilans_reels": 1,
+    "pages": 2,
+    "postes": 88,
+    "montants": 107,
+    "date": "2026-11-15",
+    "experiences_archivees": 55
+  }
+}
