@@ -2140,16 +2140,16 @@
     "octets": 672
   },
   "outputs_vlm/verification_notebook_presentation.json": {
-    "sha256": "575d79bd987a83086b746e5e05e1d4d7ec1a5408b31591796053fdcf0e59aeeb",
-    "octets": 690
+    "sha256": "49cba3e244145f32745cbbf6bca970c6d21e85c2f5dbb596eb8898d3325e63eb",
+    "octets": 747
   },
   "Presentation_Projet_BilanLab.html": {
-    "sha256": "e407d8b992bdf9e48823f35c7d3bc0d4c4288a0ea5795db329d18d09e38d9ab6",
-    "octets": 6017611
+    "sha256": "3eaaca0cdd02ed4da64179da2c800a902666556fbe75562b48c04ec5e2fc44a8",
+    "octets": 6034312
   },
   "Presentation_Projet_BilanLab.ipynb": {
-    "sha256": "add77e483b97b8c000c472b43b45d747146036504d5a8123a00b961e3eca01f0",
-    "octets": 10797534
+    "sha256": "c1482e24e1b2db3bdea999b4723442a495a1f9883621f5e34abe9b69dafad6c0",
+    "octets": 10814644
   },
   "README.md": {
     "sha256": "5647fa311171ee8ae179feebc010534d39d7dcbfa4fbbb05facb0fee7e118438",
@@ -2168,8 +2168,8 @@
     "octets": 177
   },
   "scripts/creer_notebook_presentation.py": {
-    "sha256": "294f4e7df7ebb9e53623e2d8487882e9b6e908cdbe8ba9162dde1d11db4fa0fd",
-    "octets": 30806
+    "sha256": "74dc6ccbcc0cee6f5b8270066e8bf40a634a4af1c31d72d6944b6f1b84124a36",
+    "octets": 31099
   },
   "scripts/executer_notebook.py": {
     "sha256": "6481e344eb9e4a00794d6cf9dd3272c0286144c7f16739001158d617d6c51f3e",

@@ -103,7 +103,7 @@ assert hashlib.sha256(raw).hexdigest() == __DIGEST__
 D = json.loads(raw)
 
 STYLE = """<style>
-.bl{font:15px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#142838;max-width:1200px}
+.bl{font:15px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#142838!important;background:#fff!important;color-scheme:light;max-width:1200px;padding:18px;box-sizing:border-box}
 .bl h3{font-size:21px;color:#137d72;margin:18px 0 10px}.bl p{margin:10px 0}
 .bl .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:14px;margin:18px 0}
 .bl .kpi{border-top:4px solid #137d72;background:#f1f7f7;padding:18px}.bl .value{display:block;font-size:29px;font-weight:700;line-height:1.3}
@@ -112,16 +112,16 @@ STYLE = """<style>
 .bl .warn{background:#fff6e7;border-color:#b77216;color:#704b17}
 .bl .scroll{overflow:auto;max-height:530px;border:1px solid #dce6eb;margin:12px 0 22px}
 .bl table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
-.bl th{background:#eaf1f5;position:sticky;top:0;text-align:left;padding:10px;border-bottom:2px solid #d1dfe6}
-.bl td{padding:9px 10px;border-bottom:1px solid #e2e9ed;vertical-align:top;min-width:85px}
-.bl tr:nth-child(even){background:#f7fafb}.bl img{display:block;max-width:100%;height:auto;margin:16px auto}
+.bl th{color:#142838!important;background:#eaf1f5!important;position:sticky;top:0;text-align:left;padding:10px;border-bottom:2px solid #d1dfe6}
+.bl td{color:#142838!important;background:#fff!important;padding:9px 10px;border-bottom:1px solid #e2e9ed;vertical-align:top;min-width:85px}
+.bl tbody tr:nth-child(even) td{background:#f7fafb!important}.bl img{display:block;max-width:100%;height:auto;margin:16px auto}
 .bl details{margin:16px 0;border-top:1px solid #dce6eb;padding-top:12px}.bl summary{cursor:pointer;font-weight:600;color:#175b77}
-.bl summary:focus-visible{outline:2px solid #137d72}.bl pre{white-space:pre;overflow:auto;max-height:520px;background:#f3f6f8;padding:16px;font-size:12px}
+.bl summary:focus-visible{outline:2px solid #137d72}.bl pre{color:#142838!important;white-space:pre;overflow:auto;max-height:520px;background:#f3f6f8!important;padding:16px;font-size:12px}
 .bl .pages{display:flex;gap:16px;align-items:flex-start}.bl .pages img{width:48%}
 </style>"""
 
 def panel(content):
-    display(HTML(STYLE + '<div class="bl">' + content + '</div>'))
+    display(HTML(STYLE + '<div class="bl" style="color:#142838;background-color:#ffffff;color-scheme:light">' + content + '</div>'))
 
 def table(data, title, folded=False):
     frame = data if isinstance(data, pd.DataFrame) else pd.DataFrame(data)

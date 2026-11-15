@@ -10,10 +10,17 @@
   "autonome": true,
   "inferences_declenchees": false,
   "snapshot_sha256": "acf9f6b48c0f2b5c450f49c98068a4eacca90ac7f73fc47d804247a1d0eeee4e",
-  "notebook_sha256": "add77e483b97b8c000c472b43b45d747146036504d5a8123a00b961e3eca01f0",
+  "notebook_sha256": "c1482e24e1b2db3bdea999b4723442a495a1f9883621f5e34abe9b69dafad6c0",
   "export_html": "Presentation_Projet_BilanLab.html",
-  "execution_dossier_vide": "OK",
+  "verification_contraste": {
+    "themes": [
+      "clair",
+      "sombre simule"
+    ],
+    "textes_par_theme": 13348,
+    "contraste_minimal": 5.0,
+    "seuil": 4.5
+  },
   "figures_et_images": 14,
-  "tableaux": 31,
-  "verification_visuelle": "export HTML inspecte, images chargees, archives depliables"
+  "tableaux": 31
 }
